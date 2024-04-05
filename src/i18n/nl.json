@@ -1,0 +1,100 @@
+{
+    "SEO_TITLE": "Gerardathletics - GIS Ontwikkelaar",
+    "SEO_DESCRIPTION": "Portfolio en blog van Gerard 🚀",
+
+    "HEADER": {
+        "NAVBAR": {
+            "HOME": "home",
+            "EXPERIENCE": "ervaring",
+            "PROJECTS": "projecten",
+            "ATHLETICS": "atletiek",
+            "LAST_POSTS": "lastse posts"
+        }
+    },
+
+    "PRESENTATION_TITLE": "Gerard Porras",
+    "PRESENTATION_DESCRIPTION": "GIS Software Ontwikkelaar",
+
+    "TAG_CHAMBA": "Beschikbaar voor nieuwe projecten",
+
+    "PARAGRAPH_DESCRIPTION": "GIS Ontwikkelaar met een sterke basis in GEO-IT, bekwaam in het begrijpen van ruimtelijke data-analyse en dit tot leven te brengen via webapplicaties.",
+
+    "SECTION_XP": {
+        "EXPERIENCES": [
+            {
+                "POSITION": "Geospatiale Ontwikkelaar & Consultant | Ordina",
+                "DESCRIPTION": "Onlangs begonnen als een geospatiale ontwikkelaar.",
+                "TIMEFRAME": "Heden"
+            },
+            {
+                "POSITION": "GIS Software Ontwikkelaar | The People Group",
+                "DESCRIPTION": "Ik speelde een sleutelrol in een project gericht op het verbeteren van WebGIS applicaties. Mijn belangrijkste bijdragen waren aan de ontwikkeling en het onderhoud van een modulaire frontend GIS viewer en het creëren van een configuratiepagina voor eenvoudige klantaanpassing. Deze inspanning was deel van een vierpersoonsteam toegewijd aan het innoveren van GIS-tools, vereisend expertise in webontwikkeling, GIS, Agile methodologieën en technologieën zoals GeoServer en PostGIS.",
+                "TIMEFRAME": "01/2023 - 02/2024"
+            },
+            {
+                "POSITION": "GIS Specialist | GIS Specialisten (TPG)",
+                "DESCRIPTION": "Ik nam deel aan een breed scala van geo-informatie en geo-ICT projecten. De positie vereiste een veelzijdige vaardigheden set, inclusief data-analyse, cartografie, procesautomatisering, ruimtelijke databasebeheer en het ondersteunen van het ontwikkelingsteam met diverse programmeertaken.",
+                "TIMEFRAME": "01/2022 - 01/2023"
+            },
+            {
+                "POSITION": "Web-GIS Ontwikkelaar Stagiair | GIS Specialisten",
+                "DESCRIPTION": "Tijdens mijn stage als Web-GIS Ontwikkelaar was ik onderdeel van een klein ontwikkelingsteam van 4. Mijn hoofdproject richtte zich op spatio-temporele datavisualisatie in een Web-GIS applicatie. De organisatie identificeerde de behoefte aan een tool om de temporele dimensie van geo-data te vertegenwoordigen, gezien de relevantie in multi-temporele ruimtelijke datasets.",
+                "TIMEFRAME": "06/2021 - 12/2021"
+            },
+            {
+                "POSITION": "Master Thesis | MSc. Geo-Informatiewetenschap",
+                "DESCRIPTION": "Mijn master thesis getiteld \"Krottenwijken en Stedelijke Landconsumptie in Braziliaanse Metropolitane Gebieden: Monitoring van SDG Indicatoren 11.1.1 en 11.3.1 Gebruikmakend van Open Data\" adresseert de kritieke kwesties van snelle en ongecontroleerde stedelijke expansie, vorming van sloppenwijken en hun milieu- en sociale impact in Brazilië. De studie focust op São Paulo, Rio de Janeiro en Belo Horizonte, de meest bevolkte metropolitane gebieden van Brazilië bekend om hun uitgebreide sloppenwijken.",
+                "TIMEFRAME": "01/2021 - 07/2021"
+            },
+            {
+                "POSITION": "Consultancy Project | MSc. Geo-Informatiewetenschap",
+                "DESCRIPTION": "Esri Nederland en het Nederlandse Kadaster identificeerden een kritiek inclusiviteitsprobleem in huidige basiskaarten, wijzend op hun ongeschiktheid voor kleurenblinde gebruikers vanwege problematische kleurencombinaties. Dit leidde tot een consultancyproject gericht op het optimaliseren van basiskaarten voor individuen met kleurzicht beperkingen, beginnend met de sleutelvraag: Hoe kan de toegankelijkheid van basiskaarten voor kleurenblinde mensen worden verbeterd?",
+                "TIMEFRAME": "04/2020 - 07/2020"
+            },
+            {
+                "POSITION": "Junior GIS Technicus | Servei de Cartografia i GIS - UdL",
+                "DESCRIPTION": "Deze rol was gesitueerd binnen een academische context, biedend ondersteuning over diverse geografische en ruimtelijke onderzoeksprojecten. Ons werk diende zowel interne klanten, zoals professoren van verschillende universiteitsdepartementen, als externe belanghebbenden. \n Werkend op deeltijd bij 20 uur per week, slaagde ik erin deze rol te balanceren met mijn academische studies, de kloof overbruggend tussen academisch onderzoek en echte GIS toepassingen.",
+                "TIMEFRAME": "01/2017 - 12/2018"
+            }
+        ]
+    },
+
+    "SECTION_PR": {
+        "PROJECTS": [
+            {
+                "TITLE": "WebGIS Viewer",
+                "DESCRIPTION": "A modular WebGIS viewer that allows users to visualize and interact with spatial data. The viewer is designed to be easily customizable, with a configuration page that enables users to adjust the viewer's appearance and functionality to suit their needs.",
+                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
+                "URL": "https://www.thepeoplegroup.nl/",
+                "IMAGE": "https://via.placeholder.com/150"
+            },
+            {
+                "TITLE": "Spatio-Temporal Data Visualization",
+                "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
+                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
+                "URL": "https://www.thepeoplegroup.nl/",
+                "IMAGE": "https://via.placeholder.com/150"
+            },
+            {
+                "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
+                "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
+                "TECHNOLOGIES": ["QGIS", "Google Earth Engine", "Python", "R"],
+                "URL": "https://www.thepeoplegroup.nl/",
+                "IMAGE": "https://via.placeholder.com/200"
+            },
+            {
+                "TITLE": "Basemap Accessibility for Colorblind People",
+                "DESCRIPTION": "A consultancy project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
+                "TECHNOLOGIES": ["ArcGIS Pro", "Adobe Illustrator", "Color Oracle"],
+                "URL": "https://www.thepeoplegroup.nl/",
+                "IMAGE": "https://via.placeholder.com/100"
+            }
+        ]
+    },
+
+    "FOOTER": {
+        "AUTHOR": ["Ontwikkeld met", "door Gerard"],
+        "COPYRIGHT": "Geïnspireerd door ",
+        "COPYRIGHT_2": ", aangepast door Gerard."
+    }
+}

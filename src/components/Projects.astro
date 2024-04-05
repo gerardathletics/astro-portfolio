@@ -1,0 +1,57 @@
+---
+import { IconBrandAngular, IconBrandTailwind, IconSql } from '@tabler/icons-react';
+
+import { getI18N } from '@/i18n';
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
+const dataProjects = i18n.SECTION_PR.PROJECTS.map((project) => ({
+    title: project.TITLE,
+    description: project.DESCRIPTION,
+    techs: project.TECHNOLOGIES,
+    image: project.IMAGE,
+    link: project.URL,
+}));
+---
+
+<div class="space-y-6">
+    {
+        dataProjects.map((project) => (
+            <article key={project.title} class="grid gap-2 md:gap-6 md:grid-cols-2 bg-white/10  rounded-lg overflow-hidden shadow-lg transition-shadow hover:shadow-xl h-64">
+                <img src={project.image} alt={project.title} class="object-cover rounded-md opacity-80 w-full h-full" />
+                <div class="flex flex-col p-4">
+                    {' '}
+                    <div class="mb-4">
+                        <h3 class="flex items-center gap-2 text-lg md:text-xl">
+                            {' '}
+                            <span class="font-semibold">{project.title}</span>
+                        </h3>
+                        <p class="mt-1 text-xs text-pretty">{project.description}</p>
+                    </div>
+                    <div class="flex flex-wrap gap-1 text-xs">
+                        {' '}
+                        {/* Adjusted text size for tech cards */}
+                        {project.techs.map((tech) => (
+                            // <a
+                            //     key={tech}
+                            //     href="https://tailwindcss.com/"
+                            //     target="_blank"
+                            //     rel="noreferrer"
+                            //     class="flex items-center border border-gray-300 bg-gray-50/5 transition-all hover:bg-gray-50/10 space-x-1 cursor-pointer rounded-md text-xs px-2 py-0.5"
+                            //     Adjusted
+                            //     for
+                            //     smaller
+                            //     height
+                            // >
+                            //     <span>{tech}</span>
+                            //     {/* Icon rendering based on the technology; dynamic icon logic would be here */}
+                            // </a>
+                            <span class="flex items-center border border-gray-300 bg-gray-50/5  space-x-1 cursor-pointer rounded-md text-xs px-2 py-0.5">{tech}</span>
+                        ))}
+                    </div>
+                </div>
+            </article>
+        ))
+    }
+</div>

@@ -1,0 +1,42 @@
+---
+import { IconCircleFilled, IconCalendar } from '@tabler/icons-react';
+
+import { getI18N } from '@/i18n';
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
+const dataTimeLine = i18n.SECTION_XP.EXPERIENCES.map((experience) => ({
+    title: experience.POSITION,
+    company: experience.COMPANY,
+    company_url: experience.COMPANY_URL,
+    description: experience.DESCRIPTION,
+    date: experience.TIMEFRAME,
+}));
+---
+
+<div class="ms-1.5 space-y-6 border-l-2 border-white/20">
+    {
+        dataTimeLine.map((dataTimeLine) => (
+            <div class="relative w-full">
+                <IconCircleFilled className="absolute z-10 mt-1.5 -ml-[7px] h-3 w-3 text-yellow-200" />
+                <div class="ml-6">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-2">
+                        <h4 class="font-bold text-lg text-yellow-200">{dataTimeLine.title}</h4>
+                        {dataTimeLine.company_url ? (
+                            <a href={dataTimeLine.company_url} target="_blank" rel="noopener noreferrer" class="text-yellow-400 hover:underline text-sm sm:text-lg">
+                                <h4 class="font-bold text-yellow-400">{dataTimeLine.company}</h4>
+                            </a>
+                        ) : (
+                            <h4 class="font-bold text-sm sm:text-lg text-yellow-400">{dataTimeLine.company}</h4>
+                        )}
+                    </div>
+                    <p class="text-pretty mt-2 text-base">{dataTimeLine.description}</p>
+                    <p class="mt-1 text-sm font-semibold text-white/40 flex gap-1 items-center">
+                        <IconCalendar width={20} />-<span>{dataTimeLine.date}</span>
+                    </p>
+                </div>
+            </div>
+        ))
+    }
+</div>

@@ -1,0 +1,104 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import SectionContainer from '@/components/SectionContainer.astro';
+
+import TimeLine from '@/components/TimeLine.astro';
+import Projects from '@/components/Projects.astro';
+import LastPosts from '@/components/LastPosts.astro';
+
+import CopyEmail from '@/components/CopyEmail';
+import EmailLink from '@/components/EmailLink';
+import BadgeSocial from '@/components/BadgeSocial.astro';
+
+import { IconBrandGithub, IconBrandLinkedin, IconBrandX, IconBrandFlickr, IconFileDescription, IconMapPin, IconFileCv, IconHammer, IconNotification } from '@tabler/icons-react';
+
+import { getI18N } from '@/i18n';
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout title={i18n.SEO_TITLE}>
+    <main class="px-4">
+        <SectionContainer class="mt-10">
+            <h1 class="-translate-x-0.5 sm:-translate-x-1 font-black w-full text-4xl lg:text-5xl xl:text-6xl">
+                {i18n.PRESENTATION_TITLE}
+            </h1>
+            <div class="sm:flex items-center sm:space-x-2">
+                <span class="text-xl sm:text-2xl font-semibold">
+                    {i18n.PRESENTATION_DESCRIPTION}
+                </span>
+                <div class="flex gap-2">
+                    <!-- Uncomment chamba when open for a project -->
+                    <!-- <a
+                        href="https://linkedin.com/in/gerardathletics/"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="block w-max sm:inline text-green-500 animate-background-shine cursor-pointer justify-center rounded-md border border-green-500 bg-[linear-gradient(110deg,#22c55e1a,50%,#22c55e66,55%,#22c55e1a)] bg-[length:250%_100%] px-2.5 py-0.5 text-sm"
+                    >
+                        {i18n.TAG_CHAMBA}
+                    </a> -->
+                    <span class="text-sm flex items-center gap-1 w-max">
+                        <IconMapPin width={16} />
+                        <span class="hidden sm:block">Utrecht - NL</span><span class="sm:hidden">ESP | NL</span> • GMT+2
+                    </span>
+                </div>
+            </div>
+
+            <div class="mt-6 max-w-[700px] text-lg sm:text-xl">
+                <p class="text-pretty">
+                    {i18n.PARAGRAPH_DESCRIPTION}
+                </p>
+                <div class="mt-2 flex gap-2 flex-wrap">
+                    <!-- <CopyEmail client:load /> -->
+                    <EmailLink />
+                    <BadgeSocial href="https://www.linkedin.com/in/gerardathetics/" class="">
+                        <span class="hidden sm:block"> Linkedin </span>
+                        <IconBrandLinkedin width={16} />
+                    </BadgeSocial>
+                    <BadgeSocial href="https://github.com/gerardathletics/" class="">
+                        <span class="hidden sm:block"> GitHub </span>
+                        <IconBrandGithub width={16} />
+                    </BadgeSocial>
+                    <BadgeSocial href="https://twitter.com/gerardathletics" class="">
+                        <span class="hidden sm:block"></span>
+                        <IconBrandX width={16} />
+                    </BadgeSocial>
+                    <BadgeSocial href="https://www.flickr.com/photos/188226047@N04/albums/72157714104865581/" class="">
+                        <span class="hidden sm:block">Maps</span>
+                        <IconBrandFlickr width={16} />
+                    </BadgeSocial>
+                    <BadgeSocial href="https://gerardathletics.github.io/minimalist-cv-gerard/" class="">
+                        <span class="hidden sm:block">CV</span>
+                        <IconFileCv width={16} />
+                    </BadgeSocial>
+                </div>
+            </div>
+        </SectionContainer>
+        <SectionContainer id={i18n.HEADER.NAVBAR.EXPERIENCE} class="pt-6 mt-6">
+            <h2 class="capitalize flex items-center space-x-4 mb-6">
+                <span class="text-2xl sm:text-3xl font-semibold">
+                    {i18n.HEADER.NAVBAR.EXPERIENCE}
+                </span>
+                <IconFileDescription width={32} height={32} />
+            </h2>
+            <TimeLine />
+        </SectionContainer>
+        <SectionContainer id={i18n.HEADER.NAVBAR.PROJECTS} class="pt-6 mt-6">
+            <h2 class="capitalize flex items-center space-x-4 mb-6">
+                <span class="text-2xl sm:text-3xl font-semibold">
+                    {i18n.HEADER.NAVBAR.PROJECTS}
+                </span>
+                <IconHammer width={32} height={32} />
+            </h2>
+            <Projects />
+        </SectionContainer>
+        <SectionContainer class="pt-6 mt-6">
+            <h2 class="capitalize flex items-center space-x-4 mb-6">
+                <span class="text-2xl sm:text-3xl font-semibold"> {i18n.HEADER.NAVBAR.LAST_POSTS} </span>
+                <IconNotification width={32} height={32} />
+            </h2>
+            <LastPosts />
+        </SectionContainer>
+    </main>
+</Layout>
