@@ -1,6 +1,6 @@
 {
     "SEO_TITLE": "Gerardathletics - Desenvolupador GIS",
-    "SEO_DESCRIPTION": "Portafoli i blog de Gerard 🚀",
+    "SEO_DESCRIPTION": "Portafoli i blog 🚀",
 
     "HEADER": {
         "NAVBAR": {
@@ -13,46 +13,57 @@
     },
 
     "PRESENTATION_TITLE": "Gerard Porras",
-    "PRESENTATION_DESCRIPTION": "Desenvolupador de Programari GIS",
+    "PRESENTATION_DESCRIPTION": "Desenvolupador GIS",
 
     "TAG_CHAMBA": "Disponible per a nous projectes",
 
-    "PARAGRAPH_DESCRIPTION": "Desenvolupador GIS amb una base sòlida en GEO-IT, capacitat per fer sentit de l'anàlisi de dades espacials i portar-ho a la vida a través d'aplicacions web.",
+    "PARAGRAPH_DESCRIPTION": "Desenvolupador GIS amb una base sòlida en GEO-IT, dono sentit a les dades espacials i les porto a la vida a través d'aplicacions i mapes web.",
 
     "SECTION_XP": {
         "EXPERIENCES": [
             {
                 "POSITION": "Desenvolupador i Consultor Geoespacial | Ordina",
                 "DESCRIPTION": "Recentment començat com a desenvolupador geoespacial.",
-                "TIMEFRAME": "Actualment"
+                "TIMEFRAME": "Actualment",
+                "COMPANY": "Ordina",
+                "COMPANY_URL": "https://www.ordina.nl"
             },
             {
-                "POSITION": "Desenvolupador de Programari GIS | The People Group",
+                "POSITION": "Desenvolupador GIS | The People Group",
+                "COMPANY": "The People Group",
+                "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Vaig tenir un paper clau en un projecte enfocat en millorar les aplicacions WebGIS. Les meves principals contribucions van ser al desenvolupament i manteniment d'un visor GIS modular per al frontend i la creació d'una pàgina de configuració per a la personalització fàcil per part del client. Aquest esforç va ser part d'un equip de quatre persones dedicat a innovar en eines GIS, requerint experiència en desenvolupament web, GIS, metodologies àgils i tecnologies com GeoServer i PostGIS.",
                 "TIMEFRAME": "01/2023 - 02/2024"
             },
             {
                 "POSITION": "Especialista GIS | GIS Specialisten (TPG)",
+                "COMPANY": "GIS Specialisten (TPG)",
+                "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Vaig participar en una àmplia gamma de projectes de geo-informació i geo-TIC. El lloc requeria un conjunt d'habilitats versàtils, incloent anàlisi de dades, mapatge, automatització de processos, gestió de bases de dades espacials i suport a l'equip de desenvolupament amb diverses tasques de programació.",
                 "TIMEFRAME": "01/2022 - 01/2023"
             },
             {
                 "POSITION": "Practicant Desenvolupador Web-GIS | GIS Specialisten",
+                "COMPANY": "GIS Specialisten",
+                "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Durant la meva pràctica com a Desenvolupador Web-GIS, vaig formar part d'un petit equip de desenvolupament de 4. El meu projecte principal es va centrar en la visualització de dades espaciotemporals en una aplicació Web-GIS. L'organització va identificar la necessitat d'una eina per representar la dimensió temporal de les dades geo, donada la seva rellevància en conjunts de dades espacials multi-temporals.",
                 "TIMEFRAME": "06/2021 - 12/2021"
             },
             {
                 "POSITION": "Tesi de Màster | MSc. Ciència de Geo-Informació",
+                "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "La meva tesi de màster titulada \"Barris marginals i Consum de Terra Urbana en Àrees Metropolitanes Brasileres: Monitoratge dels Indicadors SDG 11.1.1 i 11.3.1 Usant Dades Obertes\" tracta els problemes crítics de l'expansió urbana ràpida i no controlada, formació de barris marginals i els seus impactes ambientals i socials a Brasil. L'estudi se centra en São Paulo, Rio de Janeiro i Belo Horizonte, les àrees metropolitanes més poblades de Brasil conegudes pels seus extensos barris marginals.",
                 "TIMEFRAME": "01/2021 - 07/2021"
             },
             {
                 "POSITION": "Projecte de Consultoria | MSc. Ciència de Geo-Informació",
+                "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "Esri Nederland i el Kadaster neerlandès van identificar un problema crític d'inclusivitat en els mapes base actuals, notant la seva inadequació per a usuaris daltònics a causa de combinacions de colors problemàtiques. Això va portar a un projecte de consultoria enfocat en optimitzar els mapes base per a individus amb discapacitats de visió de color, començant amb la pregunta clau: Com es pot millorar l'accessibilitat dels mapes base per a la gent daltònica?",
                 "TIMEFRAME": "04/2020 - 07/2020"
             },
             {
                 "POSITION": "Tècnic GIS Junior | Servei de Cartografia i GIS - UdL",
+                "COMPANY": "Cartography & GIS Service - UdL",
                 "DESCRIPTION": "Aquest rol estava situat dins d'un context acadèmic, oferint suport en diversos projectes de recerca geogràfica i espacial. El nostre treball atenia tant a clients interns, com a professors de diferents departaments universitaris, com a parts interessades externes. \n Treballant a temps parcial a 20 hores per setmana, vaig aconseguir equilibrar aquest rol amb els meus estudis acadèmics, tancant la bretxa entre la recerca acadèmica i les aplicacions reals de GIS.",
                 "TIMEFRAME": "01/2017 - 12/2018"
             }
