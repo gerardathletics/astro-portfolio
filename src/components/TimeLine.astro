@@ -1,7 +1,7 @@
 ---
 import { IconCircleFilled, IconCalendar } from '@tabler/icons-react';
 
-import { getI18N } from '@/i18n/index.ts';
+import { getI18N } from '../i18n/index.ts';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
@@ -25,7 +25,7 @@ const dataTimeLine = i18n.SECTION_XP.EXPERIENCES.map((experience: Experience) =>
 
 <div class="ms-1.5 space-y-6 border-l-2 border-white/20">
     {
-        dataTimeLine.map((dataTimeLine) => (
+        dataTimeLine.map((dataTimeLine: any) => (
             <div class="relative w-full">
                 <IconCircleFilled className="absolute z-10 mt-1.5 -ml-[7px] h-3 w-3 text-yellow-200" />
                 <div class="ml-6">

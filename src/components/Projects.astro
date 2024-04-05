@@ -1,12 +1,12 @@
 ---
 import { IconBrandAngular, IconBrandTailwind, IconSql } from '@tabler/icons-react';
 
-import { getI18N } from '@/i18n/index.ts';
+import { getI18N } from '../i18n/index.ts';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 
-const dataProjects = i18n.SECTION_PR.PROJECTS.map((project) => ({
+const dataProjects = i18n.SECTION_PR.PROJECTS.map((project: any) => ({
     title: project.TITLE,
     description: project.DESCRIPTION,
     techs: project.TECHNOLOGIES,
@@ -17,7 +17,7 @@ const dataProjects = i18n.SECTION_PR.PROJECTS.map((project) => ({
 
 <div class="space-y-6">
     {
-        dataProjects.map((project) => (
+        dataProjects.map((project: any) => (
             <article class="grid gap-2 md:gap-6 md:grid-cols-2 bg-white/10  rounded-lg overflow-hidden shadow-lg transition-shadow hover:shadow-xl h-64">
                 <img src={project.image} alt={project.title} class="object-cover rounded-md opacity-80 w-full h-full" />
                 <div class="flex flex-col p-4">
@@ -32,7 +32,7 @@ const dataProjects = i18n.SECTION_PR.PROJECTS.map((project) => ({
                     <div class="flex flex-wrap gap-1 text-xs">
                         {' '}
                         {/* Adjusted text size for tech cards */}
-                        {project.techs.map((tech) => (
+                        {project.techs.map((tech: any) => (
                             // <a
                             //     key={tech}
                             //     href="https://tailwindcss.com/"

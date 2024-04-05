@@ -1,7 +1,7 @@
-import english from '@/i18n/en.json';
-import spanish from '@/i18n/es.json';
-import catalan from '@/i18n/ca.json';
-import dutch from '@/i18n/nl.json';
+import english from '../i18n/en.json';
+import spanish from '../i18n/es.json';
+import catalan from '../i18n/ca.json';
+import dutch from '../i18n/nl.json';
 
 const LANGUAGES = {
     ENGLISH: 'en',
