@@ -74,32 +74,25 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
-                "TITLE": "WebGIS Viewer",
-                "DESCRIPTION": "A modular WebGIS viewer that allows users to visualize and interact with spatial data. The viewer is designed to be easily customizable, with a configuration page that enables users to adjust the viewer's appearance and functionality to suit their needs.",
-                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/150"
-            },
-            {
-                "TITLE": "Spatio-Temporal Data Visualization",
+                "TITLE": "Spatio-Temporal Data Visualization in a Web-GIS App",
                 "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
-                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/150"
-            },
-            {
-                "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
-                "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
-                "TECHNOLOGIES": ["QGIS", "Google Earth Engine", "Python", "R"],
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
                 "URL": "https://www.thepeoplegroup.nl/",
                 "IMAGE": "https://via.placeholder.com/200"
             },
             {
-                "TITLE": "Basemap Accessibility for Colorblind People",
-                "DESCRIPTION": "A consultancy project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
-                "TECHNOLOGIES": ["ArcGIS Pro", "Adobe Illustrator", "Color Oracle"],
+                "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
+                "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
+                "TECHNOLOGIES": ["QGIS", "Python", "SDG"],
                 "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/100"
+                "IMAGE": "https://via.placeholder.com/200"
+            },
+            {
+                "TITLE": "Tailoring basemaps for color vision impaired people",
+                "DESCRIPTION": "A consultancy group project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
+                "TECHNOLOGIES": ["ArcGIS Pro"],
+                "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
+                "IMAGE": "./projects/tailoring_basemaps.webp"
             }
         ]
     },
