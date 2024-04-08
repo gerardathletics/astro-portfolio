@@ -19,21 +19,4 @@ const links = [
 ];
 ---
 
-<!-- <header class="relative sticky z-10 top-0 pt-4 w-full flex justify-center">
-    <nav class="space-x-1 backdrop-blur flex items-center rounded-md bg-black/10 px-3 py-1 animate-fade-in animate-delay-100">
-        {
-            links.map((link) => (
-                <a class="rounded-md capitalize px-3 py-0.5 transition-all ease-in-out hover:bg-white/10 text-sm sm:text-base" href={link.url}>
-                    {link.text}
-                </a>
-            ))
-        }
-    </nav>
-    <p class="mt-2 divide-x sm:mt-0 hidden lg:block absolute top-5 right-5">
-        <a class="me-1 hover:underline" href="/">en</a>
-        <a class="ps-1.5 hover:underline" href="/es">es</a>
-        <a class="ps-1.5 hover:underline" href="/ca">ca</a>
-        <a class="ps-1.5 hover:underline" href="/nl">nl</a>
-    </p>
-</header> -->
 <Navbar client:load links={links} currentLocale={currentLocale || ''} />
