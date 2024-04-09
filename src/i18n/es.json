@@ -22,28 +22,33 @@
             "TITLE": "Acerca de mí",
             "DESCRIPTION": [
                 [
-                    { "type": "normal", "text": "At 27 years old, I am an enthusiast of " },
-                    { "type": "highlight", "text": "maps and athletics" },
-                    { "type": "normal", "text": ", and I work as a " },
-                    { "type": "highlight", "text": "GIS software developer" },
-                    { "type": "normal", "text": ". Originally from Lleida, Spain, I have been living in the Netherlands for 4 and a half years." }
+                    { "type": "normal", "text": "A los 27 años, soy un entusiasta de los" },
+                    { "type": "highlight", "text": "mapas y el atletismo" },
+                    { "type": "normal", "text": ", y trabajo como " },
+                    { "type": "highlight", "text": "desarrollador de software GIS" },
+                    { "type": "normal", "text": ". Originario de Lleida, España, llevo viviendo en los Países Bajos 4 años y medio." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "My path has been guided by a passion for geographic data and its applications in the digital space. Outside of my profession, I love "
+                        "text": "Mi trayectoria ha sido guiada por una pasión por los datos geográficos y sus aplicaciones en el espacio digital. Fuera de mi profesión, me encanta "
                     },
-                    { "type": "highlight", "text": "salsa and bachata dancing" },
-                    { "type": "normal", "text": ", and I am an energetic competitor in Geoguessr." }
+                    { "type": "highlight", "text": "bailar salsa y bachata" },
+                    { "type": "normal", "text": ", y soy me encanta jugar a Geoguessr." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "I specialize in GIS tools like QGIS and ArcGIS Pro, and I enjoy using my knowledge to develop innovative web GIS solutions. I consider myself a perpetual learner, always looking to improve and expand my skills."
+                        "text": "Me especializo en herramientas SIG como QGIS y ArcGIS Pro, y disfruto utilizando mis conocimientos para desarrollar soluciones web GIS innovadoras."
                     }
                 ]
             ],
-            "SKILLS": ["GIS Tools: QGIS, ArcGIS Pro", "Data Analysis: Python, R", "Web Development: JavaScript, TS, React", "Database management: PostGIS, GeoServer"]
+            "SKILLS": [
+                "Herramientas SIG: QGIS, ArcGIS Pro",
+                "Análisis de datos: Python, R",
+                "Desarrollo web: JavaScript, TS, React",
+                "Gestión de bases de datos: PostGIS, GeoServer"
+            ]
         }
     },
 
@@ -90,32 +95,25 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
-                "TITLE": "WebGIS Viewer",
-                "DESCRIPTION": "A modular WebGIS viewer that allows users to visualize and interact with spatial data. The viewer is designed to be easily customizable, with a configuration page that enables users to adjust the viewer's appearance and functionality to suit their needs.",
-                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/150"
+                "TITLE": "Visualización de Datos Espacio-Temporales en una Aplicación Web SIG",
+                "DESCRIPTION": "Una aplicación Web SIG que visualiza datos espacio-temporales, enfocándose en la dimensión temporal de los datos geográficos. La aplicación fue desarrollada para abordar la necesidad de una herramienta que represente la dimensión temporal de los datos geográficos en conjuntos de datos espaciales multitemporales.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
+                "URL": "",
+                "IMAGE": "./projects/internship.webp"
             },
             {
-                "TITLE": "Spatio-Temporal Data Visualization",
-                "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
-                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/150"
+                "TITLE": "Barrios Marginales y Consumo de Tierras Urbanas en Áreas Metropolitanas de Brasil",
+                "DESCRIPTION": "Un estudio que monitorea los indicadores ODS 11.1.1 y 11.3.1 utilizando datos abiertos para abordar los problemas críticos de la rápida y descontrolada expansión urbana, la formación de barrios marginales y sus impactos ambientales y sociales en áreas metropolitanas de Brasil.",
+                "TECHNOLOGIES": ["QGIS", "Python", "ODS"],
+                "URL": "",
+                "IMAGE": "./projects/thesis.webp"
             },
             {
-                "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
-                "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
-                "TECHNOLOGIES": ["QGIS", "Google Earth Engine", "Python", "R"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/200"
-            },
-            {
-                "TITLE": "Basemap Accessibility for Colorblind People",
-                "DESCRIPTION": "A consultancy project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
-                "TECHNOLOGIES": ["ArcGIS Pro", "Adobe Illustrator", "Color Oracle"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/100"
+                "TITLE": "Adaptación de Mapas Base para Personas con Discapacidad Visual de Color",
+                "DESCRIPTION": "Un proyecto de grupo de consultoría enfocado en optimizar mapas base para individuos con discapacidad visual de color. El proyecto tuvo como objetivo mejorar la accesibilidad de los mapas base para personas daltónicas identificando combinaciones de colores problemáticas y proponiendo soluciones alternativas.",
+                "TECHNOLOGIES": ["ArcGIS Pro"],
+                "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
+                "IMAGE": "./projects/tailoring_basemaps.webp"
             }
         ]
     },
