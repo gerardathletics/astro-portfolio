@@ -15,14 +15,14 @@
     "PRESENTATION_TITLE": "Gerard Porras",
     "PRESENTATION_DESCRIPTION": "Desarrollador de Software GIS",
 
-    "PARAGRAPH_DESCRIPTION": "Desarrollador GIS con una sólida base en GEO-IT, capacitado para dar sentido al análisis de datos espaciales y llevarlo a la vida a través de aplicaciones web.",
+    "PARAGRAPH_DESCRIPTION": "Desarrollador GIS con una base sólida en GEO-IT, le doy sentido a los datos espaciales y los llevo a la vida a través de aplicaciones web.",
 
     "SECTION_AB": {
         "ABOUT": {
             "TITLE": "Acerca de mí",
             "DESCRIPTION": [
                 [
-                    { "type": "normal", "text": "A los 27 años, soy un entusiasta de los" },
+                    { "type": "normal", "text": "A los 27 años, soy un entusiasta de los " },
                     { "type": "highlight", "text": "mapas y el atletismo" },
                     { "type": "normal", "text": ", y trabajo como " },
                     { "type": "highlight", "text": "desarrollador de software GIS" },
@@ -31,15 +31,15 @@
                 [
                     {
                         "type": "normal",
-                        "text": "Mi trayectoria ha sido guiada por una pasión por los datos geográficos y sus aplicaciones en el espacio digital. Fuera de mi profesión, me encanta "
+                        "text": "Mi trayectoria ha sido guiada por una pasión por los mapas, los datos geográficos y sus aplicaciones en el espacio digital. Fuera de mi profesión, me encanta "
                     },
                     { "type": "highlight", "text": "bailar salsa y bachata" },
-                    { "type": "normal", "text": ", y soy me encanta jugar a Geoguessr." }
+                    { "type": "normal", "text": ", y me divierto jugando a Geoguessr." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "Me especializo en herramientas SIG como QGIS y ArcGIS Pro, y disfruto utilizando mis conocimientos para desarrollar soluciones web GIS innovadoras."
+                        "text": "Me especializo en herramientas SIG como QGIS y ArcGIS Pro, y disfruto programando y desarrollando soluciones web GIS innovadoras."
                     }
                 ]
             ],
@@ -58,47 +58,47 @@
                 "POSITION": "Desarrollador y Consultor Geoespacial",
                 "COMPANY": "Ordina",
                 "COMPANY_URL": "https://www.ordina.nl",
-                "DESCRIPTION": "Recientemente comenzó como desarrollador geoespacial.",
+                "DESCRIPTION": "He comenzado recientemente como desarrollador geoespacial.",
                 "TIMEFRAME": "Actualmente"
             },
             {
                 "POSITION": "Desarrollador de Software GIS",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Desempeñé un papel clave en un proyecto enfocado en mejorar las aplicaciones WebGIS. Mis principales contribuciones fueron al desarrollo y mantenimiento de un visor GIS modular para el frontend y la creación de una página de configuración para la personalización fácil por parte del cliente. Este esfuerzo fue parte de un equipo de cuatro personas dedicado a innovar en herramientas GIS, requiriendo experiencia en desarrollo web, GIS, metodologías ágiles y tecnologías como GeoServer y PostGIS.",
+                "DESCRIPTION": "Jugué un papel esencial en un proyecto destinado a la optimización de aplicaciones WebGIS. Dentro de este equipo de cuatro integrantes, me enfoqué en el desarrollo y mantenimiento de un visor GIS modular adaptado al frontend, además de implementar una interfaz de configuración intuitiva, permitiendo a los clientes personalizarla de manera sencilla. Nuestra misión consistió en liderar la innovación en el ámbito de las herramientas GIS, un desafío que demandó sólidos conocimientos en desarrollo web y sistemas de información geográfica (GIS), así como dominio en metodologías ágiles y tecnologías avanzadas, incluyendo GeoServer y PostGIS.",
                 "TIMEFRAME": "01/2023 - 02/2024"
             },
             {
                 "POSITION": "Especialista GIS",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Participé en una amplia gama de proyectos de geo-información y geo-TIC. El puesto requería un conjunto de habilidades versátiles, incluyendo análisis de datos, mapeo, automatización de procesos, gestión de bases de datos espaciales y apoyo al equipo de desarrollo con diversas tareas de programación.",
+                "DESCRIPTION": "Participé en una amplia gama de proyectos de geo-información y tecnologías de la información geográfica, donde apliqué análisis de datos, mapeo, automatización de procesos y gestión de bases de datos espaciales. Contribuí al equipo de desarrollo con programación, demostrando versatilidad y capacidad para trabajar en equipo.",
                 "TIMEFRAME": "01/2022 - 01/2023"
             },
             {
                 "POSITION": "Practicante Desarrollador Web-GIS",
                 "COMPANY": "GIS Specialisten",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durante mi práctica como Desarrollador Web-GIS, formé parte de un pequeño equipo de desarrollo de 4 personas. Mi proyecto principal se centró en la visualización de datos espaciotemporales en una aplicación Web-GIS. La organización identificó la necesidad de una herramienta para representar la dimensión temporal de los datos geográficos, dada su relevancia en conjuntos de datos espaciales multi-temporales.",
+                "DESCRIPTION": "Durante mis prácticas como Desarrollador Web-GIS, formé parte de un pequeño equipo de 4 desarrolladores. Mi contribución principal fue en el desarrollo de una aplicación Web-GIS dedicada a la visualización de datos espaciotemporales. Este proyecto surgió como respuesta a la necesidad de integrar la dimensión temporal en la representación de datos geográficos, crucial para analizar tendencias y patrones en datos espaciales a lo largo del tiempo, en una aplicación web.",
                 "TIMEFRAME": "06/2021 - 12/2021"
             },
             {
                 "POSITION": "Trabajo Final de Master",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "Mi tesis de maestría titulada \"Barrios marginales y Consumo de Tierra Urbana en Áreas Metropolitanas Brasileñas: Monitoreo de los Indicadores SDG 11.1.1 y 11.3.1 Usando Datos Abiertos\" aborda los problemas críticos de la expansión urbana rápida y no controlada, formación de barrios marginales y sus impactos ambientales y sociales en Brasil. El estudio se centra en São Paulo, Rio de Janeiro y Belo Horizonte, las áreas metropolitanas más pobladas de Brasil conocidas por sus extensos barrios marginales.",
+                "DESCRIPTION": "Mi TFM, titulado \"Barrios marginales y Consumo de espacio Urbano en Áreas Metropolitanas Brasileñas: Monitoreo de los Indicadores ODS 11.1.1 y 11.3.1 Usando Datos Abiertos\" aborda los problemas críticos de la expansión urbana rápida y no controlada, formación de barrios marginales y sus impactos ambientales y sociales en Brasil. El estudio se centra en São Paulo, Rio de Janeiro y Belo Horizonte, las áreas metropolitanas más pobladas de Brasil conocidas por sus extensas Favelas.",
                 "TIMEFRAME": "01/2021 - 07/2021"
             },
             {
                 "POSITION": "Proyecto de Consultoría",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "Esri Nederland y el Kadaster holandés identificaron un problema crítico de inclusividad en los mapas base actuales, notando su inadecuación para usuarios daltónicos debido a combinaciones de colores problemáticas. Esto llevó a un proyecto de consultoría centrado en optimizar los mapas base para individuos con discapacidades de visión de color, comenzando con la pregunta clave: ¿Cómo se puede mejorar la accesibilidad de los mapas base para las personas daltónicas?",
+                "DESCRIPTION": "En colaboración con Esri Nederland y el Kadaster holandés, abordamos un desafío de inclusividad en los mapas base, particularmente su uso por personas con daltonismo, debido a combinaciones de colores inadecuadas. Esto llevó a un proyecto de consultoría centrado en optimizar los mapas base para individuos con discapacidades de visión de color, que resultó en la publicación de un artículo en la revista AGILE.",
                 "TIMEFRAME": "04/2020 - 07/2020"
             },
             {
                 "POSITION": "Técnico GIS Junior",
                 "COMPANY": "Servicio de Cartografía y SIG - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
-                "DESCRIPTION": "Este rol estaba situado dentro de un contexto académico, ofreciendo apoyo en varios proyectos de investigación geográfica y espacial. Nuestro trabajo atendía tanto a clientes internos, como profesores de diferentes departamentos universitarios, como a partes interesadas externas. \n Trabajando a tiempo parcial a 20 horas por semana, logré equilibrar este rol con mis estudios académicos, cerrando la brecha entre la investigación académica y las aplicaciones reales de GIS.",
+                "DESCRIPTION": "Este rol estaba situado dentro de un contexto académico, ofreciendo apoyo en varios proyectos de investigación geográfica y espacial. Nuestro trabajo atendía tanto a profesores de diferentes departamentos universitarios, como a partes interesadas externas. \n Trabajando a tiempo parcial a 20 horas por semana, logré equilibrar este rol con mis estudios académicos, cerrando la brecha entre la investigación académica y las aplicaciones reales de los SIG.",
                 "TIMEFRAME": "01/2017 - 12/2018"
             }
         ]
