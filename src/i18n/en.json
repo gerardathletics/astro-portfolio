@@ -105,15 +105,15 @@
                 "TITLE": "Spatio-Temporal Data Visualization in a Web-GIS App",
                 "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/200"
+                "URL": "",
+                "IMAGE": "./projects/internship.webp"
             },
             {
                 "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
                 "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
                 "TECHNOLOGIES": ["QGIS", "Python", "SDG"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/200"
+                "URL": "",
+                "IMAGE": "./projects/thesis.webp"
             },
             {
                 "TITLE": "Tailoring basemaps for color vision impaired people",

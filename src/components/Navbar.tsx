@@ -10,7 +10,7 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
 
     return (
         <header className="relative sticky z-10 top-0 pt-4 w-full flex justify-between md:justify-center items-center px-4">
-            <div className="flex flex-row-reverse justify-between w-full md:w-auto ">
+            <div className="flex flex-row-reverse justify-between w-full md:w-auto z-[100] ">
                 <button onClick={() => setIsOpen(!isOpen)} className="md:hidden bg-black/10 backdrop-blur rounded-md p-1.5">
                     {/* Hamburger Icon */}
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -37,21 +37,20 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
             </div>
             <p
                 className={`${
-                    isOpen ? 'flex' : 'hidden'
-                } md:flex bg-black/10 backdrop-blur rounded-md px-1.5 lg:bg-black/0 mt-2 divide-x sm:mt-0 top-4 left-2 lg:block absolute lg:top-5 lg:right-5`}
+                    isOpen ? 'flex absolute left-2' : 'hidden'
+                } md:flex space-x-1  rounded-md px-1.5 lg:bg-black/0 mt-2 sm:mt-0 right-2 md:absolute md:top-7 md:right-5 lg:absolute lg:top-7 lg:right-5`}
             >
-                <a className="me-1 hover:underline" href="/">
-                    en
-                </a>
-                <a className="px-1.5 hover:underline" href="/es">
-                    es
-                </a>
-                {/* <a className="px-1.5 hover:underline" href="/ca">
-                    ca
-                </a>
-                <a className="px-1.5 hover:underline" href="/nl">
-                    nl
-                </a> */}
+                <span className="bg-black/10 backdrop-blur rounded-md ">
+                    <a className="me-1 hover:underline px-1" href="/">
+                        en
+                    </a>
+                </span>
+                <span className="bg-black/10 backdrop-blur rounded-md">
+                    <a className="px-1.5 hover:underline" href="/es">
+                        es
+                    </a>
+                </span>
+                {/* Repeat for other languages */}
             </p>
         </header>
     );

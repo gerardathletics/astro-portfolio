@@ -15,33 +15,28 @@ const dataProjects = i18n.SECTION_PR.PROJECTS.map((project: any) => ({
 }));
 ---
 
-<div class="space-y-6">
-    {
-        dataProjects.map((project: any) => (
-            <article class="grid gap-2 md:gap-6 md:grid-cols-2 bg-white/10  rounded-lg overflow-hidden shadow-lg transition-shadow hover:shadow-xl h-64 relative">
-                {project.link && (
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" class="absolute top-2 right-2">
-                        <IconLink />
-                    </a>
-                )}
-                <img src={project.image} alt={project.title} class="object-cover rounded-md opacity-80 w-full h-full" />
-                <div class="flex flex-col p-4">
-                    {' '}
-                    <div class="mb-4">
-                        <h3 class="flex items-center gap-2 text-lg md:text-lg">
-                            {' '}
-                            <span class="font-semibold">{project.title}</span>
-                        </h3>
-                        <p class="mt-1 text-xs text-pretty">{project.description}</p>
-                    </div>
-                    <div class="flex flex-wrap gap-1 text-xs">
-                        {' '}
-                        {project.techs.map((tech: any) => (
-                            <span class="flex items-center border border-gray-300 bg-gray-50/5  space-x-1 cursor-pointer rounded-md text-xs px-2 py-0.5">{tech}</span>
-                        ))}
-                    </div>
-                </div>
-            </article>
-        ))
-    }
-</div>
+<div class="space-y-4 md:space-y-6">
+    {dataProjects.map((project: any) => (
+      <article class="grid gap-2 md:gap-6 md:grid-cols-2 bg-white/10 rounded-lg overflow-hidden shadow transition-shadow hover:shadow-xl relative">
+        {project.link && (
+          <a href={project.link} target="_blank" rel="noopener noreferrer" class="absolute top-2 right-2 z-10">
+            <!-- Assuming IconLink is properly imported or defined -->
+            <IconLink />
+          </a>
+        )}
+        <img src={project.image} alt={project.title} class="object-cover rounded-md opacity-80 w-full h-full" />
+        <div class="flex flex-col justify-between p-4">
+          <div>
+            <h3 class="text-sm md:text-lg font-semibold">{project.title}</h3>
+            <p class="mt-1 text-xs text-pretty">{project.description}</p>
+          </div>
+          <div class="flex flex-wrap gap-1 mt-2 text-xs">
+            {project.techs.map((tech: any) => (
+              <span class="border border-gray-300 bg-gray-50/5 rounded-md px-2 py-0.5">{tech}</span>
+            ))}
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+  
