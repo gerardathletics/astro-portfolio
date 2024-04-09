@@ -10,7 +10,7 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
 
     return (
         <header className="relative sticky z-10 top-0 pt-4 w-full flex justify-between md:justify-center items-center px-4">
-            <div className="flex justify-between w-full md:w-auto ">
+            <div className="flex flex-row-reverse justify-between w-full md:w-auto ">
                 <button onClick={() => setIsOpen(!isOpen)} className="md:hidden bg-black/10 backdrop-blur rounded-md p-1.5">
                     {/* Hamburger Icon */}
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
             <p
                 className={`${
                     isOpen ? 'flex' : 'hidden'
-                } md:flex bg-black/10 backdrop-blur rounded-md px-1.5 lg:bg-black/0 mt-2 divide-x sm:mt-0 top-3 right-2 lg:block absolute lg:top-5 lg:right-5`}
+                } md:flex bg-black/10 backdrop-blur rounded-md px-1.5 lg:bg-black/0 mt-2 divide-x sm:mt-0 top-4 left-2 lg:block absolute lg:top-5 lg:right-5`}
             >
                 <a className="me-1 hover:underline" href="/">
                     en
