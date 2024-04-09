@@ -10,15 +10,29 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
 
     return (
         <header className="relative sticky z-10 top-0 pt-4 w-full flex justify-between md:justify-center items-center px-4">
-            <div className="flex flex-row-reverse justify-between w-full md:w-auto z-[100] ">
-                <button onClick={() => setIsOpen(!isOpen)} className="md:hidden bg-black/10 backdrop-blur rounded-md p-1.5">
+            <p
+                className={`${
+                    isOpen ? 'flex absolute left-2' : 'hidden'
+                } md:flex space-x-1  rounded-md px-1.5 lg:bg-black/0 mt-2 sm:mt-0 right-2 md:absolute md:top-7 md:right-5 lg:absolute lg:top-7 lg:right-5 z-[110]`}
+            >
+                <span className=" bg-black/10 backdrop-blur rounded-md ">
+                    <a className="me-1 hover:underline px-1" href="/">
+                        en
+                    </a>
+                </span>
+                <span className="bg-black/10 backdrop-blur rounded-md">
+                    <a className="px-1.5 hover:underline" href="/es">
+                        es
+                    </a>
+                </span>
+            </p>
+            <div className="flex flex-row-reverse justify-between w-full md:w-auto ">
+                <button onClick={() => setIsOpen(!isOpen)} className="md:hidden z-[120] bg-black/10 backdrop-blur rounded-md p-1.5">
                     {/* Hamburger Icon */}
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         {isOpen ? (
-                            // Close icon when menu is open
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                         ) : (
-                            // Hamburger icon when menu is closed
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
                         )}
                     </svg>
@@ -35,23 +49,6 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
                     ))}
                 </nav>
             </div>
-            <p
-                className={`${
-                    isOpen ? 'flex absolute left-2' : 'hidden'
-                } md:flex space-x-1  rounded-md px-1.5 lg:bg-black/0 mt-2 sm:mt-0 right-2 md:absolute md:top-7 md:right-5 lg:absolute lg:top-7 lg:right-5`}
-            >
-                <span className="bg-black/10 backdrop-blur rounded-md ">
-                    <a className="me-1 hover:underline px-1" href="/">
-                        en
-                    </a>
-                </span>
-                <span className="bg-black/10 backdrop-blur rounded-md">
-                    <a className="px-1.5 hover:underline" href="/es">
-                        es
-                    </a>
-                </span>
-                {/* Repeat for other languages */}
-            </p>
         </header>
     );
 };
