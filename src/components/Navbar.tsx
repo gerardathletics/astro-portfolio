@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
 
 const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string }) => {
@@ -47,12 +46,12 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
                 <a className="px-1.5 hover:underline" href="/es">
                     es
                 </a>
-                <a className="px-1.5 hover:underline" href="/ca">
+                {/* <a className="px-1.5 hover:underline" href="/ca">
                     ca
                 </a>
                 <a className="px-1.5 hover:underline" href="/nl">
                     nl
-                </a>
+                </a> */}
             </p>
         </header>
     );

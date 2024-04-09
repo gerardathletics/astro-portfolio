@@ -1,0 +1,80 @@
+---
+import { getI18N } from '../i18n/index.ts';
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
+const about = i18n.SECTION_AB.ABOUT;
+---
+
+<!-- <div class="py-12 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Acerca de mí</h2>
+
+    <p class="text-lg text-center mb-4">
+        Soy un <span class="font-semibold">joven de 27 años</span>, originalmente de <span class="font-semibold">Lleida, España</span>, y actualmente residiendo en los Países Bajos
+        desde hace <span class="font-semibold">4 años y medio</span>. Apasionado por <span class="font-semibold">los mapas y el atletismo</span>, me desempeño como <span
+            class="font-semibold">desarrollador de software GIS</span
+        >. Mis raíces académicas en <span class="font-semibold">Geografía y Planificación Espacial</span> (Universitat de Lleida, España) y un Máster en <span class="font-semibold"
+            >Ciencia Geo-Informática</span
+        > (Universidad de Wageningen e Investigación, Países Bajos) han marcado mi transición hacia un rol especializado centrado en el software geoespacial y el desarrollo web.
+    </p>
+
+    <p class="text-lg text-center mb-4">
+        Fuera del ámbito profesional, soy un <span class="font-semibold">viajero ávido</span> con pasión por descubrir culturas y lenguas diversas. Antiguo atleta internacional en <span
+            class="font-semibold">60m y 110m vallas</span
+        >, y piloto operador de drones certificado por EASA (A1/A3, A2, STS). Disfruto de la <span class="font-semibold">danza salsa y bachata</span>, así como jugar a <span
+            class="font-semibold">Geoguessr</span
+        > en mis tiempos libres.
+    </p>
+
+    <p class="text-lg text-center">
+        Mi enfoque actual y experiencia incluyen competencias con herramientas GIS como <span class="font-semibold">QGIS y ArcGIS Pro</span>, análisis y manejo de datos usando <span
+            class="font-semibold">Python, R, Postgres, FME, y GeoServer</span
+        >, y especialización en el desarrollo de software GIS y soluciones GIS basadas en la web. Valoro trabajar en entornos que fomenten la apertura y un enfoque colaborativo y
+        multidisciplinario.
+    </p>
+
+    <div class="flex justify-center mt-8 space-x-4">
+        <IconGlobe width={32} height={32} />
+        <IconRun width={32} height={32} />
+        <IconMusic width={32} height={32} />
+        <IconDrone width={32} height={32} />
+    </div>
+</div> -->
+<div id="about-me" class="mt-12 mx-auto max-w-4xl">
+    <div class="flex flex-col md:flex-row justify-between gap-8">
+        <div class="md:w-1/2">
+            <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+                <span>{about.TITLE}</span>
+                <div class="flex-grow h-0.5 bg-gray-300"></div>
+            </h2>
+            {
+                about.DESCRIPTION.map((paragraph) => (
+                    <p class="mb-6 text-gray-200">
+                        {paragraph.map((segment: any) => (
+                            <span class={segment.type === 'highlight' ? 'font-semibold text-yellow-200' : ''}>{segment.text}</span>
+                        ))}
+                    </p>
+                ))
+            }
+            <div class="image-wrapper relative inline-block">
+                <img src="./me/spain-nl-yl.webp" alt="Running" class="w-full h-auto rounded-lg" />
+            </div>
+            <!-- <div class="text-sm">
+                <ul class="list-disc pl-5 space-y-2 text-gray-200">
+                    {about.SKILLS.map((skill) => <li>{skill}</li>)}
+                </ul>
+            </div> -->
+        </div>
+        <div class="md:w-1/2 flex justify-center md:justify-end">
+            <div class="grid grid-cols-3 sm:grid-cols-2 gap-4 items-centerr">
+                <img src="./me/athens.webp" alt="Athens" class="w-full h-auto rounded-lg shadow transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
+                <img src="./me/tokyo.webp" alt="Tokyo" class="w-full h-auto rounded-lg shadow transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
+                <img src="./me/globe.webp" alt="Globe" class="w-full h-auto rounded-lg shadow transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
+                <img src="./me/lleida.webp" alt="Lleida" class="w-full h-auto rounded-lg shadow transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
+                <img src="./me/cv.webp" alt="CV" class="w-full h-auto rounded-lg shadow transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
+                <img src="./me/running.webp" alt="Running" class="w-full h-auto rounded-lg shadow transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
+            </div>
+        </div>
+    </div>
+</div>

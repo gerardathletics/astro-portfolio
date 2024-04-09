@@ -4,6 +4,7 @@ import SectionContainer from '../../components/SectionContainer.astro';
 
 import Hero from '../../components/Hero.astro';
 import TimeLine from '../../components/TimeLine.astro';
+import About from '../../components/About.astro';
 import Projects from '../../components/Projects.astro';
 import LastPosts from '../../components/LastPosts.astro';
 
@@ -19,6 +20,9 @@ const i18n = getI18N({ currentLocale });
     <main class="px-4">
         <SectionContainer class="">
             <Hero />
+        </SectionContainer>
+        <SectionContainer id={i18n.HEADER.NAVBAR.ABOUT} class="pt-6">
+            <About />
         </SectionContainer>
         <SectionContainer id={i18n.HEADER.NAVBAR.EXPERIENCE} class="pt-6">
             <h2 class="capitalize flex items-center space-x-4 mb-6">

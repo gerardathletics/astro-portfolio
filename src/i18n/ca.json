@@ -5,9 +5,9 @@
     "HEADER": {
         "NAVBAR": {
             "HOME": "inici",
+            "ABOUT": "sobre mi",
             "EXPERIENCE": "experiència",
             "PROJECTS": "projectes",
-            "ATHLETICS": "atletisme",
             "LAST_POSTS": "últims posts"
         }
     },
@@ -16,6 +16,36 @@
     "PRESENTATION_DESCRIPTION": "Desenvolupador GIS",
 
     "PARAGRAPH_DESCRIPTION": "Desenvolupador GIS amb una base sòlida en GEO-IT, dono sentit a les dades espacials i les porto a la vida a través d'aplicacions i mapes web.",
+
+    "SECTION_AB": {
+        "ABOUT": {
+            "TITLE": "Sobre mi",
+            "DESCRIPTION": [
+                [
+                    { "type": "normal", "text": "At 27 years old, I am an enthusiast of " },
+                    { "type": "highlight", "text": "maps and athletics" },
+                    { "type": "normal", "text": ", and I work as a " },
+                    { "type": "highlight", "text": "GIS software developer" },
+                    { "type": "normal", "text": ". Originally from Lleida, Spain, I have been living in the Netherlands for 4 and a half years." }
+                ],
+                [
+                    {
+                        "type": "normal",
+                        "text": "My path has been guided by a passion for geographic data and its applications in the digital space. Outside of my profession, I love "
+                    },
+                    { "type": "highlight", "text": "salsa and bachata dancing" },
+                    { "type": "normal", "text": ", and I am an energetic competitor in Geoguessr." }
+                ],
+                [
+                    {
+                        "type": "normal",
+                        "text": "I specialize in GIS tools like QGIS and ArcGIS Pro, and I enjoy using my knowledge to develop innovative web GIS solutions. I consider myself a perpetual learner, always looking to improve and expand my skills."
+                    }
+                ]
+            ],
+            "SKILLS": ["GIS Tools: QGIS, ArcGIS Pro", "Data Analysis: Python, R", "Web Development: JavaScript, TS, React", "Database management: PostGIS, GeoServer"]
+        }
+    },
 
     "SECTION_XP": {
         "EXPERIENCES": [
