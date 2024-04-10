@@ -8,7 +8,8 @@
             "ABOUT": "sobre mí",
             "EXPERIENCE": "experiencia",
             "PROJECTS": "proyectos",
-            "LAST_POSTS": "últimos posts"
+            "LAST_POSTS": "últimos posts",
+            "MAPS": "mapas"
         }
     },
 
@@ -126,6 +127,263 @@
                 "TECHNOLOGIES": ["ArcGIS Pro"],
                 "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
                 "IMAGE": "./projects/tailoring_basemaps.webp"
+            }
+        ],
+        "MAPS": [
+            {
+                "title": "Mar balear",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/balearic.webp"
+            },
+            {
+                "title": "Árboles en Utrecht",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/utrecht_trees.webp"
+            },
+
+            {
+                "title": "Catalunya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/catalunya_lines.webp"
+            },
+            {
+                "title": "Terremotos en España",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/terremotos_esp.webp"
+            },
+            {
+                "title": "Geological old 3D",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/spain_geo_3d.webp"
+            },
+            {
+                "title": "Lleida Lego",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/lleida_lego.webp"
+            },
+            {
+                "title": "Bosques en Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/boscos_cat.webp"
+            },
+            {
+                "title": "Zonas agrícolas en España",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/zonas_agricolas.webp"
+            },
+            {
+                "title": "Paisaje modelado",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/landscape_red.webp"
+            },
+            {
+                "title": "Montañas en España",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/high_mount_esp.webp"
+            },
+            {
+                "title": "Camarasa puntos",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/points_camarasa.webp"
+            },
+            {
+                "title": "Ríos en Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/riversmap.webp"
+            },
+            {
+                "title": "Relieve Noguera",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/3d_noguera.webp"
+            },
+            {
+                "title": "Líneas Bus Lleida",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/buses_lleida.webp"
+            },
+            {
+                "title": "Isocronas",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/chrono_travel.webp"
+            },
+            {
+                "title": "Bonne projection",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/bonne.webp"
+            },
+            {
+                "title": "Lleida 3d",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/lleida_3d.webp"
+            },
+            {
+                "title": "Mariola Urbano",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/mariola.webp"
+            },
+            {
+                "title": "Atletas en Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/athletes_cat.webp"
+            },
+            {
+                "title": "Ríos en España",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/rivers_esp.webp"
+            },
+            {
+                "title": "Equal Azimuthal projection",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/azimuthal.webp"
+            },
+            {
+                "title": "Ven der Grinten projection",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/vendergrinten.webp"
+            },
+            {
+                "title": "Tweets en Amsterdam",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/tweets_amsterdam.webp"
+            },
+            {
+                "title": "Tweets en Amsterdam 2",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/tweets_amsterdam2.webp"
+            },
+            {
+                "title": "Atletas por Km/2",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/federats_km2.webp"
+            },
+            {
+                "title": "Red ferroviaria Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/xarxa_ferroviaria.webp"
+            },
+            {
+                "title": "Sant Salvador Model",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/blender_mount.webp"
+            },
+            {
+                "title": "Wageningen Ecological Corridor",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/eco_corridor.webp"
+            },
+            {
+                "title": "Isocronas pistas atletismo",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/iso_tracks.webp"
+            },
+            {
+                "title": "Biomas España",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/bio_esp.webp"
+            },
+            {
+                "title": "Pistas Atletismo Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/athletics_tracks.webp"
+            },
+
+            {
+                "title": "Brazilian Metropolitan areas",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/brazil_metro.webp"
+            },
+
+            {
+                "title": "Litter in Utrecht",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/litter_utrecht.webp"
+            },
+            {
+                "title": "Lleida Aerialod",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/lleida_aerial.webp"
+            },
+            {
+                "title": "Erupción La Palma",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/palma_eruption.webp"
+            },
+            {
+                "title": "3D Densidad población Lleida",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/popdens_lleida.webp"
+            },
+            {
+                "title": "Precipitación España",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/rain_esp.webp"
+            },
+            {
+                "title": "Diamond League stadiums",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/stadiums.webp"
+            },
+            {
+                "title": "Aguas subterráneas",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/sub_water.webp"
+            },
+            {
+                "title": "Tenerife OSM",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/tenerife.webp"
+            },
+            {
+                "title": "Terremotos en España 3D",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/terremotos_3d.webp"
+            },
+            {
+                "title": "Comparativa rural/urbano",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/urban-rural.webp"
             }
         ]
     },

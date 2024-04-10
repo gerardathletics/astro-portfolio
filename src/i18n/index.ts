@@ -6,13 +6,13 @@ import dutch from '../i18n/nl.json';
 const LANGUAGES = {
     ENGLISH: 'en',
     SPANISH: 'es',
-    CATALAN: 'ca',
-    DUTCH: 'nl',
+    // CATALAN: 'ca',
+    // DUTCH: 'nl',
 };
 export const getI18N = ({ currentLocale = 'en' }: { currentLocale: string | undefined }) => {
     if (currentLocale === LANGUAGES.ENGLISH) return english;
     if (currentLocale === LANGUAGES.SPANISH) return spanish;
-    if (currentLocale === LANGUAGES.CATALAN) return catalan;
-    if (currentLocale === LANGUAGES.DUTCH) return dutch;
+    // if (currentLocale === LANGUAGES.CATALAN) return catalan;
+    // if (currentLocale === LANGUAGES.DUTCH) return dutch;
     return english;
 };

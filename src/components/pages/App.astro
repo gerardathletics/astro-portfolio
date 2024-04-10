@@ -7,8 +7,9 @@ import TimeLine from '../../components/TimeLine.astro';
 import About from '../../components/About.astro';
 import Projects from '../../components/Projects.astro';
 import LastPosts from '../../components/LastPosts.astro';
+import MapGallery from '../MapGallery.astro';
 
-import { IconFileDescription, IconHammer, IconNotification } from '@tabler/icons-react';
+import { IconFileDescription, IconHammer, IconMapHeart, IconNotification } from '@tabler/icons-react';
 
 import { getI18N } from '../../i18n/index.ts';
 
@@ -41,6 +42,15 @@ const i18n = getI18N({ currentLocale });
                 <IconHammer width={32} height={32} />
             </h2>
             <Projects />
+        </SectionContainer>
+        <SectionContainer id={i18n.HEADER.NAVBAR.MAPS} class="pt-6 mt-0">
+            <h2 class="capitalize flex items-center space-x-4 mb-6">
+                <span class="text-2xl sm:text-3xl font-semibold">
+                    {i18n.HEADER.NAVBAR.MAPS}
+                </span>
+                <IconMapHeart width={32} height={32} />
+            </h2>
+            <MapGallery client:load />
         </SectionContainer>
         <SectionContainer class="pt-6 mt-6">
             <h2 class="capitalize flex items-center space-x-4 mb-6">
