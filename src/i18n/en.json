@@ -13,7 +13,8 @@
         }
     },
 
-    "PRESENTATION_TITLE": "Gerard Porras",
+    "PRESENTATION_TITLE_1": "Hello! I'm ",
+    "PRESENTATION_TITLE_2": "🌍Gerard🌍",
     "PRESENTATION_DESCRIPTION": "GIS Software Developer - Cartographer",
 
     "PARAGRAPH_DESCRIPTION": "GIS Developer with a strong foundation in GEO-IT, skilled in making sense of spatial data analysis and bringing it to life through web applications.",
@@ -55,47 +56,54 @@
                 "COMPANY": "Ordina",
                 "COMPANY_URL": "https://www.ordina.nl",
                 "DESCRIPTION": "Recently started as a Geospatial developer.",
-                "TIMEFRAME": "Currently"
+                "TIMEFRAME": "Currently",
+                "LOCATION": "Nieuwegein, NL"
             },
             {
                 "POSITION": "GIS Software Developer",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "During this time, along with three other developers, I worked in developing and maintaining a modular Web-GIS application (with React). In addition, we implemented an intuitive configuration interface with Angular, allowing clients to easily customize the viewer. This challenge demanded solid knowledge in web development and geographic information systems (GIS), as well as proficiency in agile methodologies and advanced technologies, including GeoServer and PostGIS.",
-                "TIMEFRAME": "January 2023 - February 2024"
+                "TIMEFRAME": "January 2023 - February 2024",
+                "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "GIS Especialist",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks.",
-                "TIMEFRAME": "January 2022 - January 2023"
+                "TIMEFRAME": "January 2022 - January 2023",
+                "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "Web-GIS Developer Intern",
                 "COMPANY": "GIS Specialisten",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "During my internship as a Web-GIS Developer, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
-                "TIMEFRAME": "June 2021 - December 2021"
+                "TIMEFRAME": "June 2021 - December 2021",
+                "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "Master Thesis",
                 "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "My master thesis titled \"Slums and Urban Land Consumption in Brazilian Metropolitan Areas: Monitoring SDG Indicators 11.1.1 and 11.3.1 Using Open Data\" addresses the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazil. The study focuses on São Paulo, Rio de Janeiro, and Belo Horizonte, Brazil's most populated metropolitan areas known for their extensive slums.",
-                "TIMEFRAME": "January 2021 - July 2021"
+                "TIMEFRAME": "January 2021 - July 2021",
+                "LOCATION": "Wageningen, NL"
             },
             {
                 "POSITION": "Consultancy Project",
                 "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "Esri Nederland and the Dutch Kadaster identified a critical inclusivity problem in current basemaps, noting their inadequacy for colorblind users due to problematic color combinations. This led to a consultancy project focused on optimizing basemaps for individuals with color vision impairments, starting with the key question: How can basemap accessibility for colorblind people be improved?",
-                "TIMEFRAME": "April 2020 - July 2020"
+                "TIMEFRAME": "April 2020 - July 2020",
+                "LOCATION": "Wageningen, NL"
             },
             {
                 "POSITION": "Junior GIS Technician",
                 "COMPANY": "Cartography & GIS Service - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
                 "DESCRIPTION": "This role was situated within an academic context, offering support across various geographical and spatial research projects. Our work catered to both internal clients, such as professors from different university departments, and external stakeholders. \n Working part-time at 20 hours per week, I managed to balance this role with my academic studies, bridging the gap between academic research and real-world GIS applications.",
-                "TIMEFRAME": "January 2017 - December 2018"
+                "TIMEFRAME": "January 2017 - December 2018",
+                "LOCATION": "Lleida, ES"
             }
         ]
     },

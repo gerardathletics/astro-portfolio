@@ -1,12 +1,13 @@
 import React, { useState, useCallback } from 'react';
-import { IconCircleFilled, IconCalendar } from '@tabler/icons-react';
+import { IconCircleFilled, IconCalendar, IconMapPin } from '@tabler/icons-react';
 
 interface Experience {
     POSITION: string;
     DESCRIPTION: string;
     TIMEFRAME: string;
-    COMPANY?: string;
+    COMPANY: string;
     COMPANY_URL?: string;
+    LOCATION: string;
 }
 
 const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] }) => {
@@ -25,9 +26,11 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
         setOpenIndex(openIndex === index ? null : index);
     };
 
+    const mapsUrl = 'https://www.google.com/maps/place/';
+
     return (
         <>
-            <div id="work" className="hidden md:grid md:grid-cols-3 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4 ">
+            <div id="experience-laptop" className="hidden md:grid md:grid-cols-3 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4 ">
                 <div className="md:col-span-1 rounded-lg p-2">
                     {dataExperience.map((job, index) => (
                         <button
@@ -38,7 +41,7 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
                             } rounded-md flex flex-col items-start justify-start`}
                         >
                             <span className={`${dataExperience[index] === currentJob ? 'text-white' : 'text-white'}`}>{job.POSITION}</span>
-                            <span className={`mt-1 ${dataExperience[index] === currentJob ? 'text-yellow-200' : 'text-yellow-200 text-xs'}`}>{job.COMPANY}</span>
+                            <span className={`mt-1 ${dataExperience[index] === currentJob ? 'text-yellow-400' : 'text-yellow-200 text-xs'}`}>{job.COMPANY}</span>
                         </button>
                     ))}
                 </div>
@@ -50,19 +53,23 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
                         </a>
                     </h3>
                     <div className="flex items-center text-sm text-yellow-300">
-                        <IconCalendar width={20} className="mr-2" />
-                        <span>{currentJob?.TIMEFRAME}</span>
+                        <IconCalendar width={16} className="mr-1" />
+                        <span>{currentJob?.TIMEFRAME}</span> <IconMapPin width={16} className="ml-2 mr-1" />
+                        <span>
+                            <a href={mapsUrl + currentJob?.LOCATION} className="hover:underline" target="_blank" rel="noopener noreferrer">
+                                {currentJob?.LOCATION}
+                            </a>
+                        </span>
                     </div>
                     <p className="mt-2 text-sm">{currentJob?.DESCRIPTION}</p>
                 </div>
             </div>
-
-            <div className="flex flex-col gap-4 p-4 md:hidden">
+            <div id="experience-responsive" className="flex flex-col gap-4 p-4 md:hidden">
                 {dataExperience.map((job, index) => (
                     <div key={job.COMPANY} className="bg-white/10 text-white rounded-lg overflow-hidden shadow">
                         <button
                             className={`w-full py-2 px-3 text-left transition-colors duration-150 ${
-                                openIndex === index ? 'bg-yellow-200 text-gray-900 font-bold' : 'hover:bg-yellow-200/30'
+                                openIndex === index ? 'bg-yellow-200 text-yellow-800 font-bold' : 'hover:bg-yellow-200/30'
                             }`}
                             onClick={() => toggleOpen(index)}
                         >
@@ -76,7 +83,7 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
                             </div>
                         </button>
                         {openIndex === index && (
-                            <div className="p-4 text-sm">
+                            <div className="p-3 text-sm">
                                 <h3 className="font-bold">
                                     {`${job.POSITION} at `}
                                     <a href={job.COMPANY_URL} className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">
@@ -84,8 +91,13 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
                                     </a>
                                 </h3>
                                 <div className="flex items-center text-yellow-400">
-                                    <IconCalendar width={16} className="mr-2" />
-                                    <span>{job.TIMEFRAME}</span>
+                                    <IconCalendar width={16} className="mr-1" />
+                                    <span>{currentJob?.TIMEFRAME}</span> <IconMapPin width={16} className="ml-2 mr-1" />
+                                    <span>
+                                        <a href={mapsUrl + currentJob?.LOCATION} className="hover:underline" target="_blank" rel="noopener noreferrer">
+                                            {currentJob?.LOCATION}
+                                        </a>
+                                    </span>
                                 </div>
                                 <p>{job.DESCRIPTION}</p>
                             </div>

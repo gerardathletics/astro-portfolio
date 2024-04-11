@@ -12,11 +12,11 @@
             "MAPS": "mapas"
         }
     },
+    "PRESENTATION_TITLE_1": "Hola! Soy ",
+    "PRESENTATION_TITLE_2": "🌍Gerard🌍",
+    "PRESENTATION_DESCRIPTION": "Desarrollador de Software SIG",
 
-    "PRESENTATION_TITLE": "Gerard Porras",
-    "PRESENTATION_DESCRIPTION": "Desarrollador de Software GIS",
-
-    "PARAGRAPH_DESCRIPTION": "Desarrollador GIS con una base sólida en GEO-IT, le doy sentido a los datos espaciales y los llevo a la vida a través de aplicaciones web.",
+    "PARAGRAPH_DESCRIPTION": "Desarrollador SIG con una base sólida en GEO-IT, le doy sentido a los datos espaciales y los llevo a la vida a través de aplicaciones web.",
 
     "SECTION_AB": {
         "ABOUT": {
@@ -60,47 +60,54 @@
                 "COMPANY": "Ordina",
                 "COMPANY_URL": "https://www.ordina.nl",
                 "DESCRIPTION": "He comenzado recientemente como desarrollador geoespacial.",
-                "TIMEFRAME": "Actualmente"
+                "TIMEFRAME": "Actualmente",
+                "LOCATION": "Nieuwegein, NL"
             },
             {
                 "POSITION": "Desarrollador de Software GIS",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Durante este tiempo me dediqué, junto con tres desarrolladores más, a desarrollar y mantener una aplicacion modular Web-GIS (con React). Además, implementamos una interfaz de configuración intuitiva con angular, permitiendo a los clientes personalizar el visor de manera sencilla. Este desafío demandó sólidos conocimientos en desarrollo web y sistemas de información geográfica (GIS), así como dominio en metodologías ágiles y tecnologías avanzadas, incluyendo GeoServer y PostGIS.",
-                "TIMEFRAME": "Enero 2023 - Febrero 2024"
+                "TIMEFRAME": "Enero 2023 - Febrero 2024",
+                "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "Especialista GIS",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Participé en una amplia gama de proyectos de geo-información y tecnologías de la información geográfica, donde apliqué análisis de datos, mapeo, automatización de procesos y gestión de bases de datos espaciales. Contribuí al equipo de desarrollo con programación, demostrando versatilidad y capacidad para trabajar en equipo.",
-                "TIMEFRAME": "Enero 2022 - Enero 2023"
+                "TIMEFRAME": "Enero 2022 - Enero 2023",
+                "LOCATION": "Utrecht, NL"
             },
             {
-                "POSITION": "Practicante Desarrollador Web-GIS",
+                "POSITION": "Desarrollador Web-GIS - Prácticas",
                 "COMPANY": "GIS Specialisten",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Durante mis prácticas como Desarrollador Web-GIS, formé parte de un pequeño equipo de 4 desarrolladores. Mi contribución principal fue en el desarrollo de una aplicación Web-GIS dedicada a la visualización de datos espaciotemporales. Este proyecto surgió como respuesta a la necesidad de integrar la dimensión temporal en la representación de datos geográficos, crucial para analizar tendencias y patrones en datos espaciales a lo largo del tiempo, en una aplicación web.",
-                "TIMEFRAME": "Junio 2021 - Diciembre 2021"
+                "TIMEFRAME": "Junio 2021 - Diciembre 2021",
+                "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "Trabajo Final de Master",
                 "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "Mi TFM, titulado \"Barrios marginales y Consumo de espacio Urbano en Áreas Metropolitanas Brasileñas: Monitoreo de los Indicadores ODS 11.1.1 y 11.3.1 Usando Datos Abiertos\" aborda los problemas críticos de la expansión urbana rápida y no controlada, formación de barrios marginales y sus impactos ambientales y sociales en Brasil. El estudio se centra en São Paulo, Rio de Janeiro y Belo Horizonte, las áreas metropolitanas más pobladas de Brasil conocidas por sus extensas Favelas.",
-                "TIMEFRAME": "Enero 2021 - Julio 2021"
+                "TIMEFRAME": "Enero 2021 - Julio 2021",
+                "LOCATION": "Wageningen, NL"
             },
             {
                 "POSITION": "Proyecto de Consultoría",
                 "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "En colaboración con Esri Nederland y el Kadaster holandés, abordamos un desafío de inclusividad en los mapas base, particularmente su uso por personas con daltonismo, debido a combinaciones de colores inadecuadas. Esto llevó a un proyecto de consultoría centrado en optimizar los mapas base para individuos con discapacidades de visión de color, que resultó en la publicación de un artículo en la revista AGILE.",
-                "TIMEFRAME": "Abril 2020 - Julio 2020"
+                "TIMEFRAME": "Abril 2020 - Julio 2020",
+                "LOCATION": "Wageningen, NL"
             },
             {
                 "POSITION": "Técnico GIS Junior",
                 "COMPANY": "Servicio de Cartografía y SIG - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
                 "DESCRIPTION": "Este rol estaba situado dentro de un contexto académico, ofreciendo apoyo en varios proyectos de investigación geográfica y espacial. Nuestro trabajo atendía tanto a profesores de diferentes departamentos universitarios, como a partes interesadas externas. \n Trabajando a tiempo parcial a 20 horas por semana, logré equilibrar este rol con mis estudios académicos, cerrando la brecha entre la investigación académica y las aplicaciones reales de los SIG.",
-                "TIMEFRAME": "Enero 2017 - Diciembre 2018"
+                "TIMEFRAME": "Enero 2017 - Diciembre 2018",
+                "LOCATION": "Lleida, ES"
             }
         ]
     },
