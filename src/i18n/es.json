@@ -13,7 +13,7 @@
         }
     },
     "PRESENTATION_TITLE_1": "Hola! Soy ",
-    "PRESENTATION_TITLE_2": "🌍Gerard🌍",
+    "PRESENTATION_TITLE_2": "Gerard🌍",
     "PRESENTATION_DESCRIPTION": "Desarrollador de Software SIG",
 
     "PARAGRAPH_DESCRIPTION": "Desarrollador SIG con una base sólida en GEO-IT, le doy sentido a los datos espaciales y los llevo a la vida a través de aplicaciones web.",
@@ -397,7 +397,7 @@
 
     "FOOTER": {
         "AUTHOR": ["Desarrollado con", "por Gerard"],
-        "COPYRIGHT": "Inspirado por",
-        "COPYRIGHT_2": ", adaptado por Gerard."
+        "COPYRIGHT": "Gerard Porras. Inspirado en",
+        "COPYRIGHT_2": "."
     }
 }

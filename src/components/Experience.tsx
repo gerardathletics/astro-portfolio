@@ -92,10 +92,10 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
                                 </h3>
                                 <div className="flex items-center text-yellow-400">
                                     <IconCalendar width={16} className="mr-1" />
-                                    <span>{currentJob?.TIMEFRAME}</span> <IconMapPin width={16} className="ml-2 mr-1" />
+                                    <span>{job.TIMEFRAME}</span> <IconMapPin width={16} className="ml-2 mr-1" />
                                     <span>
-                                        <a href={mapsUrl + currentJob?.LOCATION} className="hover:underline" target="_blank" rel="noopener noreferrer">
-                                            {currentJob?.LOCATION}
+                                        <a href={mapsUrl + job.LOCATION} className="hover:underline" target="_blank" rel="noopener noreferrer">
+                                            {job.LOCATION}
                                         </a>
                                     </span>
                                 </div>
