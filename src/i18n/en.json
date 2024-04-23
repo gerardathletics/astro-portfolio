@@ -220,6 +220,42 @@
                 "url": "./maps/buses_lleida.webp"
             },
             {
+                "title": "Buildings by date in Mollerussa",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/buildings_molle.webp"
+            },
+            {
+                "title": "Noguera Region",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/noguera.webp"
+            },
+            {
+                "title": "Athletics Indoor tracks in Spain",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/pc_spain.webp"
+            },
+            {
+                "title": "Belo Horizonte Metropolitan Region Slums",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/rmbh.webp"
+            },
+            {
+                "title": "Segria region",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/segria.webp"
+            },
+            {
+                "title": "Historical fabric factories",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/telers.webp"
+            },
+            {
                 "title": "Chrono Travel",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
@@ -386,6 +422,84 @@
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
                 "url": "./maps/urban-rural.webp"
+            },
+            {
+                "title": "Urban areas in Catalonia",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/urban_cat.webp"
+            },
+            {
+                "title": "Hachures style",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/hachures.webp"
+            },
+            {
+                "title": "Parking areas in Lleida",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/parking_zones.webp"
+            },
+            {
+                "title": "Athletics tracks by hexagon",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/athletics_tracks_hexa.webp"
+            },
+            {
+                "title": "Camarasa topo 3D",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/camarasa_render.webp"
+            },
+            {
+                "title": "UdL Cappont Campus",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/campus_cappont.webp"
+            },
+            {
+                "title": "Land cover in Catalonia",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/cat_landuses.webp"
+            },
+            {
+                "title": "Lleida - Blender",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/lleida_render.webp"
+            },
+            {
+                "title": "Catalan Peaks",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/peaks.webp"
+            },
+            {
+                "title": "Slope distribution",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/slope_distribution.webp"
+            },
+            {
+                "title": "Tracks density by municipality",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/tracks_density.webp"
+            },
+            {
+                "title": "Athletics tracks Voronoid areas",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/voronoid.webp"
+            },
+            {
+                "title": "Maas en Waal river",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/wanderwaals.webp"
             }
         ]
     },
