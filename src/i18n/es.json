@@ -1,5 +1,5 @@
 {
-    "SEO_TITLE": "Gerardathletics - Desarrollador GIS",
+    "SEO_TITLE": "Gerardathletics - Desarrollador SIG",
     "SEO_DESCRIPTION": "Portafolio y blog de Gerard 🚀",
 
     "HEADER": {
@@ -14,7 +14,8 @@
     },
     "PRESENTATION_TITLE_1": "Hola! Soy ",
     "PRESENTATION_TITLE_2": "Gerard🌍",
-    "PRESENTATION_DESCRIPTION": "Desarrollador de Software SIG",
+    "PRESENTATION_DESCRIPTION": "Desarrollador SIG y Cartógrafo",
+    "PRESENTATION_DESCRIPTION_2": "Sistemas de información geográfica y Cartografía web",
 
     "PARAGRAPH_DESCRIPTION": "Desarrollador SIG con una base sólida en GEO-IT, le doy sentido a los datos espaciales y los llevo a la vida a través de aplicaciones web.",
 
@@ -26,7 +27,7 @@
                     { "type": "normal", "text": "A los 27 años, soy un entusiasta de los " },
                     { "type": "highlight", "text": "mapas y el atletismo" },
                     { "type": "normal", "text": ", y trabajo como " },
-                    { "type": "highlight", "text": "desarrollador de software GIS" },
+                    { "type": "highlight", "text": "desarrollador de software SIG" },
                     { "type": "normal", "text": ". Originario de Lleida, España, llevo viviendo en los Países Bajos 4 años y medio." }
                 ],
                 [
@@ -40,7 +41,7 @@
                 [
                     {
                         "type": "normal",
-                        "text": "Me especializo en herramientas SIG como QGIS y ArcGIS Pro, y disfruto programando y desarrollando soluciones web GIS innovadoras."
+                        "text": "Me especializo en herramientas SIG como QGIS y ArcGIS Pro, y disfruto programando y desarrollando soluciones web SIG innovadoras."
                     }
                 ]
             ],
@@ -64,15 +65,15 @@
                 "LOCATION": "Nieuwegein, NL"
             },
             {
-                "POSITION": "Desarrollador de Software GIS",
+                "POSITION": "Desarrollador de Software SIG",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durante este tiempo me dediqué, junto con tres desarrolladores más, a desarrollar y mantener una aplicacion modular Web-GIS (con React). Además, implementamos una interfaz de configuración intuitiva con angular, permitiendo a los clientes personalizar el visor de manera sencilla. Este desafío demandó sólidos conocimientos en desarrollo web y sistemas de información geográfica (GIS), así como dominio en metodologías ágiles y tecnologías avanzadas, incluyendo GeoServer y PostGIS.",
+                "DESCRIPTION": "Durante este tiempo me dediqué, junto con tres desarrolladores más, a desarrollar y mantener una aplicacion modular Web-GIS (con React). Además, implementamos una interfaz de configuración intuitiva con angular, permitiendo a los clientes personalizar el visor de manera sencilla. Este desafío demandó sólidos conocimientos en desarrollo web y sistemas de información geográfica (SIG), así como dominio en metodologías ágiles y tecnologías avanzadas, incluyendo GeoServer y PostGIS.",
                 "TIMEFRAME": "Enero 2023 - Febrero 2024",
                 "LOCATION": "Utrecht, NL"
             },
             {
-                "POSITION": "Especialista GIS",
+                "POSITION": "Especialista SIG",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Participé en una amplia gama de proyectos de geo-información y tecnologías de la información geográfica, donde apliqué análisis de datos, mapeo, automatización de procesos y gestión de bases de datos espaciales. Contribuí al equipo de desarrollo con programación, demostrando versatilidad y capacidad para trabajar en equipo.",
@@ -102,7 +103,7 @@
                 "LOCATION": "Wageningen, NL"
             },
             {
-                "POSITION": "Técnico GIS Junior",
+                "POSITION": "Técnico SIG Junior",
                 "COMPANY": "Servicio de Cartografía y SIG - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
                 "DESCRIPTION": "Este rol estaba situado dentro de un contexto académico, ofreciendo apoyo en varios proyectos de investigación geográfica y espacial. Nuestro trabajo atendía tanto a profesores de diferentes departamentos universitarios, como a partes interesadas externas. \n Trabajando a tiempo parcial a 20 horas por semana, logré equilibrar este rol con mis estudios académicos, cerrando la brecha entre la investigación académica y las aplicaciones reales de los SIG.",

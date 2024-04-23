@@ -16,12 +16,12 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
                 } md:flex space-x-1  rounded-md px-1.5 lg:bg-black/0 mt-2 sm:mt-0 right-2 md:absolute md:top-7 md:right-5 lg:absolute lg:top-7 lg:right-5 z-[110]`}
             >
                 <span className=" bg-black/10 backdrop-blur rounded-md ">
-                    <a className="me-1 hover:underline px-1" href="/">
+                    <a className="hover:underline px-1" href="/">
                         en
                     </a>
                 </span>
                 <span className="bg-black/10 backdrop-blur rounded-md">
-                    <a className="px-1.5 hover:underline" href="/es">
+                    <a className="px-1 hover:underline" href="/es">
                         es
                     </a>
                 </span>
@@ -40,7 +40,7 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
                 <nav
                     className={`${
                         isOpen ? 'flex' : 'hidden'
-                    } flex-row md:flex-row md:flex space-x-0 md:space-x-1 backdrop-blur items-center rounded-md mt-2 bg-black/10 px-2 py-1 animate-fade-in animate-delay-100 md:static absolute w-full left-0 top-full md:w-auto md:relative`}
+                    } flex-row md:flex-row md:flex space-x-0 md:space-x-1 backdrop-blur items-center justify-center rounded-md mt-2 bg-black/10 px-2 py-1 animate-fade-in animate-delay-100 md:static absolute w-full left-0 top-full md:w-auto`}
                 >
                     {links.map((link: any) => (
                         <a key={link.text} className="rounded-md capitalize px-3 py-0.5 transition-all ease-in-out hover:bg-white/10 text-sm sm:text-base block" href={link.url}>
