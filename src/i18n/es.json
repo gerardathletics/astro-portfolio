@@ -24,26 +24,42 @@
             "TITLE": "Acerca de mí",
             "DESCRIPTION": [
                 [
-                    { "type": "normal", "text": "A los 27 años, soy un entusiasta de los " },
+                    { "type": "normal", "text": "Soy un " },
+                    { "type": "highlight", "text": "desarrollador de software GIS" },
+                    { "type": "normal", "text": " de 28 años con pasión por los " },
                     { "type": "highlight", "text": "mapas y el atletismo" },
-                    { "type": "normal", "text": ", y trabajo como " },
-                    { "type": "highlight", "text": "desarrollador de software SIG" },
-                    { "type": "normal", "text": ". Originario de Lleida, España, llevo viviendo en los Países Bajos 4 años y medio." }
+                    { "type": "normal", "text": ". Originario de Lleida, España, he hecho de los Países Bajos mi hogar durante los últimos cuatro años y medio." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "Mi trayectoria ha sido guiada por una pasión por los mapas, los datos geográficos y sus aplicaciones en el espacio digital. Fuera del escritorio, me encanta "
+                        "text": "Mi trayectoria ha sido moldeada por una fascinación por los datos geográficos y sus aplicaciones en el mundo digital. Cuando no estoy programando, me encontrarás "
                     },
-                    { "type": "highlight", "text": "bailar salsa y bachata" },
-                    { "type": "normal", "text": ", el atletismo, la fotografia y me divierto jugando a Geoguessr." }
+                    { "type": "highlight", "text": "bailando salsa y bachata" },
+                    { "type": "normal", "text": ", corriendo en la pista de atletismo, capturando momentos con mi cámara de fotos o jugando Geoguessr (no se me da mal 😉)." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "Me especializo en herramientas SIG como QGIS y ArcGIS Pro, y disfruto programando y desarrollando soluciones web SIG innovadoras."
-                    }
-                ]
+                        "text": "Profesionalmente, mi carrera comenzó con un grado en Geografía y Ordenación del Territorio en la Universitat de Lleida, España, y de un Máster en Ciencias de la Geo-Información en la Wageningen University & Research en los Países Bajos. Esta base académica me ha impulsado hacia un rol especializado centrado en el "
+                    },
+                    { "type": "highlight", "text": "desarrollo web-GIS" },
+                    { "type": "normal", "text": "." }
+                ],
+                [
+                    { "type": "normal", "text": "Me gusta aprovechar mis habilidades para innovar y resolver problemas espaciales complejos. Mi enfoque combina " },
+                    { "type": "highlight", "text": "experiencia técnica con resolución creativa de problemas" },
+                    { "type": "normal", "text": ", siempre buscando ofrecer soluciones basadas en datos y visualizaciones." }
+                ],
+                [
+                    {
+                        "type": "normal",
+                        "text": "Más allá de mis habilidades profesionales, aporto perspectivas únicas de mis experiencias como ex atleta internacional en 60m y 110m vallas y como piloto-operador de drones certificado por EASA. Estas experiencias han perfeccionado mi "
+                    },
+                    { "type": "highlight", "text": "disciplina, atención al detalle y capacidad para rendir bajo presión" },
+                    { "type": "normal", "text": "." }
+                ],
+                [{ "type": "normal", "text": "¿Quieres charlar sobre mapas, tecnología o quizás compartir algunos pasos de baile? ¡No dudes en contactarme!" }]
             ],
             "SKILLS": [
                 "Herramientas SIG: QGIS, ArcGIS Pro",

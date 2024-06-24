@@ -25,26 +25,49 @@
             "TITLE": "About Me",
             "DESCRIPTION": [
                 [
-                    { "type": "normal", "text": "At 27 years old, I am an enthusiast of " },
-                    { "type": "highlight", "text": "maps and athletics" },
-                    { "type": "normal", "text": ", and I work as a " },
+                    { "type": "normal", "text": "I'm a 28-year-old " },
                     { "type": "highlight", "text": "GIS software developer" },
-                    { "type": "normal", "text": ". Originally from Lleida, Spain, I have been living in the Netherlands for 4 and a half years." }
+                    { "type": "normal", "text": " with a passion for " },
+                    { "type": "highlight", "text": "maps and athletics" },
+                    {
+                        "type": "normal",
+                        "text": ". Originally from Lleida, Spain, I've been calling the Netherlands home for the past four and a half years."
+                    }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "My path has been guided by a passion for geographic data and its applications in the digital space. Outside of my profession, I love "
+                        "text": "My journey has been shaped by a deep fascination with geographic data and its exciting applications in the digital world. When I'm not immersed in code, you'll find me "
                     },
                     { "type": "highlight", "text": "dancing salsa and bachata" },
-                    { "type": "normal", "text": ", athletics, photography, and I am an energetic competitor in Geoguessr." }
+                    {
+                        "type": "normal",
+                        "text": ", hitting the track for some athletics, capturing moments through photography, or competing enthusiastically in Geoguessr (I'm a bit of a pro!)."
+                    }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "I specialize in GIS tools like QGIS and ArcGIS Pro, and I enjoy using my knowledge to develop innovative web-GIS solutions. I consider myself a perpetual learner, always looking to improve and expand my skills."
-                    }
-                ]
+                        "text": "Professionally, my journey began with a degree in Geography and Spatial Planning from Universitat de Lleida, Spain, followed by a Master's in Geo-Information Science from Wageningen University & Research in the Netherlands. This academic foundation has propelled me into a specialized role focusing on "
+                    },
+                    { "type": "highlight", "text": "geospatial software and web development" },
+                    { "type": "normal", "text": "." }
+                ],
+
+                [
+                    { "type": "normal", "text": "I'm passionate about leveraging these skills to innovate and solve complex spatial problems. My approach combines " },
+                    { "type": "highlight", "text": "technical expertise with creative problem-solving" },
+                    { "type": "normal", "text": ", always aiming to deliver data-driven solutions and impactful visualizations." }
+                ],
+                [
+                    {
+                        "type": "normal",
+                        "text": "Beyond my professional skills, I bring unique perspectives from my experiences as a former international athlete in 60m and 110m hurdles and as an EASA certified drone pilot-operator. These experiences have honed my "
+                    },
+                    { "type": "highlight", "text": "discipline, attention to detail, and ability to perform under pressure" },
+                    { "type": "normal", "text": "." }
+                ],
+                [{ "type": "normal", "text": "Want to chat about maps, tech, or maybe share some dance moves? Feel free to reach out!" }]
             ],
             "SKILLS": ["GIS Tools: QGIS, ArcGIS Pro", "Data Analysis: Python, R", "Web Development: JavaScript, TS, React", "Database management: PostGIS, GeoServer"]
         }
