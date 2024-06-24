@@ -47,7 +47,7 @@ const ExperienceSection = ({ dataExperience }: { dataExperience: Experience[] })
                 </div>
                 <div className="md:col-span-2 bg-white/10 text-white p-4 rounded-lg shadow">
                     <h3 className="text-lg md:text-xl font-bold">
-                        {`${currentJob?.POSITION} at `}
+                        {`${currentJob?.POSITION} -  `}
                         <a href={currentJob?.COMPANY_URL} className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">
                             {currentJob?.COMPANY}
                         </a>
