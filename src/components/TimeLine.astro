@@ -6,6 +6,7 @@ const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 
 const experiences = i18n.SECTION_XP.EXPERIENCES;
+const studies = i18n.SECTION_XP.STUDIES;
 ---
 
-<ExperienceSection client:load dataExperience={experiences} />
+<ExperienceSection client:load dataExperience={experiences} dataStudies={studies} />

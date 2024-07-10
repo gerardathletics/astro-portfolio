@@ -79,7 +79,11 @@
                 "POSITION": "Geospatial Developer",
                 "COMPANY": "Ordina",
                 "COMPANY_URL": "https://www.ordina.nl",
-                "DESCRIPTION": "Recently started as a Geospatial developer.",
+                "DESCRIPTION": "As a Geospatial developer and GIS Specialist I work in different internal projects related to the geospatial and IT domain.",
+                "BULLETPOINTS": [
+                    "Working in the Front-end of an internal AI tool.",
+                    "Collaborating with Utrecht's Landscape Foundation as a GIS Specialist to create dashboards and online maps, increasing awareness and insights into landscape changes."
+                ],
                 "TIMEFRAME": "Currently",
                 "LOCATION": "Nieuwegein, NL"
             },
@@ -87,8 +91,13 @@
                 "POSITION": "GIS Software Developer",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "During this time, along with three other developers, I worked in developing and maintaining a modular Web-GIS application (with React). In addition, we implemented an intuitive configuration interface with Angular, allowing clients to easily customize the viewer. This challenge demanded solid knowledge in web development and geographic information systems (GIS), as well as proficiency in agile methodologies and advanced technologies, including GeoServer and PostGIS.",
-                "TIMEFRAME": "January 2023 - February 2024",
+                "DESCRIPTION": "During this time, along with three other developers, I worked in developing and maintaining a modular Web-GIS application (with React). In addition, we implemented an intuitive configuration interface with Angular, allowing clients to easily customize the viewer. This challenge demanded knowledge in web development and geographic information systems (GIS), as well as proficiency in agile methodologies and GIS technologies, including GeoServer and PostGIS.",
+                "BULLETPOINTS": [
+                    "Used TypeScript, React, Leaflet and Redux to develop a robust WebGIS application. Developed a configuration page using Angular",
+                    "Applied Figma and Inkscape to design intuitive and interactive GIS web interfaces, emphasizing usability and aesthetic appeal.",
+                    "Administered PostGIS and GeoServer to manage spatial data efefctively, ensuring optimal performance and data integrity."
+                ],
+                "TIMEFRAME": "Jan 2023 - Feb 2024",
                 "LOCATION": "Utrecht, NL"
             },
             {
@@ -96,29 +105,54 @@
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks.",
-                "TIMEFRAME": "January 2022 - January 2023",
+                "BULLETPOINTS": [
+                    "Created data workflows integrating PostGIS databases with GeoServer for visualization and management.",
+                    "Engaged in the development of automated browser-based tests using Selenium and Python.",
+                    "Engaged in various data and spatial analysis projects. Data manipulation, transformation and analysis using Python, PostGIS, geopandas, FME, QGIS and ArcGIS Pro.",
+                    "Offered technical support to the development team, specially with Python, React and GIS data."
+                ],
+                "TIMEFRAME": "Jan 2022 - Jan 2023",
                 "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "Web-GIS Developer Intern",
                 "COMPANY": "GIS Specialisten",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "During my internship as a Web-GIS Developer, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
-                "TIMEFRAME": "June 2021 - December 2021",
+                "DESCRIPTION": "During my 6 months internship, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
+                "BULLETPOINTS": [
+                    "Reviewed literature on WebGIS and spatio-temporal data visualization and became acquainted with essential tools",
+                    "Engaged in front-end development, utilizing React and Redux for UI and state management, Leaflet for mapping, and GeoServer for backend data services.",
+                    "Designed functional and reusable components to integrate with the main application, ensuring a consistent and user-friendly interface.",
+                    "On the side, collaborated and worked on GIS Analysis and Cartography projects."
+                ],
+                "TIMEFRAME": "Jun 2021 - Dec 2021",
                 "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "Master Thesis",
                 "COMPANY": "MSc. Geo-Information Science",
                 "DESCRIPTION": "My master thesis titled \"Slums and Urban Land Consumption in Brazilian Metropolitan Areas: Monitoring SDG Indicators 11.1.1 and 11.3.1 Using Open Data\" addresses the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazil. The study focuses on São Paulo, Rio de Janeiro, and Belo Horizonte, Brazil's most populated metropolitan areas known for their extensive slums.",
-                "TIMEFRAME": "January 2021 - July 2021",
+                "BULLETPOINTS": [
+                    "Open Data Source Assessment: Created an assessment matrix to evaluate open data sources based on their accuracy, relevance, and completeness.",
+                    "Spatial Analysis for SDG Indicators: Applied spatial analysis methods to study SDG indicators, focusing on slum extent and urban growth patterns.",
+                    "Cartography for Results Visualization: Produced maps and visualizations to effectively present the research findings, showcasing slum distribution and urban expansion.",
+                    "Literature Review for Contextual Understanding: Performed an extensive review of literature on urban land use, slum development, and sustainable urban planning, framing the study’s context and implications."
+                ],
+                "TIMEFRAME": "Jan 2021 - Jul 2021",
                 "LOCATION": "Wageningen, NL"
             },
             {
                 "POSITION": "Consultancy Project",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "Esri Nederland and the Dutch Kadaster identified a critical inclusivity problem in current basemaps, noting their inadequacy for colorblind users due to problematic color combinations. This led to a consultancy project focused on optimizing basemaps for individuals with color vision impairments, starting with the key question: How can basemap accessibility for colorblind people be improved?",
-                "TIMEFRAME": "April 2020 - July 2020",
+                "DESCRIPTION": "Esri Nederland and the Dutch Kadaster identified a critical inclusivity problem in current basemaps, noting their inadequacy for colorblind users due to problematic color combinations. This, in a team of four, led to a consultancy project focused on optimizing basemaps for individuals with color vision impairments, starting with the key question: How can basemap accessibility for colorblind people be improved?",
+                "BULLETPOINTS": [
+                    "Reviewed research on colorblindness to choose appropriate color schemes for users with color vision impairments.",
+                    "Evaluated the most used basemaps using a colorblind simulator to identify problematic color schemes and symbols for colorblind users.",
+                    "Developed vector tile basemaps for the BRT achtergrondkaart Standaard and the Esri World Topographic Map, identifying and modifying colors and features based on the assessment findings.",
+                    "Created a case scenario to test the interaction of overlay data with the optimized basemaps, selecting data visualization colors from literature review insights.",
+                    "This work was encapsulated in a published paper."
+                ],
+                "TIMEFRAME": "Apr 2020 - Jul 2020",
                 "LOCATION": "Wageningen, NL"
             },
             {
@@ -126,8 +160,52 @@
                 "COMPANY": "Cartography & GIS Service - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
                 "DESCRIPTION": "This role was situated within an academic context, offering support across various geographical and spatial research projects. Our work catered to both internal clients, such as professors from different university departments, and external stakeholders. \n Working part-time at 20 hours per week, I managed to balance this role with my academic studies, bridging the gap between academic research and real-world GIS applications.",
-                "TIMEFRAME": "January 2017 - December 2018",
+                "BULLETPOINTS": [
+                    "I converted traditional maps into digital formats, making sure they were accurate and easy to use.",
+                    "Used ArcMap extensively for creating and analyzing maps, helping to visualize geographic data.",
+                    "Used Excel for organizing and analyzing spatial data, ensuring accuracy and usefulness for research."
+                ],
+                "TIMEFRAME": "Jan 2017 - Dec 2018",
                 "LOCATION": "Lleida, ES"
+            }
+        ],
+        "STUDIES": [
+            {
+                "TITLE": "Web GIS Specialization",
+                "INSTITUTION": "TYC GIS Academy",
+                "TIMEFRAME": "2023",
+                "URL": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/",
+                "DESCRIPTION": "Intensive 240-hour course conducted by TYC GIS Formación. Throughout the course, the field of Web GIS was extensively explored, providing comprehensive training that ranged from fundamental concepts to the handling of advanced tools and technologies.",
+                "BULLETPOINTS": [
+                    "Programming map viewers from scratch using HTML, CSS, and JavaScript.",
+                    "Use and management of prominent APIs in the field of WebGIS, such as Google Maps, CARTO or Mapbox.",
+                    "Management of map servers and creation of web services for access to geographic data. Handling of spatial databases for the storage and use of geographical information in web applications."
+                ]
+            },
+            {
+                "TITLE": "MSc. Geo-Information Science",
+                "INSTITUTION": "Wageningen University & Research",
+                "TIMEFRAME": "2019 - 2021",
+                "LOCATION": "Wageningen, NL",
+                "URL": "www.wur.nl/en/Education-Programmes/master/MSc-programmes/MSc-Geo-Information-Science.htm",
+                "DESCRIPTION": "Master’s program focused on solving geo-spatial complex issues using geoinformation, spatial analysis and remote sensing techniques.",
+                "BULLETPOINTS": [
+                    "Master's Thesis: Slums and Urban Land Consumption in Brazilian Metropolitan Areas.",
+                    "Consultancy project (ESRI & Kadaster): Basemap Accessibility for Colorblind People.",
+                    "Relevant courses: Python, Geo Scripting, Geostatistics and spatial modelling, Remote Sensing, Data science for smart environments, Big Data."
+                ]
+            },
+            {
+                "TITLE": "BSc. Geography and Spatial Planning",
+                "INSTITUTION": "Universitat de Lleida",
+                "TIMEFRAME": "2014 - 2019",
+                "LOCATION": "Lleida, ES",
+                "URL": "https://www.udl.cat/ca/",
+                "DESCRIPTION": "The BSc. Geography and Spatial Planning program equipped me with a comprehensive understanding of geographical concepts, spatial analysis techniques, and urban planning principles. The program's practical focus allowed me to develop hands-on skills in GIS, cartography, and spatial data management.",
+                "BULLETPOINTS": [
+                    "Awarded with the extraordinary prize of the Bachelor's Degree.",
+                    "Bachelor's Thesis: Geography and Sport. The case of track and field in Catalunya."
+                ]
             }
         ]
     },

@@ -76,55 +76,130 @@
                 "POSITION": "Desarrollador Geoespacial",
                 "COMPANY": "Ordina",
                 "COMPANY_URL": "https://www.ordina.nl",
-                "DESCRIPTION": "He comenzado recientemente como desarrollador geoespacial.",
+                "DESCRIPTION": "Como desarrollador geoespacial y especialista en SIG, trabajo en diversos proyectos internos relacionados con el ámbito geoespacial y de TI.",
+                "BULLETPOINTS": [
+                    "Trabajo en el front-end de una herramienta interna de IA.",
+                    "Colaboro con la Fundación del Paisaje de Utrecht como especialista en SIG para crear dashboards y mapas online, para así aumentar la concienciación y la comprensión de los cambios en el paisaje."
+                ],
                 "TIMEFRAME": "Actualmente",
-                "LOCATION": "Nieuwegein, NL"
+                "LOCATION": "Nieuwegein, Países Bajos"
             },
             {
-                "POSITION": "Desarrollador de Software SIG",
+                "POSITION": "Desarrollador SIG",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durante este tiempo me dediqué, junto con tres desarrolladores más, a desarrollar y mantener una aplicacion modular Web-GIS (con React). Además, implementamos una interfaz de configuración intuitiva con angular, permitiendo a los clientes personalizar el visor de manera sencilla. Este desafío demandó sólidos conocimientos en desarrollo web y sistemas de información geográfica (SIG), así como dominio en metodologías ágiles y tecnologías avanzadas, incluyendo GeoServer y PostGIS.",
+                "DESCRIPTION": "Durante este período, junto con otros tres desarrolladores, trabajé en el desarrollo y mantenimiento de una aplicación Web-SIG modular (con React). Además, implementamos una intuitiva interfaz de configuración con Angular, permitiendo a los clientes personalizar fácilmente el visor. Este desafío exigía conocimientos en desarrollo web y sistemas de información geográfica (SIG), así como dominio de metodologías ágiles y tecnologías SIG, incluyendo GeoServer y PostGIS.",
+                "BULLETPOINTS": [
+                    "Utilicé TypeScript, React, Leaflet y Redux para desarrollar una sólida aplicación WebSIG. Desarrollé una página de configuración usando Angular.",
+                    "Apliqué Figma e Inkscape para diseñar interfaces web SIG intuitivas e interactivas, enfatizando la usabilidad y el atractivo estético.",
+                    "Administré PostGIS y GeoServer para gestionar datos espaciales de manera eficaz, asegurando un rendimiento óptimo y la integridad de los datos."
+                ],
                 "TIMEFRAME": "Enero 2023 - Febrero 2024",
-                "LOCATION": "Utrecht, NL"
+                "LOCATION": "Utrecht, Países Bajos"
             },
             {
                 "POSITION": "Especialista SIG",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Participé en una amplia gama de proyectos de geo-información y tecnologías de la información geográfica, donde apliqué análisis de datos, mapeo, automatización de procesos y gestión de bases de datos espaciales. Contribuí al equipo de desarrollo con programación, demostrando versatilidad y capacidad para trabajar en equipo.",
+                "DESCRIPTION": "Participé en una amplia gama de proyectos de geoinformación y geo-TIC. El puesto requería un conjunto versátil de habilidades, incluyendo análisis de datos, cartografía, automatización de procesos, gestión de bases de datos espaciales y apoyo al equipo de desarrollo con diversas tareas de programación.",
+                "BULLETPOINTS": [
+                    "Creé flujos de trabajo de datos integrando bases de datos PostGIS con GeoServer para visualización y gestión.",
+                    "Participé en el desarrollo de pruebas automatizadas basadas en el navegador utilizando Selenium y Python.",
+                    "Participé en varios proyectos de análisis de datos y espacial. Manipulación, transformación y análisis de datos utilizando Python, PostGIS, geopandas, FME, QGIS y ArcGIS Pro.",
+                    "Ofrecí soporte técnico al equipo de desarrollo, especialmente con Python, React y geodatos."
+                ],
                 "TIMEFRAME": "Enero 2022 - Enero 2023",
-                "LOCATION": "Utrecht, NL"
+                "LOCATION": "Utrecht, Países Bajos"
             },
             {
-                "POSITION": "Desarrollador Web-GIS - Prácticas",
+                "POSITION": "Desarrollador Web-SIG - Prácticas",
                 "COMPANY": "GIS Specialisten",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durante mis prácticas como Desarrollador Web-GIS, formé parte de un pequeño equipo de 4 desarrolladores. Mi contribución principal fue en el desarrollo de una aplicación Web-GIS dedicada a la visualización de datos espaciotemporales. Este proyecto surgió como respuesta a la necesidad de integrar la dimensión temporal en la representación de datos geográficos, crucial para analizar tendencias y patrones en datos espaciales a lo largo del tiempo, en una aplicación web.",
+                "DESCRIPTION": "Durante mis 6 meses de prácticas, formé parte de un pequeño equipo de desarrollo de 4 personas. Mi proyecto principal se centró en la visualización de datos espacio-temporales en una aplicación Web-SIG. La organización identificó la necesidad de una herramienta para representar la dimensión temporal de los geodatos, dada su relevancia en conjuntos de datos espaciales multitemporales.",
+                "BULLETPOINTS": [
+                    "Revisé literatura científica sobre WebSIG y visualización de datos espacio-temporales y me familiaricé con herramientas esenciales.",
+                    "Participé en el desarrollo front-end, utilizando React y Redux para la interfaz de usuario, Leaflet para mapeo y GeoServer para servicios de datos backend.",
+                    "Diseñé componentes funcionales y reutilizables para integrar con la aplicación principal, asegurando una interfaz coherente y fácil de usar.",
+                    "Paralelamente, colaboré y trabajé en proyectos de Análisis SIG y Cartografía."
+                ],
                 "TIMEFRAME": "Junio 2021 - Diciembre 2021",
-                "LOCATION": "Utrecht, NL"
+                "LOCATION": "Utrecht, Países Bajos"
             },
             {
-                "POSITION": "Trabajo Final de Master",
+                "POSITION": "Tesis de Máster",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "Mi TFM, titulado \"Barrios marginales y Consumo de espacio Urbano en Áreas Metropolitanas Brasileñas: Monitoreo de los Indicadores ODS 11.1.1 y 11.3.1 Usando Datos Abiertos\" aborda los problemas críticos de la expansión urbana rápida y no controlada, formación de barrios marginales y sus impactos ambientales y sociales en Brasil. El estudio se centra en São Paulo, Rio de Janeiro y Belo Horizonte, las áreas metropolitanas más pobladas de Brasil conocidas por sus extensas Favelas.",
+                "DESCRIPTION": "Mi tesis de máster titulada \"Asentamientos informales y consumo de suelo urbano en áreas metropolitanas brasileñas: Monitoreo de los indicadores ODS 11.1.1 y 11.3.1 utilizando datos abiertos\" aborda los problemas críticos de la expansión urbana rápida y descontrolada, la formación de asentamientos informales y sus impactos ambientales y sociales en Brasil. El estudio se centra en São Paulo, Río de Janeiro y Belo Horizonte, las áreas metropolitanas más pobladas de Brasil, conocidas por sus extensos asentamientos informales.",
+                "BULLETPOINTS": [
+                    "Evaluación de fuentes de datos abiertos: Creé una matriz de evaluación para valorar las fuentes de datos abiertos basándome en su precisión, relevancia e integridad.",
+                    "Análisis espacial para indicadores ODS: Apliqué métodos de análisis espacial para estudiar los indicadores ODS, centrándome en la extensión de los asentamientos informales y los patrones de crecimiento urbano.",
+                    "Cartografía para visualización de resultados: Produje mapas y visualizaciones para presentar eficazmente los hallazgos de la investigación, mostrando la distribución de asentamientos informales y la expansión urbana.",
+                    "Revisión de literatura para comprensión contextual: Realicé una extensa revisión de literatura sobre uso del suelo urbano, desarrollo de asentamientos informales y planificación urbana sostenible, enmarcando el contexto y las implicaciones del estudio."
+                ],
                 "TIMEFRAME": "Enero 2021 - Julio 2021",
-                "LOCATION": "Wageningen, NL"
+                "LOCATION": "Wageningen, Países Bajos"
             },
             {
                 "POSITION": "Proyecto de Consultoría",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "En colaboración con Esri Nederland y el Kadaster holandés, abordamos un desafío de inclusividad en los mapas base, particularmente su uso por personas con daltonismo, debido a combinaciones de colores inadecuadas. Esto llevó a un proyecto de consultoría centrado en optimizar los mapas base para individuos con discapacidades de visión de color, que resultó en la publicación de un artículo en la revista AGILE.",
+                "DESCRIPTION": "Esri NL y el Catastro holandés identificaron un problema crítico de inclusividad en los mapas base actuales, señalando su inadecuación para usuarios daltónicos debido a combinaciones de colores problemáticas. Esto, en un equipo de cuatro, llevó a un proyecto de consultoría centrado en optimizar los mapas base para personas con deficiencias en la visión del color, comenzando con la pregunta clave: ¿Cómo se puede mejorar la accesibilidad de los mapas base para personas daltónicas?",
+                "BULLETPOINTS": [
+                    "Revisé investigaciones sobre daltonismo para elegir esquemas de color apropiados para usuarios con deficiencias en la visión del color.",
+                    "Evalué los mapas base más utilizados usando un simulador de daltonismo para identificar esquemas de color y símbolos problemáticos para usuarios daltónicos.",
+                    "Desarrollé mapas base de teselas vectoriales para el BRT achtergrondkaart Standaard y el Esri World Topographic Map, identificando y modificando colores y características basándome en los hallazgos de la evaluación.",
+                    "Creé un escenario para probar la interacción de datos superpuestos con los mapas base optimizados, seleccionando colores de visualización de datos a partir de los conocimientos obtenidos en la revisión de literatura.",
+                    "Este trabajo se plasmó en un artículo publicado."
+                ],
                 "TIMEFRAME": "Abril 2020 - Julio 2020",
-                "LOCATION": "Wageningen, NL"
+                "LOCATION": "Wageningen, Países Bajos"
             },
             {
                 "POSITION": "Técnico SIG Junior",
                 "COMPANY": "Servicio de Cartografía y SIG - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
-                "DESCRIPTION": "Este rol estaba situado dentro de un contexto académico, ofreciendo apoyo en varios proyectos de investigación geográfica y espacial. Nuestro trabajo atendía tanto a profesores de diferentes departamentos universitarios, como a partes interesadas externas. \n Trabajando a tiempo parcial a 20 horas por semana, logré equilibrar este rol con mis estudios académicos, cerrando la brecha entre la investigación académica y las aplicaciones reales de los SIG.",
+                "DESCRIPTION": "Esta posición se situaba en un contexto académico, ofreciendo apoyo en diversos proyectos de investigación geográfica y espacial. Nuestro trabajo atendía tanto a clientes internos, como profesores de diferentes departamentos universitarios, como a partes interesadas externas. \n Trabajando a tiempo parcial, 20 horas por semana, logré equilibrar este papel con mis estudios académicos, tendiendo un puente entre la investigación académica y las aplicaciones SIG del mundo real.",
+                "BULLETPOINTS": [
+                    "Convertí mapas tradicionales a formatos digitales, asegurando que fueran precisos y fáciles de usar.",
+                    "Utilicé extensivamente ArcMap para crear y analizar mapas, ayudando a visualizar datos geográficos.",
+                    "Empleé Excel para organizar y analizar datos espaciales, garantizando la precisión y utilidad para la investigación."
+                ],
                 "TIMEFRAME": "Enero 2017 - Diciembre 2018",
-                "LOCATION": "Lleida, ES"
+                "LOCATION": "Lleida, España"
+            }
+        ],
+        "STUDIES": [
+            {
+                "TITLE": "Web GIS Specialization",
+                "INSTITUTION": "Academia TYC GIS",
+                "TIMEFRAME": "2023",
+                "URL": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/",
+                "DESCRIPTION": "Curso intensivo de 240 horas impartido por TYC GIS Formación. A lo largo del programa, se exploró en profundidad el campo de las aplicaciones WebGIS, ofreciendo una formación completa que abarcó desde conceptos fundamentales hasta el manejo de herramientas y tecnologías avanzadas.",
+                "BULLETPOINTS": [
+                    "Programación de visores de mapas desde cero utilizando HTML, CSS y JavaScript.",
+                    "Uso y gestión de APIs destacadas en el ámbito de WebGIS, como Google Maps, CARTO o Mapbox.",
+                    "Manejo de servidores de mapas y creación de servicios web para acceder a datos geográficos. Gestión de bases de datos espaciales para el almacenamiento y uso de información geográfica en aplicaciones web."
+                ]
+            },
+            {
+                "TITLE": "MSc. Geo-Information Science",
+                "INSTITUTION": "Universidad de Wageningen",
+                "TIMEFRAME": "2019 - 2021",
+                "LOCATION": "Wageningen, Países Bajos",
+                "URL": "www.wur.nl/en/Education-Programmes/master/MSc-programmes/MSc-Geo-Information-Science.htm",
+                "DESCRIPTION": "Programa de maestría enfocado en resolver problemas geoespaciales complejos mediante el uso de geoinformación, análisis espacial y técnicas de teledetección.",
+                "BULLETPOINTS": [
+                    "Tesis: Asentamientos informales y consumo de suelo urbano en áreas metropolitanas brasileñas.",
+                    "Proyecto de consultoría (ESRI y Kadaster): Accesibilidad de mapas base para personas daltónicas.",
+                    "Asignaturas relevantes: Python, Programación geoespacial, Geoestadística y modelado espacial, Teledetección, Ciencia de datos para entornos inteligentes, Big Data."
+                ]
+            },
+            {
+                "TITLE": "BSc. Geography and Spatial Planning",
+                "INSTITUTION": "Universidad de Lleida",
+                "TIMEFRAME": "2014 - 2019",
+                "LOCATION": "Lleida, España",
+                "URL": "https://www.udl.cat/ca/",
+                "DESCRIPTION": "El grado en Geografía y Ordenación del Territorio me proporcionó una comprensión integral de los conceptos geográficos, las técnicas de análisis espacial y los principios de planificación urbana. El enfoque práctico del programa me permitió desarrollar habilidades aplicadas en SIG, cartografía y gestión de datos espaciales.",
+                "BULLETPOINTS": ["Galardonado con el premio extraordinario de fin de Grado.", "Trabajo de Fin de Grado: Geografía y deporte. El caso del atletismo en Cataluña."]
             }
         ]
     },
