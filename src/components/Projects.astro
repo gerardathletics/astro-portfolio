@@ -1,7 +1,7 @@
 ---
-import { IconLink } from '@tabler/icons-react';
-
 import { getI18N } from '../i18n/index.ts';
+import React from 'react';
+import Projects from './Projects.tsx';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
@@ -15,28 +15,4 @@ const dataProjects = i18n.SECTION_PR.PROJECTS.map((project: any) => ({
 }));
 ---
 
-<div class="space-y-4 md:space-y-6">
-    {
-        dataProjects.map((project: any) => (
-            <article class="relative md:grid md:grid-cols-2 gap-2 md:gap-6 bg-white/10 rounded-lg overflow-hidden shadow transition-shadow hover:shadow-xl">
-                {project.link && (
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" class="absolute top-2 right-2 z-20">
-                        <IconLink />
-                    </a>
-                )}
-                <img src={project.image} alt={project.title} class="object-cover rounded-md opacity-80 w-full h-full md:col-span-1" />
-                <div class="absolute inset-0 bg-black/50 text-white p-4 flex flex-col justify-between md:relative md:bg-transparent md:text-current md:p-4 md:flex-col">
-                    <div class="mt-2 md:mt-0">
-                        <h3 class="text-sm md:text-lg font-semibold">{project.title}</h3>
-                        <p class="text-xs mt-1">{project.description}</p>
-                    </div>
-                    <div class="flex flex-wrap gap-1 text-xs">
-                        {project.techs.map((tech: any) => (
-                            <span class="border border-white md:border-gray-300 bg-black/50 md:bg-gray-50/5 rounded-md px-2 py-0.5">{tech}</span>
-                        ))}
-                    </div>
-                </div>
-            </article>
-        ))
-    }
-</div>
+<Projects dataProjects={dataProjects} />
