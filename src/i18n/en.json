@@ -76,13 +76,13 @@
     "SECTION_XP": {
         "EXPERIENCES": [
             {
-                "POSITION": "Geospatial Developer",
+                "POSITION": "Geo Developer",
                 "COMPANY": "Ordina",
                 "COMPANY_URL": "https://www.ordina.nl",
-                "DESCRIPTION": "As a Geospatial developer and GIS Specialist I work in different internal projects related to the geospatial and IT domain.",
+                "DESCRIPTION": "As a Geospatial Software Developer I work in different internal projects related to the geospatial and IT domain.",
                 "BULLETPOINTS": [
-                    "Working in the Front-end of an internal AI tool.",
-                    "Collaborating with Utrecht's Landscape Foundation as a GIS Specialist to create dashboards and online maps, increasing awareness and insights into landscape changes."
+                    "Front-End Developer of an internal AI tool product.",
+                    "GIS Developer & Specialist with Utrecht's Landscape Foundation creating dashboards and online maps, increasing awareness and insights into landscape changes."
                 ],
                 "TIMEFRAME": "Currently",
                 "LOCATION": "Nieuwegein, NL"
