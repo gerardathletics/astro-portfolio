@@ -247,6 +247,13 @@
                 "URL": "https://geo-photos.pages.dev/browser/",
                 "IMAGE": "./projects/geo-photos.webp",
                 "DEVELOPMENT": true
+            },
+            {
+                "TITLE": "Lat Lon App",
+                "DESCRIPTION": "An app (still in development) that lets the most geo-curious find cities in the same latitude or longitude as a given city or point.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript"],
+                "IMAGE": "./projects/latlon.webp",
+                "DEVELOPMENT": true
             }
         ],
         "MAPS": [
