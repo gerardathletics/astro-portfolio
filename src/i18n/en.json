@@ -232,6 +232,13 @@
                 "TECHNOLOGIES": ["ArcGIS Pro"],
                 "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
                 "IMAGE": "./projects/tailoring_basemaps.webp"
+            },
+            {
+                "TITLE": "Geoservice Modular Frontend",
+                "DESCRIPTION": "During my time in The People Group I worked in the development and enhancement of this web-gis viewer. The viewer is a modular web-gis application that allows the user to customize the viewer to their needs, in a quick and efficient way. Disclaimer: the viewer belongs to The People Group and was developed by a team.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
+                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
+                "IMAGE": "./projects/geoservice.webp"
             }
         ],
         "MAPS": [
