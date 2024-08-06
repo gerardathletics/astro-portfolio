@@ -239,6 +239,14 @@
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
                 "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
                 "IMAGE": "./projects/geoservice.webp"
+            },
+            {
+                "TITLE": "Geo-photos",
+                "DESCRIPTION": "This application shows photos where I appear from different places I've been. It is a personal project that I use as a photo gallery and to practice my skills in web development and GIS.",
+                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
+                "URL": "https://geo-photos.pages.dev/browser/",
+                "IMAGE": "./projects/geo-photos.webp",
+                "DEVELOPMENT": true
             }
         ],
         "MAPS": [
