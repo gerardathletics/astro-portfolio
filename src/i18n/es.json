@@ -98,7 +98,7 @@
                 "LOCATION": "Utrecht, Países Bajos"
             },
             {
-                "POSITION": "Especialista SIG",
+                "POSITION": "Especialista en SIG y Geo-IT",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Participé en una amplia gama de proyectos de geoinformación y geo-TIC. El puesto requería un conjunto versátil de habilidades, incluyendo análisis de datos, cartografía, automatización de procesos, gestión de bases de datos espaciales y apoyo al equipo de desarrollo con diversas tareas de programación.",
@@ -168,7 +168,7 @@
         ],
         "STUDIES": [
             {
-                "TITLE": "Web GIS Specialization",
+                "TITLE": "Curso de Especialista en Web-GIS",
                 "INSTITUTION": "Academia TYC GIS",
                 "TIMEFRAME": "2023",
                 "URL": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/",
@@ -193,11 +193,11 @@
                 ]
             },
             {
-                "TITLE": "BSc. Geography and Spatial Planning",
+                "TITLE": "Grado en Geografía y Ordenación del Territorio",
                 "INSTITUTION": "Universidad de Lleida",
                 "TIMEFRAME": "2014 - 2019",
                 "LOCATION": "Lleida, España",
-                "URL": "https://www.udl.cat/ca/",
+                "URL": "https://www.udl.cat/es/",
                 "DESCRIPTION": "El grado en Geografía y Ordenación del Territorio me proporcionó una comprensión integral de los conceptos geográficos, las técnicas de análisis espacial y los principios de planificación urbana. El enfoque práctico del programa me permitió desarrollar habilidades aplicadas en SIG, cartografía y gestión de datos espaciales.",
                 "BULLETPOINTS": ["Galardonado con el premio extraordinario de fin de Grado.", "Trabajo de Fin de Grado: Geografía y deporte. El caso del atletismo en Cataluña."]
             }
@@ -208,13 +208,13 @@
         "PROJECTS": [
             {
                 "TITLE": "Visualización de Datos Espacio-Temporales en una Aplicación Web SIG",
-                "DESCRIPTION": "Una aplicación Web SIG que visualiza datos espacio-temporales, enfocándose en la dimensión temporal de los datos geográficos. La aplicación fue desarrollada para abordar la necesidad de una herramienta que represente la dimensión temporal de los datos geográficos en conjuntos de datos espaciales multitemporales.",
+                "DESCRIPTION": "Una aplicación Web SIG que visualiza datos espacio-temporales. La aplicación fue desarrollada para abordar la necesidad de una herramienta que represente la dimensión temporal de los datos geográficos en conjuntos de datos espaciales multitemporales.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
                 "URL": "",
                 "IMAGE": "./projects/internship.webp"
             },
             {
-                "TITLE": "Barrios Marginales y Consumo de Tierras Urbanas en Áreas Metropolitanas de Brasil",
+                "TITLE": "Barrios Marginales y Consumo de Suelo Urbano en Áreas Metropolitanas de Brasil",
                 "DESCRIPTION": "Un estudio que monitorea los indicadores ODS 11.1.1 y 11.3.1 utilizando datos abiertos para abordar los problemas críticos de la rápida y descontrolada expansión urbana, la formación de barrios marginales y sus impactos ambientales y sociales en áreas metropolitanas de Brasil.",
                 "TECHNOLOGIES": ["QGIS", "Python", "ODS"],
                 "URL": "",

@@ -1,6 +1,6 @@
 {
-    "SEO_TITLE": "Gerardathletics - Desenvolupador GIS",
-    "SEO_DESCRIPTION": "Portafoli i blog 🚀",
+    "SEO_TITLE": "Gerardathletics - Desenvolupador SIG",
+    "SEO_DESCRIPTION": "Portafoli i blog d'el Gerard 🚀",
 
     "HEADER": {
         "NAVBAR": {
@@ -8,92 +8,198 @@
             "ABOUT": "sobre mi",
             "EXPERIENCE": "experiència",
             "PROJECTS": "projectes",
-            "LAST_POSTS": "últims posts"
+            "LAST_POSTS": "Últims posts",
+            "MAPS": "mapes"
         }
     },
+    "PRESENTATION_TITLE_1": "Hola! Soc el ",
+    "PRESENTATION_TITLE_2": "Gerard🌍",
+    "PRESENTATION_DESCRIPTION": "Desenvolupador SIG y Cartògraf web",
+    "PRESENTATION_DESCRIPTION_2": "Sistemes d'informació geogràfica i Cartografia web",
 
-    "PRESENTATION_TITLE": "Gerard Porras",
-    "PRESENTATION_DESCRIPTION": "Desenvolupador GIS",
-
-    "PARAGRAPH_DESCRIPTION": "Desenvolupador GIS amb una base sòlida en GEO-IT, dono sentit a les dades espacials i les porto a la vida a través d'aplicacions i mapes web.",
+    "PARAGRAPH_DESCRIPTION": "Desenvolupador SIG amb una base sòlida en GEO-IT, expert a donar-li sentit a les dades espacials i donar-lis vida a través d'aplicacions web.",
 
     "SECTION_AB": {
         "ABOUT": {
             "TITLE": "Sobre mi",
             "DESCRIPTION": [
                 [
-                    { "type": "normal", "text": "At 27 years old, I am an enthusiast of " },
-                    { "type": "highlight", "text": "maps and athletics" },
-                    { "type": "normal", "text": ", and I work as a " },
-                    { "type": "highlight", "text": "GIS software developer" },
-                    { "type": "normal", "text": ". Originally from Lleida, Spain, I have been living in the Netherlands for 4 and a half years." }
+                    { "type": "normal", "text": "Soc un " },
+                    { "type": "highlight", "text": "desenvolupador de programari GIS" },
+                    { "type": "normal", "text": " de 28 anys amb passió pels " },
+                    { "type": "highlight", "text": "mapes i l'atletisme" },
+                    { "type": "normal", "text": ". Originari de Lleida, Espanya, he fet dels Països Baixos la meva llar durant els últims quatre anys i mig." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "My path has been guided by a passion for geographic data and its applications in the digital space. Outside of my profession, I love "
+                        "text": "La meva trajectòria ha estat modelada per una fascinació per les dades geogràfiques i les seves aplicacions en el món digital. Quan no estic programant, em trobaràs "
                     },
-                    { "type": "highlight", "text": "salsa and bachata dancing" },
-                    { "type": "normal", "text": ", and I am an energetic competitor in Geoguessr." }
+                    { "type": "highlight", "text": "ballant salsa i bachata" },
+                    { "type": "normal", "text": ", corrent en la pista d'atletisme, capturant moments amb la meva càmera de fotos o jugant Geoguessr (no se'm dona mal 😉)." }
                 ],
                 [
                     {
                         "type": "normal",
-                        "text": "I specialize in GIS tools like QGIS and ArcGIS Pro, and I enjoy using my knowledge to develop innovative web GIS solutions. I consider myself a perpetual learner, always looking to improve and expand my skills."
-                    }
-                ]
+                        "text": "En l'àmbit professional, la meva carrera va començar amb un grau en Geografia i Ordenació del Territori a la Universitat de Lleida, Espanya, i d'un Màster en Ciències de la Geo-Informació en la Wageningen University & Research als Països Baixos. Aquesta base acadèmica m'ha impulsat cap a un rol especialitzat centrat en el "
+                    },
+                    { "type": "highlight", "text": "desenvolupament web-GIS" },
+                    { "type": "normal", "text": "." }
+                ],
+                [
+                    { "type": "normal", "text": "M'agrada aprofitar les meves habilitats per a innovar i resoldre problemes espacials complexos. El meu enfocament combina " },
+                    { "type": "highlight", "text": "experiència tècnica amb resolució creativa de problemes" },
+                    { "type": "normal", "text": ", sempre buscant oferir solucions basades en dades i visualitzacions." }
+                ],
+                [
+                    {
+                        "type": "normal",
+                        "text": "Més enllà de les meves habilitats professionals, aporto perspectives úniques de les meves experiències com a ex atleta internacional en 60m i 110m tanques i com a pilot-operador de drons certificat per EASA. Aquestes experiències han perfeccionat la meva "
+                    },
+                    { "type": "highlight", "text": "disciplina, atenció al detall i capacitat per a rendir sota pressió" },
+                    { "type": "normal", "text": "." }
+                ],
+                [{ "type": "normal", "text": "Vols parlar sobre mapes, tecnologia o potser compartir alguns passos de ball? Contacta'm!" }]
             ],
-            "SKILLS": ["GIS Tools: QGIS, ArcGIS Pro", "Data Analysis: Python, R", "Web Development: JavaScript, TS, React", "Database management: PostGIS, GeoServer"]
+            "SKILLS": [
+                "Herramientas SIG: QGIS, ArcGIS Pro",
+                "Análisis de datos: Python, R",
+                "Desarrollo web: JavaScript, TS, React",
+                "Gestión de bases de datos: PostGIS, GeoServer"
+            ]
         }
     },
 
     "SECTION_XP": {
         "EXPERIENCES": [
             {
-                "POSITION": "Desenvolupador i Consultor Geoespacial",
-                "DESCRIPTION": "Recentment començat com a desenvolupador geoespacial.",
-                "TIMEFRAME": "Actualment",
+                "POSITION": "Desenvolupador Geoespacial",
                 "COMPANY": "Ordina",
-                "COMPANY_URL": "https://www.ordina.nl"
+                "COMPANY_URL": "https://www.ordina.nl",
+                "DESCRIPTION": "Com a desenvolupador geoespacial i especialista en SIG, treballo en diversos projectes interns relacionats amb l'àmbit geoespacial i de TI.",
+                "BULLETPOINTS": [
+                    "Desenvolupador front-end d'una eina interna de IA.",
+                    "Treballo amb la Fundació del Paisatge d'Utrecht com a especialista en SIG per a crear dashboards i mapes en línia, per a així augmentar la conscienciació i la comprensió dels canvis en el paisatge."
+                ],
+                "TIMEFRAME": "Actualment",
+                "LOCATION": "Nieuwegein, Països Baixos"
             },
             {
-                "POSITION": "Desenvolupador GIS",
+                "POSITION": "Desenvolupador de Software SIG",
                 "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Vaig tenir un paper clau en un projecte enfocat en millorar les aplicacions WebGIS. Les meves principals contribucions van ser al desenvolupament i manteniment d'un visor GIS modular per al frontend i la creació d'una pàgina de configuració per a la personalització fàcil per part del client. Aquest esforç va ser part d'un equip de quatre persones dedicat a innovar en eines GIS, requerint experiència en desenvolupament web, GIS, metodologies àgils i tecnologies com GeoServer i PostGIS.",
-                "TIMEFRAME": "01/2023 - 02/2024"
+                "DESCRIPTION": "Durant aquest període, juntament amb altres tres desenvolupadors, vaig treballar en el desenvolupament i manteniment d'una aplicació Web-SIG modular (amb React). A més, vam implementar una intuïtiva interfície de configuració amb Angular, permetent als clients personalitzar fàcilment el visor. Aquest repte exigia coneixements en desenvolupament web i sistemes d'informació geogràfica (SIG), així com domini de metodologies àgils i tecnologies SIG, incloent GeoServer i PostGIS.",
+                "BULLETPOINTS": [
+                    "Ús de TypeScript, React, Leaflet i Redux per a desenvolupar una sòlida aplicació WebSIG. Desenvolupament d'una pàgina de configuració amb Angular.",
+                    "Ús de Figma i Inkscape per a dissenyar interfícies web SIG intuïtives i interactives, emfatitzant la usabilitat i l'atractiu estètic.",
+                    "Administració de PostGIS i GeoServer per a gestionar dades espacials de manera eficaç, assegurant un rendiment òptim i la integritat de les dades."
+                ],
+                "TIMEFRAME": "Gener 2023 - Febrer 2024",
+                "LOCATION": "Utrecht, Països Baixos"
             },
             {
-                "POSITION": "Especialista GIS",
+                "POSITION": "Especialista en SIG i Geo-IT",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Vaig participar en una àmplia gamma de projectes de geo-informació i geo-TIC. El lloc requeria un conjunt d'habilitats versàtils, incloent anàlisi de dades, mapatge, automatització de processos, gestió de bases de dades espacials i suport a l'equip de desenvolupament amb diverses tasques de programació.",
-                "TIMEFRAME": "01/2022 - 01/2023"
+                "DESCRIPTION": "Vaig participar en una àmplia gamma de projectes de geoinformació i geo-TIC. El lloc requeria un conjunt versàtil d'habilitats, incloent-hi anàlisis de dades, cartografia, automatització de processos, gestió de bases de dades espacials i suport a l'equip de desenvolupament amb diverses tasques de programació.",
+                "BULLETPOINTS": [
+                    "Creació de fluxos de treball integrant bases de dades PostGIS amb GeoServer per a visualització i gestió.",
+                    "Participació en el desenvolupament de proves automatitzades basades en el navegador utilitzant Selenium i Python.",
+                    "Participació en diversos projectes d'anàlisis de dades i espacial. Manipulació, transformació i anàlisi de dades utilitzant Python, PostGIS, geopandas, FME, QGIS i ArcGIS Pro.",
+                    "Suport tècnic a l'equip de desenvolupament, especialment amb Python, React i geo-dades."
+                ],
+                "TIMEFRAME": "Gener 2022 - Gener 2023",
+                "LOCATION": "Utrecht, Països Baixos"
             },
             {
-                "POSITION": "Practicant Desenvolupador Web-GIS",
+                "POSITION": "Desenvolupador Web-SIG - Pràctiques",
                 "COMPANY": "GIS Specialisten",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durant la meva pràctica com a Desenvolupador Web-GIS, vaig formar part d'un petit equip de desenvolupament de 4. El meu projecte principal es va centrar en la visualització de dades espaciotemporals en una aplicació Web-GIS. L'organització va identificar la necessitat d'una eina per representar la dimensió temporal de les dades geo, donada la seva rellevància en conjunts de dades espacials multi-temporals.",
-                "TIMEFRAME": "06/2021 - 12/2021"
+                "DESCRIPTION": "Durant els meus 6 mesos de pràctiques, vaig formar part d'un petit equip de desenvolupament de 4 persones. El meu projecte principal es va centrar en la visualització de dades espaciotemporals en una aplicació Web-SIG. L'organització va identificar la necessitat d'una eina per a representar la dimensió temporal de les geo-dades, donada la seva rellevància en conjunts de dades espacials multitemporals.",
+                "BULLETPOINTS": [
+                    "Revisió de literatura científica sobre Web-SIG i visualització de dades espaciotemporals.",
+                    "Participació en el desenvolupament front-end, utilitzant React i Redux per a la interfície d'usuari, Leaflet per a mapatge i GeoServer per a serveis de dades backend.",
+                    "Disseny de components funcionals i reutilitzables per a integrar amb l'aplicació principal, assegurant una interfície coherent i fàcil d'usar.",
+                    "Paral·lelament, vaig col·laborar i vaig treballar en projectes d'Anàlisis SIG i Cartografia."
+                ],
+                "TIMEFRAME": "Juny 2021 - Desembre 2021",
+                "LOCATION": "Utrecht, Països Baixos"
             },
             {
                 "POSITION": "Tesi de Màster",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "La meva tesi de màster titulada \"Barris marginals i Consum de Terra Urbana en Àrees Metropolitanes Brasileres: Monitoratge dels Indicadors SDG 11.1.1 i 11.3.1 Usant Dades Obertes\" tracta els problemes crítics de l'expansió urbana ràpida i no controlada, formació de barris marginals i els seus impactes ambientals i socials a Brasil. L'estudi se centra en São Paulo, Rio de Janeiro i Belo Horizonte, les àrees metropolitanes més poblades de Brasil conegudes pels seus extensos barris marginals.",
-                "TIMEFRAME": "01/2021 - 07/2021"
+                "DESCRIPTION": "La meva tesi de màster titulada \"Assentaments informals i consum de sòl urbà en àrees metropolitanes brasileres: Monitoratge dels indicadors ODS 11.1.1 i 11.3.1 utilitzant dades obertes\" aborda els problemes crítics de l'expansió urbana ràpida i descontrolada, la formació d'assentaments informals i els seus impactes ambientals i socials al Brasil. L'estudi se centra en São Paulo, Rio de Janeiro i Belo Horizonte, les àrees metropolitanes més poblades del Brasil, conegudes pels seus extensos assentaments informals.",
+                "BULLETPOINTS": [
+                    "Avaluació de fonts de dades obertes: Vaig crear una matriu d'avaluació per a valorar les fonts de dades obertes basant-me en la seva precisió, rellevància i integritat.",
+                    "Anàlisi espacial per a indicadors ODS: Vaig aplicar mètodes d'anàlisi espacial per a estudiar els indicadors ODS, centrant-me en l'extensió dels assentaments informals i els patrons de creixement urbà.",
+                    "Cartografia per a visualització de resultats: Vaig produir mapes i visualitzacions per a presentar eficaçment les troballes de la recerca, mostrant la distribució d'assentaments informals i l'expansió urbana.",
+                    "Revisió de literatura per a comprensió contextual: Vaig realitzar una extensa revisió de literatura sobre ús del sòl urbà, desenvolupament d'assentaments informals i planificació urbana sostenible, emmarcant el context i les implicacions de l'estudi."
+                ],
+                "TIMEFRAME": "Gener 2021 - Juliol 2021",
+                "LOCATION": "Wageningen, Països Baixos"
             },
             {
                 "POSITION": "Projecte de Consultoria",
                 "COMPANY": "MSc. Geo-Information Science",
-                "DESCRIPTION": "Esri Nederland i el Kadaster neerlandès van identificar un problema crític d'inclusivitat en els mapes base actuals, notant la seva inadequació per a usuaris daltònics a causa de combinacions de colors problemàtiques. Això va portar a un projecte de consultoria enfocat en optimitzar els mapes base per a individus amb discapacitats de visió de color, començant amb la pregunta clau: Com es pot millorar l'accessibilitat dels mapes base per a la gent daltònica?",
-                "TIMEFRAME": "04/2020 - 07/2020"
+                "DESCRIPTION": "Esri NL i el Cadastre holandès van identificar un problema crític d'inclusivitat en els mapes base actuals, assenyalant la seva inadequació per a usuaris daltònics a causa de combinacions de colors problemàtiques. Això, en un equip de quatre, va portar a un projecte de consultoria centrat en la pregunta: Com es pot millorar l'accessibilitat dels mapes base per a persones daltòniques?",
+                "BULLETPOINTS": [
+                    "Revisió de literatura sobre el daltonisme per dona suport a la elecció d'esquemes de color apropiats.",
+                    "Avaluació dels mapes base més utilitzats usant un simulador de daltonisme per a identificar esquemes de color i símbols problemàtics per a usuaris daltònics.",
+                    "Desenvolupament de mapes base de tessel·les vectorials per al BRT achtergrondkaart Standaard i el Esri World Topographic Map, identificant i modificant colors i característiques basant-nos en les troballes de l'avaluació.",
+                    "Creació d'un escenari per a provar la interacció de dades superposades amb els mapes base optimitzats, seleccionant colors de visualització de dades a partir dels coneixements obtinguts en la revisió de literatura.",
+                    "Aquest treball es va plasmar en un article publicat."
+                ],
+                "TIMEFRAME": "Abril 2020 - Juliol 2020",
+                "LOCATION": "Wageningen, Països Baixos"
             },
             {
-                "POSITION": "Tècnic GIS Junior",
-                "COMPANY": "Cartography & GIS Service - UdL",
-                "DESCRIPTION": "Aquest rol estava situat dins d'un context acadèmic, oferint suport en diversos projectes de recerca geogràfica i espacial. El nostre treball atenia tant a clients interns, com a professors de diferents departaments universitaris, com a parts interessades externes. \n Treballant a temps parcial a 20 hores per setmana, vaig aconseguir equilibrar aquest rol amb els meus estudis acadèmics, tancant la bretxa entre la recerca acadèmica i les aplicacions reals de GIS.",
-                "TIMEFRAME": "01/2017 - 12/2018"
+                "POSITION": "Tècnic SIG Júnior",
+                "COMPANY": "Servei de Cartografia i SIG - UdL",
+                "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
+                "DESCRIPTION": "Aquesta posició se situava en un context acadèmic, oferint suport en diversos projectes de recerca geogràfica i espacial. El nostre treball atenia tant clients interns, com a professors de diferents departaments universitaris, com a parts interessades externes. Treballant a temps parcial, 20 hores per setmana, vaig aconseguir equilibrar aquest paper amb els meus estudis acadèmics, tendint un pont entre la recerca acadèmica i les aplicacions SIG del món real.",
+                "BULLETPOINTS": [
+                    "Conversió de mapes tradicionals a formats digitals, assegurant que fossin precisos i fàcils d'usar.",
+                    "Vaig utilitzar extensivament ArcMap per a crear i analitzar mapes, ajudant a visualitzar dades geogràfiques.",
+                    "Vaig emprar Excel per a organitzar i analitzar dades espacials, garantint la precisió i utilitat per a la recerca."
+                ],
+                "TIMEFRAME": "Gener 2017 - Desembre 2018",
+                "LOCATION": "Lleida, Espanya"
+            }
+        ],
+        "STUDIES": [
+            {
+                "TITLE": "Curs d'Especialista en Web-GIS",
+                "INSTITUTION": "Academia TYC GIS",
+                "TIMEFRAME": "2023",
+                "URL": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/",
+                "DESCRIPTION": "Curs intensiu de 240 hores impartit per TYC GIS Formación. Al llarg del programa, es va explorar en profunditat el camp de les aplicacions Web-GIS, oferint una formació completa que va comprendre des de conceptes fonamentals fins al maneig d'eines i tecnologies avançades.",
+                "BULLETPOINTS": [
+                    "Programació de visors de mapes des de zero utilitzant HTML, CSS i JavaScript.",
+                    "Ús i gestió de APIs destacades en l'àmbit de Web-GIS, com Google Maps, CARTO o Mapbox.",
+                    "Maneig de servidors de mapes i creació de serveis web per a accedir a dades geogràfiques. Gestió de bases de dades espacials per a l'emmagatzematge i ús d'informació geogràfica en aplicacions web."
+                ]
+            },
+            {
+                "TITLE": "MSc. Geo-Information Science",
+                "INSTITUTION": "Universidad de Wageningen",
+                "TIMEFRAME": "2019 - 2021",
+                "LOCATION": "Wageningen, Països Baixos",
+                "URL": "www.wur.nl/en/Education-Programmes/master/MSc-programmes/MSc-Geo-Information-Science.htm",
+                "DESCRIPTION": "Programa enfocat a resoldre problemes geoespaciales complexos mitjançant l'ús de la geoinformación, l'anàlisi espacial i tècniques de teledetecció.",
+                "BULLETPOINTS": [
+                    "Tesi: Assentaments informals i consum de sòl urbà en àrees metropolitanes brasileres.",
+                    "Projecte de consultoria (ESRI i Kadaster): Accessibilitat de mapes base per a persones daltòniques.",
+                    "Assignatures rellevants: Python, Programació geoespacial, Geoestadística i modelatge espacial, Teledetecció, Ciència de dades per a entorns intel·ligents, Big data."
+                ]
+            },
+            {
+                "TITLE": "Grau en Geografia i Ordenació del territori",
+                "INSTITUTION": "Universidad de Lleida",
+                "TIMEFRAME": "2014 - 2019",
+                "LOCATION": "Lleida, Espanya",
+                "URL": "https://www.udl.cat/ca/",
+                "DESCRIPTION": "El grau en Geografia i Ordenació del Territori em va proporcionar una comprensió integral dels conceptes geogràfics, les tècniques d'anàlisi espacial i els principis de planificació urbana. L'enfocament pràctic del programa em va permetre desenvolupar habilitats aplicades en SIG, cartografia i gestió de dades espacials.",
+                "BULLETPOINTS": ["Guardonat amb el premi extraordinari de fi de Grau.", "Treball de Fi de Grau: Geografia i esport. El cas de l'atletisme a Catalunya."]
             }
         ]
     },
@@ -101,39 +207,410 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
-                "TITLE": "WebGIS Viewer",
-                "DESCRIPTION": "A modular WebGIS viewer that allows users to visualize and interact with spatial data. The viewer is designed to be easily customizable, with a configuration page that enables users to adjust the viewer's appearance and functionality to suit their needs.",
-                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/150"
+                "TITLE": "Visualització de Dades Espaciotemporals en una Aplicació Web SIG",
+                "DESCRIPTION": "Aplicació Web SIG que permet visualitzar dades espaciotemporals. L'aplicació va ser desenvolupada per a abordar la necessitat d'una eina que representi la dimensió temporal de les dades geogràfiques en conjunts de dades espacials multitemporals.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
+                "URL": "",
+                "IMAGE": "./projects/internship.webp"
             },
             {
-                "TITLE": "Spatio-Temporal Data Visualization",
-                "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
-                "TECHNOLOGIES": ["React", "Redux", "OpenLayers", "GeoServer", "PostGIS"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/150"
+                "TITLE": "Barris Marginals i Consum de Sòl Urbà en Àrees Metropolitanes del Brasil",
+                "DESCRIPTION": "Un estudi que monitoritza els indicadors ODS 11.1.1 i 11.3.1 utilitzant dades obertes per a abordar els problemes crítics de la ràpida i descontrolada expansió urbana, la formació de barris marginals i els seus impactes ambientals i socials en àrees metropolitanes del Brasil.",
+                "TECHNOLOGIES": ["QGIS", "Python", "ODS"],
+                "URL": "",
+                "IMAGE": "./projects/thesis.webp"
             },
             {
-                "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
-                "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
-                "TECHNOLOGIES": ["QGIS", "Google Earth Engine", "Python", "R"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/200"
+                "TITLE": "Adaptació de Mapes Base per a Persones amb Discapacitat Visual de Color",
+                "DESCRIPTION": "El projecte va tenir com a objectiu millorar l'accessibilitat dels mapes base per a persones daltòniques identificant combinacions de colors problemàtiques i proposant solucions alternatives.",
+                "TECHNOLOGIES": ["ArcGIS Pro"],
+                "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
+                "IMAGE": "./projects/tailoring_basemaps.webp"
             },
             {
-                "TITLE": "Basemap Accessibility for Colorblind People",
-                "DESCRIPTION": "A consultancy project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
-                "TECHNOLOGIES": ["ArcGIS Pro", "Adobe Illustrator", "Color Oracle"],
-                "URL": "https://www.thepeoplegroup.nl/",
-                "IMAGE": "https://via.placeholder.com/100"
+                "TITLE": "Geoservice Modular Frontend",
+                "DESCRIPTION": "Durant el meu temps a The People Group, vaig treballar en el desenvolupament, millora i manteniment d'una aplicació Web-SIG modular. L'aplicació permetia als clients personalitzar fàcilment el visor, adaptant-lo a les seves necessitats específiques, i permetent canvis de manera ràpida i fàcil. El visor és propietat de The People Group i va ser desenvolupat en equip.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
+                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
+                "IMAGE": "./projects/geoservice.webp"
+            }
+        ],
+        "MAPS": [
+            {
+                "title": "Mar balear",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/balearic.webp"
+            },
+            {
+                "title": "Árboles en Utrecht",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/utrecht_trees.webp"
+            },
+
+            {
+                "title": "Catalunya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/catalunya_lines.webp"
+            },
+            {
+                "title": "Terremotos en Espanya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/terremotos_esp.webp"
+            },
+            {
+                "title": "Geological old 3D",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/spain_geo_3d.webp"
+            },
+            {
+                "title": "Lleida Lego",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/lleida_lego.webp"
+            },
+            {
+                "title": "Bosques en Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/boscos_cat.webp"
+            },
+            {
+                "title": "Zonas agrícolas en Espanya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/zonas_agricolas.webp"
+            },
+            {
+                "title": "Paisaje modelado",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/landscape_red.webp"
+            },
+            {
+                "title": "Montañas en Espanya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/high_mount_esp.webp"
+            },
+            {
+                "title": "Camarasa puntos",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/points_camarasa.webp"
+            },
+            {
+                "title": "Ríos en Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/riversmap.webp"
+            },
+            {
+                "title": "Relieve Noguera",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/3d_noguera.webp"
+            },
+            {
+                "title": "Líneas Bus Lleida",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/buses_lleida.webp"
+            },
+            {
+                "title": "Buildings by date in Mollerussa",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/buildings_molle.webp"
+            },
+            {
+                "title": "Noguera Region",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/noguera.webp"
+            },
+            {
+                "title": "Athletics Indoor tracks in Spain",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/pc_spain.webp"
+            },
+            {
+                "title": "Belo Horizonte Metropolitan Region Slums",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/rmbh.webp"
+            },
+            {
+                "title": "Segria region",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/segria.webp"
+            },
+            {
+                "title": "Historical fabric factories",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/telers.webp"
+            },
+            {
+                "title": "Isocronas",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/chrono_travel.webp"
+            },
+            {
+                "title": "Bonne projection",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/bonne.webp"
+            },
+            {
+                "title": "Lleida 3d",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/lleida_3d.webp"
+            },
+            {
+                "title": "Mariola Urbano",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/mariola.webp"
+            },
+            {
+                "title": "Atletas en Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/athletes_cat.webp"
+            },
+            {
+                "title": "Ríos en Espanya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/rivers_esp.webp"
+            },
+            {
+                "title": "Equal Azimuthal projection",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/azimuthal.webp"
+            },
+            {
+                "title": "Ven der Grinten projection",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/vendergrinten.webp"
+            },
+            {
+                "title": "Tweets en Amsterdam",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/tweets_amsterdam.webp"
+            },
+            {
+                "title": "Tweets en Amsterdam 2",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/tweets_amsterdam2.webp"
+            },
+            {
+                "title": "Atletas por Km/2",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/federats_km2.webp"
+            },
+            {
+                "title": "Red ferroviaria Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/xarxa_ferroviaria.webp"
+            },
+            {
+                "title": "Sant Salvador Model",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/blender_mount.webp"
+            },
+            {
+                "title": "Wageningen Ecological Corridor",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/eco_corridor.webp"
+            },
+            {
+                "title": "Isocronas pistas atletismo",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/iso_tracks.webp"
+            },
+            {
+                "title": "Biomas Espanya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/bio_esp.webp"
+            },
+            {
+                "title": "Pistas Atletismo Cataluña",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/athletics_tracks.webp"
+            },
+
+            {
+                "title": "Brazilian Metropolitan areas",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/brazil_metro.webp"
+            },
+
+            {
+                "title": "Litter in Utrecht",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/litter_utrecht.webp"
+            },
+            {
+                "title": "Lleida Aerialod",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/lleida_aerial.webp"
+            },
+            {
+                "title": "Erupción La Palma",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/palma_eruption.webp"
+            },
+            {
+                "title": "3D Densidad población Lleida",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/popdens_lleida.webp"
+            },
+            {
+                "title": "Precipitación Espanya",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/rain_esp.webp"
+            },
+            {
+                "title": "Diamond League stadiums",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/stadiums.webp"
+            },
+            {
+                "title": "Aguas subterráneas",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/sub_water.webp"
+            },
+            {
+                "title": "Tenerife OSM",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/tenerife.webp"
+            },
+            {
+                "title": "Terremotos en Espanya 3D",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/terremotos_3d.webp"
+            },
+            {
+                "title": "Comparativa rural/urbano",
+                "description": "",
+                "technologies": ["Leaflet", "Mapbox"],
+                "url": "./maps/urban-rural.webp"
+            },
+            {
+                "title": "Urban areas in Catalonia",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/urban_cat.webp"
+            },
+            {
+                "title": "Hachures style",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/hachures.webp"
+            },
+            {
+                "title": "Parking areas in Lleida",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/parking_zones.webp"
+            },
+            {
+                "title": "Athletics tracks by hexagon",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/athletics_tracks_hexa.webp"
+            },
+            {
+                "title": "Camarasa topo 3D",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/camarasa_render.webp"
+            },
+            {
+                "title": "UdL Cappont Campus",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/campus_cappont.webp"
+            },
+            {
+                "title": "Land cover in Catalonia",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/cat_landuses.webp"
+            },
+            {
+                "title": "Lleida - Blender",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/lleida_render.webp"
+            },
+            {
+                "title": "Catalan Peaks",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/peaks.webp"
+            },
+            {
+                "title": "Slope distribution",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/slope_distribution.webp"
+            },
+            {
+                "title": "Tracks density by municipality",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/tracks_density.webp"
+            },
+            {
+                "title": "Athletics tracks Voronoid areas",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/voronoid.webp"
+            },
+            {
+                "title": "Maas en Waal river",
+                "description": "",
+                "technologies": [""],
+                "url": "./maps/wanderwaals.webp"
             }
         ]
     },
 
     "FOOTER": {
-        "AUTHOR": ["Desenvolupat amb", "per Gerard"],
-        "COPYRIGHT": "Inspirat en ",
-        "COPYRIGHT_2": ", adaptat per Gerard."
+        "AUTHOR": ["Desarrollado con", "por Gerard"],
+        "COPYRIGHT": "Gerard Porras. Inspirado en",
+        "COPYRIGHT_2": "."
     }
 }

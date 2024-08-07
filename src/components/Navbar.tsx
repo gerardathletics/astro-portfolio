@@ -25,6 +25,11 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
                         es
                     </a>
                 </span>
+                <span className="bg-black/10 backdrop-blur rounded-md">
+                    <a className="px-1 hover:underline" href="/ca">
+                        ca
+                    </a>
+                </span>
             </p>
             <div className="flex flex-row-reverse justify-between w-full md:w-auto ">
                 <button onClick={() => setIsOpen(!isOpen)} className="md:hidden z-[120] bg-black/10 backdrop-blur rounded-md p-1.5">

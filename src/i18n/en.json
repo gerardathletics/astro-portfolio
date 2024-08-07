@@ -101,7 +101,7 @@
                 "LOCATION": "Utrecht, NL"
             },
             {
-                "POSITION": "GIS Specialist",
+                "POSITION": "GIS & Geo-IT Specialist",
                 "COMPANY": "GIS Specialisten (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks.",
@@ -214,7 +214,7 @@
         "PROJECTS": [
             {
                 "TITLE": "Spatio-Temporal Data Visualization in a Web-GIS App",
-                "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
+                "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
                 "URL": "",
                 "IMAGE": "./projects/internship.webp"
