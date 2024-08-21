@@ -228,11 +228,20 @@
                 "IMAGE": "./projects/tailoring_basemaps.webp"
             },
             {
-                "TITLE": "Geoservice Modular Frontend",
-                "DESCRIPTION": "Durante mi tiempo en The People Group, trabajé en el desarrollo, mejora y mantenimiento de una aplicación Web-SIG modular. La aplicación permitía a los clientes personalizar fácilmente el visor, adaptándolo a sus necesidades específicas, y permitiendo cambios de forma rápida y fácil. El visor es propiedad de The People Group y fue desarrollado en equipo.",
-                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
-                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
-                "IMAGE": "./projects/geoservice.webp"
+                "TITLE": "Geo-photos",
+                "DESCRIPTION": "Esta aplicación muestra fotos en las que aparezco de diferentes lugares en los que he estado. Es un proyecto personal que utilizo como galería de fotos y para practicar mis habilidades en desarrollo web y SIG.",
+                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
+                "URL": "https://geo-photos.pages.dev/browser/",
+                "IMAGE": "./projects/geo-photos.webp",
+                "DEVELOPMENT": true
+            },
+            {
+                "TITLE": "Lat Lon App",
+                "DESCRIPTION": "Una aplicación permite a los más curiosos encontrar ciudades en la misma latitud o longitud que una ciudad o punto dado.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript"],
+                "IMAGE": "./projects/latlon.webp",
+                "URL": "https://latlonconnect.pages.dev/",
+                "DEVELOPMENT": true
             }
         ],
         "MAPS": [

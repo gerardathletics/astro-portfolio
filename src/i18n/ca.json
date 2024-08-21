@@ -233,6 +233,21 @@
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
                 "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
                 "IMAGE": "./projects/geoservice.webp"
+            },
+            {
+                "TITLE": "Geo-photos",
+                "DESCRIPTION": "Aquesta aplicació mostra fotos en les que apareixo en diferents llocs on he estat. És un projecte personal que utilitzo com a galeria de fotos i per a practicar les meves habilitats en desenvolupament web i SIG.",
+                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
+                "URL": "https://geo-photos.pages.dev/browser/",
+                "IMAGE": "./projects/geo-photos.webp"
+            },
+            {
+                "TITLE": "Lat Lon App",
+                "DESCRIPTION": "Una aplicació que permet als més curiosos trobar ciutats en la mateixa latitud o longitud que una ciutat o un punt donat.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript"],
+                "IMAGE": "./projects/latlon.webp",
+                "URL": "https://latlonconnect.pages.dev/",
+                "DEVELOPMENT": true
             }
         ],
         "MAPS": [

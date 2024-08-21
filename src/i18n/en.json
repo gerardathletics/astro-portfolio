@@ -250,9 +250,10 @@
             },
             {
                 "TITLE": "Lat Lon App",
-                "DESCRIPTION": "An app (still in development) that lets the most geo-curious find cities in the same latitude or longitude as a given city or point.",
+                "DESCRIPTION": "An app that lets the most geo-curious find cities in the same latitude or longitude as a given city or point.",
                 "TECHNOLOGIES": ["NextJS", "TypeScript"],
                 "IMAGE": "./projects/latlon.webp",
+                "URL": "https://latlonconnect.pages.dev/",
                 "DEVELOPMENT": true
             }
         ],
