@@ -45,10 +45,14 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
                 <nav
                     className={`${
                         isOpen ? 'flex' : 'hidden'
-                    } flex-row md:flex-row md:flex space-x-0 md:space-x-1 backdrop-blur items-center justify-center rounded-md mt-2 bg-black/10 px-2 py-1 animate-fade-in animate-delay-100 md:static absolute w-full left-0 top-full md:w-auto`}
+                    } flex-row md:flex md:items-center justify-center backdrop-blur rounded-md mt-2 bg-black/10 px-2 sm:px-3 md:px-4 py-1 sm:py-2 animate-fade-in animate-delay-100 md:static absolute w-full left-0 top-full md:w-auto`}
                 >
                     {links.map((link: any) => (
-                        <a key={link.text} className="rounded-md capitalize px-3 py-0.5 transition-all ease-in-out hover:bg-white/10 text-sm sm:text-base block" href={link.url}>
+                        <a
+                            key={link.text}
+                            className="rounded-md capitalize px-2 sm:px-3 md:px-4 py-1 transition-all ease-in-out hover:bg-white/10 text-sm sm:text-base md:text-lg whitespace-nowrap"
+                            href={link.url}
+                        >
                             {link.text}
                         </a>
                     ))}
