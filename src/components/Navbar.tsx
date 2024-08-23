@@ -9,7 +9,7 @@ const Navbar = ({ links, currentLocale }: { links: any[]; currentLocale: string 
     }
 
     return (
-        <header className="relative sticky z-10 top-0 pt-4 w-full flex justify-between md:justify-center items-center px-4">
+        <header className="relative sticky z-10 top-0 pt-2 w-full flex justify-between md:justify-center items-center px-4">
             <p
                 className={`${
                     isOpen ? 'flex absolute left-2' : 'hidden'
