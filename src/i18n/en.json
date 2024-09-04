@@ -77,7 +77,7 @@
         "EXPERIENCES": [
             {
                 "POSITION": "Geo Developer",
-                "COMPANY": "Ordina",
+                "COMPANY": "Ordina (now Sopra Steria)",
                 "COMPANY_URL": "https://www.ordina.nl",
                 "DESCRIPTION": "As a Geospatial Software Developer I work in different internal projects related to the geospatial and IT domain.",
                 "BULLETPOINTS": [
@@ -89,7 +89,7 @@
             },
             {
                 "POSITION": "GIS Software Developer",
-                "COMPANY": "The People Group",
+                "COMPANY": "The People Group (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "During this time, along with three other developers, I worked in developing and maintaining a modular Web-GIS application (with React). In addition, we implemented an intuitive configuration interface with Angular, allowing clients to easily customize the viewer. This challenge demanded knowledge in web development and geographic information systems (GIS), as well as proficiency in agile methodologies and GIS technologies, including GeoServer and PostGIS.",
                 "BULLETPOINTS": [
@@ -102,7 +102,7 @@
             },
             {
                 "POSITION": "GIS & Geo-IT Specialist",
-                "COMPANY": "GIS Specialisten (TPG)",
+                "COMPANY": "GIS Specialisten (now TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks.",
                 "BULLETPOINTS": [
@@ -116,7 +116,7 @@
             },
             {
                 "POSITION": "Web-GIS Developer Intern",
-                "COMPANY": "GIS Specialisten",
+                "COMPANY": "GIS Specialisten (now TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "During my 6 months internship, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
                 "BULLETPOINTS": [

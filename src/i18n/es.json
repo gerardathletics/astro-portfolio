@@ -74,7 +74,7 @@
         "EXPERIENCES": [
             {
                 "POSITION": "Desarrollador Geoespacial",
-                "COMPANY": "Ordina",
+                "COMPANY": "Ordina (ahora Sopra Steria)",
                 "COMPANY_URL": "https://www.ordina.nl",
                 "DESCRIPTION": "Como desarrollador geoespacial y especialista en SIG, trabajo en diversos proyectos internos relacionados con el ámbito geoespacial y de TI.",
                 "BULLETPOINTS": [
@@ -86,7 +86,7 @@
             },
             {
                 "POSITION": "Desarrollador Software SIG",
-                "COMPANY": "The People Group",
+                "COMPANY": "The People Group (TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Durante este período, junto con otros tres desarrolladores, trabajé en el desarrollo y mantenimiento de una aplicación Web-SIG modular (con React). Además, implementamos una intuitiva interfaz de configuración con Angular, permitiendo a los clientes personalizar fácilmente el visor. Este desafío exigía conocimientos en desarrollo web y sistemas de información geográfica (SIG), así como dominio de metodologías ágiles y tecnologías SIG, incluyendo GeoServer y PostGIS.",
                 "BULLETPOINTS": [
@@ -99,7 +99,7 @@
             },
             {
                 "POSITION": "Especialista en SIG y Geo-IT",
-                "COMPANY": "GIS Specialisten (TPG)",
+                "COMPANY": "GIS Specialisten (ahora TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Participé en una amplia gama de proyectos de geoinformación y geo-TIC. El puesto requería un conjunto versátil de habilidades, incluyendo análisis de datos, cartografía, automatización de procesos, gestión de bases de datos espaciales y apoyo al equipo de desarrollo con diversas tareas de programación.",
                 "BULLETPOINTS": [
@@ -113,7 +113,7 @@
             },
             {
                 "POSITION": "Desarrollador Web-SIG - Prácticas",
-                "COMPANY": "GIS Specialisten",
+                "COMPANY": "GIS Specialisten (ahora TPG)",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Durante mis 6 meses de prácticas, formé parte de un pequeño equipo de desarrollo de 4 personas. Mi proyecto principal se centró en la visualización de datos espacio-temporales en una aplicación Web-SIG. La organización identificó la necesidad de una herramienta para representar la dimensión temporal de los geodatos, dada su relevancia en conjuntos de datos espaciales multitemporales.",
                 "BULLETPOINTS": [
