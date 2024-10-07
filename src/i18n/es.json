@@ -207,6 +207,29 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
+                "TITLE": "LatLon Connect",
+                "DESCRIPTION": "Una aplicación permite a los más curiosos encontrar ciudades en la misma latitud o longitud que una ciudad o punto dado.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript", "Leaflet"],
+                "IMAGE": "./projects/latlon.webp",
+                "URL": "https://latlonconnect.pages.dev/"
+            },
+            {
+                "TITLE": "Geo-photos",
+                "DESCRIPTION": "Esta aplicación muestra fotos en las que aparezco de diferentes lugares en los que he estado. Es un proyecto personal que utilizo como galería de fotos y para practicar mis habilidades en desarrollo web y SIG.",
+                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
+                "URL": "https://geo-photos.pages.dev/browser/",
+                "IMAGE": "./projects/geo-photos.webp",
+                "DEVELOPMENT": true
+            },
+            {
+                "TITLE": "Geoservice Modular Frontend",
+                "DESCRIPTION": "Durante mi tiempo en The People Group trabajé en el desarrollo y mejora de este visor web-gis. El visor es una aplicación modular que permite a los administradores personalizar el mapa a sus necesidades, de manera rápida y eficiente. Aviso: el visor pertenece a The People Group y fue desarrollado en equipo.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
+                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
+                "IMAGE": "./projects/geoservice.webp"
+            },
+
+            {
                 "TITLE": "Visualización de Datos Espacio-Temporales en una Aplicación Web SIG",
                 "DESCRIPTION": "Una aplicación Web SIG que visualiza datos espacio-temporales. La aplicación fue desarrollada para abordar la necesidad de una herramienta que represente la dimensión temporal de los datos geográficos en conjuntos de datos espaciales multitemporales.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
@@ -226,22 +249,6 @@
                 "TECHNOLOGIES": ["ArcGIS Pro"],
                 "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
                 "IMAGE": "./projects/tailoring_basemaps.webp"
-            },
-            {
-                "TITLE": "Geo-photos",
-                "DESCRIPTION": "Esta aplicación muestra fotos en las que aparezco de diferentes lugares en los que he estado. Es un proyecto personal que utilizo como galería de fotos y para practicar mis habilidades en desarrollo web y SIG.",
-                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
-                "URL": "https://geo-photos.pages.dev/browser/",
-                "IMAGE": "./projects/geo-photos.webp",
-                "DEVELOPMENT": true
-            },
-            {
-                "TITLE": "Lat Lon App",
-                "DESCRIPTION": "Una aplicación permite a los más curiosos encontrar ciudades en la misma latitud o longitud que una ciudad o punto dado.",
-                "TECHNOLOGIES": ["NextJS", "TypeScript"],
-                "IMAGE": "./projects/latlon.webp",
-                "URL": "https://latlonconnect.pages.dev/",
-                "DEVELOPMENT": true
             }
         ],
         "MAPS": [

@@ -213,6 +213,28 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
+                "TITLE": "LatLon Connect",
+                "DESCRIPTION": "An app that lets the most geo-curious find cities in the same latitude or longitude as a given city or point.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript", "Leaflet"],
+                "IMAGE": "./projects/latlon.webp",
+                "URL": "https://latlonconnect.pages.dev/"
+            },
+            {
+                "TITLE": "Geo-photos",
+                "DESCRIPTION": "This application shows photos where I appear from different places I've been. It is a personal project that I use as a photo gallery and to practice my skills in web development and GIS.",
+                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
+                "URL": "https://geo-photos.pages.dev/browser/",
+                "IMAGE": "./projects/geo-photos.webp",
+                "DEVELOPMENT": true
+            },
+            {
+                "TITLE": "Geoservice Modular Frontend",
+                "DESCRIPTION": "During my time in The People Group I worked in the development and enhancement of this web-gis viewer. The viewer is a modular web-gis application that allows the administrator to customize the viewer to their needs, in a quick and efficient way. Disclaimer: the viewer belongs to The People Group and was developed in team.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
+                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
+                "IMAGE": "./projects/geoservice.webp"
+            },
+            {
                 "TITLE": "Spatio-Temporal Data Visualization in a Web-GIS App",
                 "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
@@ -232,29 +254,6 @@
                 "TECHNOLOGIES": ["ArcGIS Pro"],
                 "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
                 "IMAGE": "./projects/tailoring_basemaps.webp"
-            },
-            {
-                "TITLE": "Geoservice Modular Frontend",
-                "DESCRIPTION": "During my time in The People Group I worked in the development and enhancement of this web-gis viewer. The viewer is a modular web-gis application that allows the user to customize the viewer to their needs, in a quick and efficient way. Disclaimer: the viewer belongs to The People Group and was developed by a team.",
-                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
-                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
-                "IMAGE": "./projects/geoservice.webp"
-            },
-            {
-                "TITLE": "Geo-photos",
-                "DESCRIPTION": "This application shows photos where I appear from different places I've been. It is a personal project that I use as a photo gallery and to practice my skills in web development and GIS.",
-                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
-                "URL": "https://geo-photos.pages.dev/browser/",
-                "IMAGE": "./projects/geo-photos.webp",
-                "DEVELOPMENT": true
-            },
-            {
-                "TITLE": "Lat Lon App",
-                "DESCRIPTION": "An app that lets the most geo-curious find cities in the same latitude or longitude as a given city or point.",
-                "TECHNOLOGIES": ["NextJS", "TypeScript"],
-                "IMAGE": "./projects/latlon.webp",
-                "URL": "https://latlonconnect.pages.dev/",
-                "DEVELOPMENT": true
             }
         ],
         "MAPS": [

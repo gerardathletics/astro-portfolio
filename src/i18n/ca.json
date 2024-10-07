@@ -207,6 +207,27 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
+                "TITLE": "LatLon Connect",
+                "DESCRIPTION": "Una aplicació que permet als més curiosos trobar ciutats en la mateixa latitud o longitud que una ciutat o un punt donat.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript"],
+                "IMAGE": "./projects/latlon.webp",
+                "URL": "https://latlonconnect.pages.dev/"
+            },
+            {
+                "TITLE": "Geo-photos",
+                "DESCRIPTION": "Aquesta aplicació mostra fotos en les que apareixo en diferents llocs on he estat. És un projecte personal que utilitzo com a galeria de fotos i per a practicar les meves habilitats en desenvolupament web i SIG.",
+                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
+                "URL": "https://geo-photos.pages.dev/browser/",
+                "IMAGE": "./projects/geo-photos.webp"
+            },
+            {
+                "TITLE": "Geoservice Modular Frontend",
+                "DESCRIPTION": "Durant el meu temps a The People Group, vaig treballar en el desenvolupament, millora i manteniment d'una aplicació Web-SIG modular. L'aplicació permetia als clients personalitzar fàcilment el visor, adaptant-lo a les seves necessitats específiques, i permetent canvis de manera ràpida i fàcil. El visor és propietat de The People Group i va ser desenvolupat en equip.",
+                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
+                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
+                "IMAGE": "./projects/geoservice.webp"
+            },
+            {
                 "TITLE": "Visualització de Dades Espaciotemporals en una Aplicació Web SIG",
                 "DESCRIPTION": "Aplicació Web SIG que permet visualitzar dades espaciotemporals. L'aplicació va ser desenvolupada per a abordar la necessitat d'una eina que representi la dimensió temporal de les dades geogràfiques en conjunts de dades espacials multitemporals.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
@@ -226,28 +247,6 @@
                 "TECHNOLOGIES": ["ArcGIS Pro"],
                 "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
                 "IMAGE": "./projects/tailoring_basemaps.webp"
-            },
-            {
-                "TITLE": "Geoservice Modular Frontend",
-                "DESCRIPTION": "Durant el meu temps a The People Group, vaig treballar en el desenvolupament, millora i manteniment d'una aplicació Web-SIG modular. L'aplicació permetia als clients personalitzar fàcilment el visor, adaptant-lo a les seves necessitats específiques, i permetent canvis de manera ràpida i fàcil. El visor és propietat de The People Group i va ser desenvolupat en equip.",
-                "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
-                "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
-                "IMAGE": "./projects/geoservice.webp"
-            },
-            {
-                "TITLE": "Geo-photos",
-                "DESCRIPTION": "Aquesta aplicació mostra fotos en les que apareixo en diferents llocs on he estat. És un projecte personal que utilitzo com a galeria de fotos i per a practicar les meves habilitats en desenvolupament web i SIG.",
-                "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
-                "URL": "https://geo-photos.pages.dev/browser/",
-                "IMAGE": "./projects/geo-photos.webp"
-            },
-            {
-                "TITLE": "Lat Lon App",
-                "DESCRIPTION": "Una aplicació que permet als més curiosos trobar ciutats en la mateixa latitud o longitud que una ciutat o un punt donat.",
-                "TECHNOLOGIES": ["NextJS", "TypeScript"],
-                "IMAGE": "./projects/latlon.webp",
-                "URL": "https://latlonconnect.pages.dev/",
-                "DEVELOPMENT": true
             }
         ],
         "MAPS": [
