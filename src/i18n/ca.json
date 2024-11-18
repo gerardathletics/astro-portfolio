@@ -207,6 +207,14 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
+                "TITLE": "Latin Dances - App",
+                "DESCRIPTION": "Aplicació fullstack que permet als usuaris trobar i compartir informació sobre esdeveniments de ball llatí a tot el món.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
+                "IMAGE": "./projects/sbk_places.webp",
+                "URL": "",
+                "DEVELOPMENT": true
+            },
+            {
                 "TITLE": "LatLon Connect",
                 "DESCRIPTION": "Una aplicació que permet als més curiosos trobar ciutats en la mateixa latitud o longitud que una ciutat o un punt donat.",
                 "TECHNOLOGIES": ["NextJS", "TypeScript"],

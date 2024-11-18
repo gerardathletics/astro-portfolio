@@ -8,7 +8,7 @@ const i18n = getI18N({ currentLocale });
 const dataProjects = i18n.SECTION_PR.PROJECTS.map((project: any) => ({
     title: project.TITLE,
     description: project.DESCRIPTION,
-    techs: project.TECHNOLOGIES,
+    techs: project.TECHNOLOGIES || [],
     image: project.IMAGE,
     link: project.URL,
     dev: project.DEVELOPMENT,

@@ -17,7 +17,7 @@
     "PRESENTATION_DESCRIPTION": "Desarrollador SIG y Cartógrafo web",
     "PRESENTATION_DESCRIPTION_2": "Sistemas de información geográfica y Cartografía web",
 
-    "PARAGRAPH_DESCRIPTION": "Desarrollador SIG con una base sólida en GEO-IT, experto en darle sentido a los datos espaciales y darles vida a través de aplicaciones web.",
+    "PARAGRAPH_DESCRIPTION": "Desarrollador de Software GIS con una base sólida en GEO-IT, experto en darle sentido a los datos espaciales y darles vida a través de aplicaciones web.",
 
     "SECTION_AB": {
         "ABOUT": {
@@ -206,6 +206,14 @@
 
     "SECTION_PR": {
         "PROJECTS": [
+            {
+                "TITLE": "Latin Dances - App",
+                "DESCRIPTION": "Aplicación Fullstack en desarrollo que permite a los usuarios encontrar y compartir información sobre eventos de baile latino en todo el mundo.",
+                "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
+                "IMAGE": "./projects/sbk_places.webp",
+                "URL": "",
+                "DEVELOPMENT": true
+            },
             {
                 "TITLE": "LatLon Connect",
                 "DESCRIPTION": "Una aplicación permite a los más curiosos encontrar ciudades en la misma latitud o longitud que una ciudad o punto dado.",
