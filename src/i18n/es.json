@@ -211,7 +211,7 @@
                 "DESCRIPTION": "Aplicación Fullstack en desarrollo que permite a los usuarios encontrar y compartir información sobre eventos de baile latino en todo el mundo.",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
                 "IMAGE": "./projects/sbk_places.webp",
-                "URL": "",
+                "URL": "https://latindancemap.pages.dev/",
                 "DEVELOPMENT": true
             },
             {

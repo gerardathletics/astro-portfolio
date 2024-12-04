@@ -217,7 +217,7 @@
                 "DESCRIPTION": "Fullstack application in development that allows users to find and share information about Latin dance socials around the world. ",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
                 "IMAGE": "./projects/sbk_places.webp",
-                "URL": "",
+                "URL": "https://latindancemap.pages.dev/",
                 "DEVELOPMENT": true
             },
             {

@@ -211,7 +211,7 @@
                 "DESCRIPTION": "Aplicació fullstack que permet als usuaris trobar i compartir informació sobre esdeveniments de ball llatí a tot el món.",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
                 "IMAGE": "./projects/sbk_places.webp",
-                "URL": "",
+                "URL": "https://latindancemap.pages.dev/",
                 "DEVELOPMENT": true
             },
             {
