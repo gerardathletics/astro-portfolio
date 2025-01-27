@@ -1,5 +1,5 @@
 {
-    "SEO_TITLE": "Gerardathletics - Desarrollador SIG",
+    "SEO_TITLE": "Gerardathletics - Desarrollador Web SIG",
     "SEO_DESCRIPTION": "Portafolio y blog de Gerard 🚀",
 
     "HEADER": {
@@ -14,10 +14,10 @@
     },
     "PRESENTATION_TITLE_1": "Hola! Soy ",
     "PRESENTATION_TITLE_2": "Gerard🌍",
-    "PRESENTATION_DESCRIPTION": "Desarrollador SIG y Cartógrafo web",
+    "PRESENTATION_DESCRIPTION": "Desarrollador Web SIG y Cartógrafo",
     "PRESENTATION_DESCRIPTION_2": "Sistemas de información geográfica y Cartografía web",
 
-    "PARAGRAPH_DESCRIPTION": "Desarrollador de Software GIS con una base sólida en GEO-IT, experto en darle sentido a los datos espaciales y darles vida a través de aplicaciones web.",
+    "PARAGRAPH_DESCRIPTION": "Desarrollador de Software SIG con una base sólida en Geo-TI, experto en darle sentido a los datos espaciales y darles vida a través de aplicaciones web.",
 
     "SECTION_AB": {
         "ABOUT": {
@@ -25,7 +25,7 @@
             "DESCRIPTION": [
                 [
                     { "type": "normal", "text": "Soy un " },
-                    { "type": "highlight", "text": "desarrollador de software GIS" },
+                    { "type": "highlight", "text": "desarrollador de software SIG" },
                     { "type": "normal", "text": " de 28 años con pasión por los " },
                     { "type": "highlight", "text": "mapas y el atletismo" },
                     { "type": "normal", "text": ". Originario de Lleida, España, he hecho de los Países Bajos mi hogar durante los últimos cuatro años y medio." }
