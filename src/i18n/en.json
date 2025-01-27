@@ -1,5 +1,5 @@
 {
-    "SEO_TITLE": "Gerardathletics - Geo Developer",
+    "SEO_TITLE": "Gerardathletics - Geospatial Web Developer",
     "SEO_DESCRIPTION": "Gerard's portfolio and blog 🚀",
 
     "HEADER": {
@@ -15,10 +15,10 @@
 
     "PRESENTATION_TITLE_1": "Hello! I'm ",
     "PRESENTATION_TITLE_2": "Gerard🌍",
-    "PRESENTATION_DESCRIPTION": "Geo Software Developer - Cartographer",
+    "PRESENTATION_DESCRIPTION": "Geospatial Software Developer - Web Cartographer",
     "PRESENTATION_DESCRIPTION_2": "Geographic Information Systems & Web Cartography",
 
-    "PARAGRAPH_DESCRIPTION": "Geo Software Developer with a strong foundation in GEO-IT, skilled in making sense of spatial data analysis and bringing it to life through web applications.",
+    "PARAGRAPH_DESCRIPTION": "Geospatial Software Developer with a strong foundation in Geo-IT, skilled in making sense of spatial data analysis and bringing it to life through web applications.",
 
     "SECTION_AB": {
         "ABOUT": {
@@ -28,7 +28,7 @@
                     { "type": "normal", "text": "I'm a 28-year-old " },
                     { "type": "highlight", "text": "GIS software developer" },
                     { "type": "normal", "text": " with a passion for " },
-                    { "type": "highlight", "text": "maps and athletics" },
+                    { "type": "highlight", "text": "maps, athletics and latin dancing." },
                     {
                         "type": "normal",
                         "text": ". Originally from Lleida, Spain, I've been calling the Netherlands home for the past four and a half years."
