@@ -171,6 +171,7 @@
                 "TITLE": "Curso de Especialista en Web-GIS",
                 "INSTITUTION": "Academia TYC GIS",
                 "TIMEFRAME": "2023",
+                "LOCATION": "Remoto",
                 "URL": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/",
                 "DESCRIPTION": "Curso intensivo de 240 horas impartido por TYC GIS Formación. A lo largo del programa, se exploró en profundidad el campo de las aplicaciones WebGIS, ofreciendo una formación completa que abarcó desde conceptos fundamentales hasta el manejo de herramientas y tecnologías avanzadas.",
                 "BULLETPOINTS": [
@@ -211,7 +212,7 @@
                 "DESCRIPTION": "Aplicación Fullstack en desarrollo que permite a los usuarios encontrar y compartir información sobre eventos de baile latino en todo el mundo.",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
                 "IMAGE": "./projects/sbk_places.webp",
-                "URL": "https://latindancemap.pages.dev/",
+                "URL": "https://thelatindancemap.com",
                 "DEVELOPMENT": true
             },
             {
@@ -634,7 +635,7 @@
 
     "FOOTER": {
         "AUTHOR": ["Desarrollado con", "por Gerard"],
-        "COPYRIGHT": "Gerard Porras. Inspirado en",
+        "COPYRIGHT": "Gerard M. Porras Cantons",
         "COPYRIGHT_2": "."
     }
 }

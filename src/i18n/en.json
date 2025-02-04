@@ -174,6 +174,7 @@
                 "TITLE": "Web GIS Specialization",
                 "INSTITUTION": "TYC GIS Academy",
                 "TIMEFRAME": "2023",
+                "LOCATION": "Remote",
                 "URL": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/",
                 "DESCRIPTION": "Intensive 240-hour course conducted by TYC GIS Formación. Throughout the course, the field of Web GIS was extensively explored, providing comprehensive training that ranged from fundamental concepts to the handling of advanced tools and technologies.",
                 "BULLETPOINTS": [
@@ -217,7 +218,7 @@
                 "DESCRIPTION": "Fullstack application in development that allows users to find and share information about Latin dance socials around the world. ",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
                 "IMAGE": "./projects/sbk_places.webp",
-                "URL": "https://latindancemap.pages.dev/",
+                "URL": "https://thelatindancemap.com",
                 "DEVELOPMENT": true
             },
             {
@@ -637,7 +638,7 @@
 
     "FOOTER": {
         "AUTHOR": ["Developed with", "by Gerard"],
-        "COPYRIGHT": "Gerard Porras. Inspired by ",
+        "COPYRIGHT": "Gerard M. Porras Cantons",
         "COPYRIGHT_2": "."
     }
 }
