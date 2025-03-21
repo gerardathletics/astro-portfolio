@@ -1,26 +1,35 @@
 ---
 // Reused component from my other app
-import { getI18N } from '../i18n/index.ts';
+import type { GetStaticPaths } from 'astro';
+import { getI18N } from '../i18n';
+import { Image } from 'astro:assets';
+import { mapImages } from '../utils/images';
 
-const { currentLocale } = Astro;
+interface Props {
+    currentLocale?: string;
+}
+
+const { currentLocale = 'en' } = Astro.props;
 const i18n = getI18N({ currentLocale });
 
-const maps = i18n.SECTION_PR.MAPS;
+const maps = i18n.SECTION_PR.MAPS.map((map: any) => ({
+    title: map.title,
+    description: map.description,
+    techs: map.technologies || [],
+    image: mapImages[map.url] || map.url,
+}));
 ---
 
-<div class="map-grid">
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
     {
-        maps.map(({ title, description, url }) => {
-            return (
-                <div class="map-item">
-                    <img src={url} alt={`${title}`} loading="lazy" />
-                    <div class="map-info">
-                        <h4>{title}</h4>
-                        <p>{description}</p>
-                    </div>
+        maps.map(({ title, image }) => (
+            <div class="relative group">
+                <Image src={image} alt={title} width={400} height={300} class="w-full h-48 object-cover rounded-lg transition-all duration-300 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 rounded-lg flex items-center justify-center">
+                    <p class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">{title}</p>
                 </div>
-            );
-        })
+            </div>
+        ))
     }
 </div>
 

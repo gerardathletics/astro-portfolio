@@ -1,9 +1,9 @@
 ---
 import BadgeSocial from '../components/BadgeSocial.astro';
-
 import { IconBrandGithub, IconBrandLinkedin, IconBrandX, IconBrandFlickr, IconFileDescription, IconMapPin, IconFileCv, IconMail } from '@tabler/icons-react';
-
-import { getI18N } from '../i18n/index.ts';
+import { getI18N } from '../i18n';
+import { Image } from 'astro:assets';
+import { rootImages } from '../utils/images';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
@@ -13,8 +13,8 @@ const name = 'Gerard';
 
 <div style="min-height: 100vh" class="flex flex-col items-center sm-justify-stretch md:justify-flex-start lg:justify-stretch 2xl:justify-center">
     <!-- Profile Picture -->
-    <img
-        src="./me.webp"
+    <Image
+        src={rootImages.me}
         alt="Gerard"
         class="glow-on-hover object-cover object-top aspect-square rounded-full border-4 border-white shadow-lg w-52 h-52 md:w-52 md:h-52 lg:w-64 lg:h-64 xl:w-70 xl:h-70 mb-4 mt-4 md:mt-8"
     />

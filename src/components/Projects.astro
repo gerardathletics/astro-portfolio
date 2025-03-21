@@ -1,15 +1,37 @@
 ---
 import { IconLink, IconTools } from '@tabler/icons-react';
-import { getI18N } from '../i18n/index.ts';
+import { getI18N } from '../i18n';
+import { Image } from 'astro:assets';
+import { projectImages } from '../utils/images';
+
+// Import all project images
+import geoserviceImage from '../assets/projects/geoservice.webp';
+import internshipImage from '../assets/projects/internship.webp';
+import thesisImage from '../assets/projects/thesis.webp';
+import tailoringBasemapsImage from '../assets/projects/tailoring_basemaps.webp';
+import sbkPlacesImage from '../assets/projects/sbk_places.webp';
+import latlonImage from '../assets/projects/latlon.webp';
+import geoPhotosImage from '../assets/projects/geo-photos.webp';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
+
+// Map image paths to imported images
+const imageMap = {
+    '/projects/geoservice.webp': geoserviceImage,
+    '/projects/internship.webp': internshipImage,
+    '/projects/thesis.webp': thesisImage,
+    '/projects/tailoring_basemaps.webp': tailoringBasemapsImage,
+    '/projects/sbk_places.webp': sbkPlacesImage,
+    '/projects/latlon.webp': latlonImage,
+    '/projects/geo-photos.webp': geoPhotosImage,
+};
 
 const dataProjects = i18n.SECTION_PR.PROJECTS.map((project: any) => ({
     title: project.TITLE,
     description: project.DESCRIPTION,
     techs: project.TECHNOLOGIES || [],
-    image: project.IMAGE,
+    image: projectImages[project.IMAGE] || project.IMAGE,
     link: project.URL,
     dev: project.DEVELOPMENT,
 }));
@@ -20,7 +42,7 @@ const dataProjects = i18n.SECTION_PR.PROJECTS.map((project: any) => ({
         dataProjects.map((project: any) => (
             <article class="bg-white/10 rounded-lg overflow-hidden shadow transition-all hover:shadow-xl hover:scale-[1.02] flex flex-col">
                 <div class="relative h-48">
-                    <img src={project.image} alt={project.title} class="object-cover w-full h-full" />
+                    <Image src={project.image} alt={project.title} width={400} height={300} class="object-cover w-full h-full" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                     {project.link && (
                         <a

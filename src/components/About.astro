@@ -1,5 +1,7 @@
 ---
-import { getI18N } from '../i18n/index.ts';
+import { getI18N } from '../i18n';
+import { Image } from 'astro:assets';
+import runningImage from '../assets/me/spain-nl-yl2.webp';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
@@ -14,7 +16,7 @@ const about = i18n.SECTION_AB.ABOUT;
     </h2>
     <div class="relative">
         <div class="md:float-right md:ml-8 md:mb-4 md:max-w-[50%] w-full">
-            <img src="./me/spain-nl-yl2.webp" alt="Running" class="w-full h-auto rounded-lg" />
+            <Image src={runningImage} alt="Running" class="w-full h-auto rounded-lg" />
         </div>
         <div class="text-gray-200">
             {

@@ -136,7 +136,7 @@
                     "Open Data Source Assessment: Created an assessment matrix to evaluate open data sources based on their accuracy, relevance, and completeness.",
                     "Spatial Analysis for SDG Indicators: Applied spatial analysis methods to study SDG indicators, focusing on slum extent and urban growth patterns.",
                     "Cartography for Results Visualization: Produced maps and visualizations to effectively present the research findings, showcasing slum distribution and urban expansion.",
-                    "Literature Review for Contextual Understanding: Performed an extensive review of literature on urban land use, slum development, and sustainable urban planning, framing the study’s context and implications."
+                    "Literature Review for Contextual Understanding: Performed an extensive review of literature on urban land use, slum development, and sustainable urban planning, framing the study's context and implications."
                 ],
                 "TIMEFRAME": "Jan 2021 - Jul 2021",
                 "LOCATION": "Wageningen, NL"
@@ -189,7 +189,7 @@
                 "TIMEFRAME": "2019 - 2021",
                 "LOCATION": "Wageningen, NL",
                 "URL": "www.wur.nl/en/Education-Programmes/master/MSc-programmes/MSc-Geo-Information-Science.htm",
-                "DESCRIPTION": "Master’s program focused on solving geo-spatial complex issues using geoinformation, spatial analysis and remote sensing techniques.",
+                "DESCRIPTION": "Master's program focused on solving geo-spatial complex issues using geoinformation, spatial analysis and remote sensing techniques.",
                 "BULLETPOINTS": [
                     "Master's Thesis: Slums and Urban Land Consumption in Brazilian Metropolitan Areas.",
                     "Consultancy project (ESRI & Kadaster): Basemap Accessibility for Colorblind People.",
@@ -217,14 +217,14 @@
                 "TITLE": "Latin Dances - App",
                 "DESCRIPTION": "Fullstack application in development that allows users to find and share information about Latin dance socials around the world. ",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
-                "IMAGE": "./projects/sbk_places.webp",
+                "IMAGE": "/projects/sbk_places.webp",
                 "URL": "https://thelatindancemap.com",
                 "DEVELOPMENT": true
             },
             {
                 "TITLE": "LatLon Connect",
                 "DESCRIPTION": "An app that lets the most geo-curious find cities in the same latitude or longitude as a given city or point.",
-                "IMAGE": "./projects/latlon.webp",
+                "IMAGE": "/projects/latlon.webp",
                 "TECHNOLOGIES": ["NextJS", "TypeScript", "Leaflet"],
                 "URL": "https://latlonconnect.pages.dev/"
             },
@@ -233,7 +233,7 @@
                 "DESCRIPTION": "This application shows photos where I appear from different places I've been. It is a personal project that I use as a photo gallery and to practice my skills in web development and GIS.",
                 "TECHNOLOGIES": ["Angular", "TypeScript", "Mapbox", "Supabase", "PostGIS"],
                 "URL": "https://geo-photos.pages.dev/browser/",
-                "IMAGE": "./projects/geo-photos.webp",
+                "IMAGE": "/projects/geo-photos.webp",
                 "DEVELOPMENT": true
             },
             {
@@ -241,28 +241,28 @@
                 "DESCRIPTION": "During my time in The People Group I worked in the development and enhancement of this web-gis viewer. The viewer is a modular web-gis application that allows the administrator to customize the viewer to their needs, in a quick and efficient way. Disclaimer: the viewer belongs to The People Group and was developed in team.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "PostGIS"],
                 "URL": "https://demo-geoservice-mf.azurewebsites.net/app/map",
-                "IMAGE": "./projects/geoservice.webp"
+                "IMAGE": "/projects/geoservice.webp"
             },
             {
                 "TITLE": "Spatio-Temporal Data Visualization in a Web-GIS App",
                 "DESCRIPTION": "A Web-GIS application that visualizes spatio-temporal data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
                 "TECHNOLOGIES": ["React", "TypeScript", "Leaflet", "GeoServer", "Figma"],
                 "URL": "",
-                "IMAGE": "./projects/internship.webp"
+                "IMAGE": "/projects/internship.webp"
             },
             {
                 "TITLE": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
                 "DESCRIPTION": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
                 "TECHNOLOGIES": ["QGIS", "Python", "SDG"],
                 "URL": "",
-                "IMAGE": "./projects/thesis.webp"
+                "IMAGE": "/projects/thesis.webp"
             },
             {
                 "TITLE": "Tailoring basemaps for color vision impaired people",
                 "DESCRIPTION": "A consultancy group project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
                 "TECHNOLOGIES": ["ArcGIS Pro"],
                 "URL": "https://agile-giss.copernicus.org/articles/2/37/2021/",
-                "IMAGE": "./projects/tailoring_basemaps.webp"
+                "IMAGE": "/projects/tailoring_basemaps.webp"
             }
         ],
         "MAPS": [
@@ -270,368 +270,368 @@
                 "title": "Balearic sea",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/balearic.webp"
+                "url": "/maps/balearic.webp"
             },
             {
                 "title": "Utrecht trees",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/utrecht_trees.webp"
+                "url": "/maps/utrecht_trees.webp"
             },
 
             {
                 "title": "Catalunya",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/catalunya_lines.webp"
+                "url": "/maps/catalunya_lines.webp"
             },
             {
                 "title": "Earthquakes in Spain",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/terremotos_esp.webp"
+                "url": "/maps/terremotos_esp.webp"
             },
             {
                 "title": "Geological old 3D",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/spain_geo_3d.webp"
+                "url": "/maps/spain_geo_3d.webp"
             },
             {
                 "title": "Lleida Lego Map",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/lleida_lego.webp"
+                "url": "/maps/lleida_lego.webp"
             },
             {
                 "title": "Catalonia's forests",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/boscos_cat.webp"
+                "url": "/maps/boscos_cat.webp"
             },
             {
                 "title": "Spain's agricultural zones",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/zonas_agricolas.webp"
+                "url": "/maps/zonas_agricolas.webp"
             },
             {
                 "title": "Landscape model",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/landscape_red.webp"
+                "url": "/maps/landscape_red.webp"
             },
             {
                 "title": "Highest mountains in Spain",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/high_mount_esp.webp"
+                "url": "/maps/high_mount_esp.webp"
             },
             {
                 "title": "Camarasa in points",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/points_camarasa.webp"
+                "url": "/maps/points_camarasa.webp"
             },
             {
                 "title": "Rivers in Catalonia",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/riversmap.webp"
+                "url": "/maps/riversmap.webp"
             },
             {
                 "title": "Relief of Noguera",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/3d_noguera.webp"
+                "url": "/maps/3d_noguera.webp"
             },
             {
                 "title": "Bus lines in Lleida",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/buses_lleida.webp"
+                "url": "/maps/buses_lleida.webp"
             },
             {
                 "title": "Buildings by date in Mollerussa",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/buildings_molle.webp"
+                "url": "/maps/buildings_molle.webp"
             },
             {
                 "title": "Noguera Region",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/noguera.webp"
+                "url": "/maps/noguera.webp"
             },
             {
                 "title": "Athletics Indoor tracks in Spain",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/pc_spain.webp"
+                "url": "/maps/pc_spain.webp"
             },
             {
                 "title": "Belo Horizonte Metropolitan Region Slums",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/rmbh.webp"
+                "url": "/maps/rmbh.webp"
             },
             {
                 "title": "Segria region",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/segria.webp"
+                "url": "/maps/segria.webp"
             },
             {
                 "title": "Historical fabric factories",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/telers.webp"
+                "url": "/maps/telers.webp"
             },
             {
                 "title": "Chrono Travel",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/chrono_travel.webp"
+                "url": "/maps/chrono_travel.webp"
             },
             {
                 "title": "Bonne projection",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/bonne.webp"
+                "url": "/maps/bonne.webp"
             },
             {
                 "title": "Lleida 3d",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/lleida_3d.webp"
+                "url": "/maps/lleida_3d.webp"
             },
             {
                 "title": "Mariola urban",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/mariola.webp"
+                "url": "/maps/mariola.webp"
             },
             {
                 "title": "Athletes in Catalonia",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/athletes_cat.webp"
+                "url": "/maps/athletes_cat.webp"
             },
             {
                 "title": "Rivers in Spain",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/rivers_esp.webp"
+                "url": "/maps/rivers_esp.webp"
             },
             {
                 "title": "Equal Azimuthal projection",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/azimuthal.webp"
+                "url": "/maps/azimuthal.webp"
             },
             {
                 "title": "Ven der Grinten projection",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/vendergrinten.webp"
+                "url": "/maps/vendergrinten.webp"
             },
             {
                 "title": "Tweets in Amsterdam",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/tweets_amsterdam.webp"
+                "url": "/maps/tweets_amsterdam.webp"
             },
             {
                 "title": "Tweets in Amsterdam 2",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/tweets_amsterdam2.webp"
+                "url": "/maps/tweets_amsterdam2.webp"
             },
             {
                 "title": "Athletes per Sq/km",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/federats_km2.webp"
+                "url": "/maps/federats_km2.webp"
             },
             {
                 "title": "Trains network in Catalonia",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/xarxa_ferroviaria.webp"
+                "url": "/maps/xarxa_ferroviaria.webp"
             },
             {
                 "title": "Sant Salvador Model",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/blender_mount.webp"
+                "url": "/maps/blender_mount.webp"
             },
             {
                 "title": "Wageningen Ecological Corridor",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/eco_corridor.webp"
+                "url": "/maps/eco_corridor.webp"
             },
             {
                 "title": "Athletics tracks isochrones",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/iso_tracks.webp"
+                "url": "/maps/iso_tracks.webp"
             },
             {
                 "title": "Biomes Spain",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/bio_esp.webp"
+                "url": "/maps/bio_esp.webp"
             },
             {
                 "title": "Catalonia athletics tracks",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/athletics_tracks.webp"
+                "url": "/maps/athletics_tracks.webp"
             },
             {
                 "title": "Brazilian Metropolitan areas",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/brazil_metro.webp"
+                "url": "/maps/brazil_metro.webp"
             },
             {
                 "title": "Litter in Utrecht",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/litter_utrecht.webp"
+                "url": "/maps/litter_utrecht.webp"
             },
             {
                 "title": "Lleida Aerialod",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/lleida_aerial.webp"
+                "url": "/maps/lleida_aerial.webp"
             },
             {
                 "title": "La Palma eruption",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/palma_eruption.webp"
+                "url": "/maps/palma_eruption.webp"
             },
             {
                 "title": "3D population density in Lleida",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/popdens_lleida.webp"
+                "url": "/maps/popdens_lleida.webp"
             },
             {
                 "title": "Rain in Spain",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/rain_esp.webp"
+                "url": "/maps/rain_esp.webp"
             },
             {
                 "title": "Diamond League stadiums",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/stadiums.webp"
+                "url": "/maps/stadiums.webp"
             },
             {
                 "title": "Subterraneal water in Spain",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/sub_water.webp"
+                "url": "/maps/sub_water.webp"
             },
             {
                 "title": "Tenerife OSM",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/tenerife.webp"
+                "url": "/maps/tenerife.webp"
             },
             {
                 "title": "Earthquakes in Spain 3D",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/terremotos_3d.webp"
+                "url": "/maps/terremotos_3d.webp"
             },
             {
                 "title": "Urban and Rural comparison",
                 "description": "",
                 "technologies": ["Leaflet", "Mapbox"],
-                "url": "./maps/urban-rural.webp"
+                "url": "/maps/urban-rural.webp"
             },
             {
                 "title": "Urban areas in Catalonia",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/urban_cat.webp"
+                "url": "/maps/urban_cat.webp"
             },
             {
                 "title": "Hachures style",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/hachures.webp"
+                "url": "/maps/hachures.webp"
             },
             {
                 "title": "Parking areas in Lleida",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/parking_zones.webp"
+                "url": "/maps/parking_zones.webp"
             },
             {
                 "title": "Athletics tracks by hexagon",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/athletics_tracks_hexa.webp"
+                "url": "/maps/athletics_tracks_hexa.webp"
             },
             {
                 "title": "Camarasa topo 3D",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/camarasa_render.webp"
+                "url": "/maps/camarasa_render.webp"
             },
             {
                 "title": "UdL Cappont Campus",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/campus_cappont.webp"
+                "url": "/maps/campus_cappont.webp"
             },
             {
                 "title": "Land cover in Catalonia",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/cat_landuses.webp"
+                "url": "/maps/cat_landuses.webp"
             },
             {
                 "title": "Lleida - Blender",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/lleida_render.webp"
+                "url": "/maps/lleida_render.webp"
             },
             {
                 "title": "Catalan Peaks",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/peaks.webp"
+                "url": "/maps/peaks.webp"
             },
             {
                 "title": "Slope distribution",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/slope_distribution.webp"
+                "url": "/maps/slope_distribution.webp"
             },
             {
                 "title": "Tracks density by municipality",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/tracks_density.webp"
+                "url": "/maps/tracks_density.webp"
             },
             {
                 "title": "Athletics tracks Voronoid areas",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/voronoid.webp"
+                "url": "/maps/voronoid.webp"
             },
             {
                 "title": "Maas en Waal river",
                 "description": "",
                 "technologies": [""],
-                "url": "./maps/wanderwaals.webp"
+                "url": "/maps/wanderwaals.webp"
             }
         ]
     },

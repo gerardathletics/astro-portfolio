@@ -1,9 +1,11 @@
 ---
 import { ViewTransitions } from 'astro:transitions';
+import { Image } from 'astro:assets';
 import Header from '../components/Header.astro';
 import FooterBlog from '../components/blog/FooterBlog.astro';
 import ScrollToTopButton from '../components/ScrollTopBtn';
 import { getI18N } from '../i18n/index.ts';
+import { rootImages } from '../utils/images';
 
 interface Props {
     title: string;
@@ -26,7 +28,7 @@ const i18n = getI18N({ currentLocale });
         <meta name="keywords" content="" />
         <meta name="author" content="Gerard" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg+xml" href="/logo.webp" />
+        <link rel="icon" type="image/svg+xml" href={rootImages.logo.src} />
         <meta name="generator" content={Astro.generator} />
 
         <meta name="url" content="" />
@@ -40,7 +42,7 @@ const i18n = getI18N({ currentLocale });
 
     <body class="relative bg-neutral-950 text-white selection:bg-purple-200/20 selection:text-gray-400">
         <div class="pointer-events-none absolute h-screen object-cover">
-            <img src="/background.webp" alt="background" class="fixed h-screen w-screen object-cover opacity-50 blur-md" />
+            <Image src={rootImages.background} alt="background" class="fixed h-screen w-screen object-cover opacity-50 blur-md" width={1920} height={1080} />
         </div>
         <svg class="pointer-events-none fixed isolate z-50 h-full w-full opacity-70 mix-blend-soft-light">
             <filter id="noise">
