@@ -1,34 +1,188 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import LayoutBlog from '../layouts/LayoutBlog.astro';
+import SectionContainerBlog from '../components/blog/SectionContainerBlog.astro';
+import { IconSparkles } from '@tabler/icons-react';
 import { Image } from 'astro:assets';
 import { athleticsImages } from '../utils/images';
 
-const title = "Athletics - Gerard's Journey";
-const images = athleticsImages;
+const title = 'Who is Gerardathletics?';
+const date = 'August 22, 2024';
+const description = 'Discover the story behind Gerardathletics';
 ---
 
-<Layout title={title}>
-    <main>
-        <div class="container mx-auto px-4 py-8">
-            <h1 class="text-4xl font-bold mb-8 text-center">Athletics</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {
-                    images.map((image, index) => (
-                        <div class="relative group">
-                            <Image
-                                src={image}
-                                alt={`Athletics image ${index + 1}`}
-                                width={600}
-                                height={400}
-                                class="w-full h-64 object-cover rounded-lg transition-all duration-300 group-hover:scale-105"
-                            />
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 rounded-lg flex items-center justify-center">
-                                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">View Image</p>
-                            </div>
+<LayoutBlog title={title} description={description} date={date}>
+    <main className="px-4 py-12 text-gray-100">
+        <SectionContainerBlog className="max-w-3xl mx-auto">
+            <article className="prose prose-invert prose-lg mx-auto">
+                <h1 className="mb-6 text-center text-4xl font-bold leading-tight lg:text-5xl">
+                    {title}
+                    <IconSparkles className="inline-block w-8 h-8 ml-2 text-yellow-400" />
+                </h1>
+                <p className="text-center text-gray-400 mb-8">{date}</p>
+                <p className="text-center text-xl text-gray-300 mb-12 italic">{description}</p>
+
+                <section className="space-y-8">
+                    <div>
+                        <h2 className="text-2xl font-semibold text-yellow-400 mb-4">The Unexpected Username</h2>
+                        <p className="mb-4">
+                            In the world of Geographic Information Systems and digital cartography, usernames often reflect our passion for maps, data, or coding. You might
+                            encounter handles like "Geo-something" or "map...", funnily, as you have probably seen I even have one myself – "Georard". But then there's the name I'm
+                            perhaps best known by across various platforms – "Gerardathletics".
+                        </p>
+                        <p>
+                            It's a username that often raises eyebrows in professional geo circles. After all, what does athletics have to do with making maps or developing
+                            geospatial software? The answer lies in a journey that began long before I wrote my first line of code or created my first map.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 className="text-2xl font-semibold text-yellow-400 mb-4">Tracks to Maps: An Unlikely Journey</h2>
+                        <p className="mb-4">
+                            Before I became immersed in the world of coordinates, projections, and spatial analyses, my life revolved around a very different kind of track – the
+                            running track.
+                        </p>
+                        <p>
+                            Born into an athletic family, with a father who transitioned from athlete to coach, I spent my formative years crisscrossing Spain, from one athletics
+                            meet to another. While my peers were playing video games, I was studying the arc of a triple jumper's bound or the rhythm of a hurdler's stride.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 className="text-2xl font-semibold text-yellow-400 mb-4">From National Champion to Digital Cartographer</h2>
+                        <p className="mb-4">
+                            As I grew, so did my involvement in athletics. What started as a family tradition became my personal passion. I found my niche in the 60 & 110-meter
+                            hurdles, an event that demands precision, rhythm, and split-second decision-making – skills that would later serve me well in the world of GIS.
+                        </p>
+                        <p className="mb-4">
+                            My dedication led to significant achievements in the sport. I became a national champion in all youth categories (u16, u18, u20 & u23). My success
+                            continued, culminating in a runner-up position (second place) in the 60-meter hurdles at the senior national level.
+                        </p>
+                        <p className="mb-4">The pinnacle of my athletic career also saw me representing my country on international stages:</p>
+                        <ul className="list-disc pl-6 mb-4 space-y-2">
+                            <li>U18 World Championships in Donetsk</li>
+                            <li>U20 World Championship in Eugene, Oregon</li>
+                            <li>U20 European Championship in Eskilstuna, where I reached the finals</li>
+                            <li>U23 European Championship in Bydgoszcz</li>
+                            <li>Senior European Championship in Amsterdam</li>
+                        </ul>
+                        <p>
+                            Each of these experiences not only tested my abilities as an athlete but also shaped my approach to challenges and problem-solving – skills that would
+                            prove invaluable in my future career as a GIS developer.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 className="text-2xl font-semibold text-yellow-400 mb-4">The Parallels of Hurdles and Code</h2>
+                        <p className="mb-4">
+                            You might wonder how this background translates to the world of GIS. The connection is more profound than you might think. The discipline, precision,
+                            and problem-solving skills honed on the track have been invaluable in my career.
+                        </p>
+                        <p>
+                            Just as a hurdler must navigate obstacles with speed and accuracy, a GIS developer must efficiently traverse complex datasets and coding challenges. The
+                            ability to break down a race into discrete sections mirrors the process of modularizing complex geospatial problems into manageable components.
+                        </p>
+                        <p className="mb-4">
+                            But my journey didn't stop at drawing parallels – I actively merged these two passions. I've conducted spatial analysis of athletics events, bringing my
+                            firsthand experience as an athlete to bear on geographical data. This fusion of interests culminated in my bachelor's thesis, "Geography and Sports: The
+                            Case of Athletics in Catalonia."
+                        </p>
+                        <p>
+                            This academic work not only solidified my understanding of both fields but also demonstrated the unique insights that can emerge when seemingly
+                            disparate disciplines intersect.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 className="text-2xl font-semibold text-yellow-400 mb-4">Why "Gerardathletics" Persists</h2>
+                        <p className="mb-4">
+                            So, why keep the name "Gerardathletics"? It's a reminder – both to myself and to others – of the diverse paths that lead us to our careers in geospatial
+                            technology. It's a conversation starter that allows me to share how the principles of athletic training – consistency, attention to detail, and
+                            continual improvement – apply equally well to developing cutting-edge GIS solutions.
+                        </p>
+                        <p>
+                            Moreover, it's a testament to the interdisciplinary nature of our field. GIS professionals come from all walks of life, bringing unique perspectives
+                            that enrich our work. My background in athletics gives me a unique lens through which to view spatial problems, often leading to innovative solutions.
+                        </p>
+                        <p>
+                            As for me, I'll continue to map out new territories in GIS development, always with the spirit of an athlete – constantly striving, continuously
+                            improving, and forever passionate about the track I'm on, whether it's made of rubber or lines of code.
+                        </p>
+                    </div>
+                </section>
+                <div className="mt-12 flex justify-center flex-col items-center">
+                    <h2 className="text-2xl font-semibold text-yellow-400 mb-4">My Journey in Pictures</h2>
+                    <div className="carousel-container relative">
+                        <div className="carousel">
+                            {
+                                athleticsImages.map((src, index) => (
+                                    <div className="carousel-item">
+                                        <Image src={src} alt={`Slide ${index + 1}`} width={400} height={300} className="w-full h-auto" />
+                                    </div>
+                                ))
+                            }
                         </div>
-                    ))
-                }
-            </div>
-        </div>
+                        <button className="carousel-button prev">&lt;</button>
+                        <button className="carousel-button next">&gt;</button>
+                    </div>
+                </div>
+            </article>
+        </SectionContainerBlog>
     </main>
-</Layout>
+
+    <style>
+        .carousel-container {
+            width: 70%;
+            overflow: hidden;
+        }
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-item {
+            flex: 0 0 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .carousel-item img {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+    </style>
+
+    <script>
+        const carousel = document.querySelector('.carousel') as HTMLElement | null;
+        const items = carousel?.querySelectorAll('.carousel-item') ?? [];
+        const prevBtn = document.querySelector('.prev') as HTMLButtonElement | null;
+        const nextBtn = document.querySelector('.next') as HTMLButtonElement | null;
+        let currentIndex = 0;
+
+        function showSlide(index: number) {
+            if (!carousel) return;
+            if (index < 0) index = items.length - 1;
+            if (index >= items.length) index = 0;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+            currentIndex = index;
+        }
+
+        prevBtn?.addEventListener('click', () => showSlide(currentIndex - 1));
+        nextBtn?.addEventListener('click', () => showSlide(currentIndex + 1));
+    </script>
+</LayoutBlog>
