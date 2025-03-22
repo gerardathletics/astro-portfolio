@@ -73,33 +73,34 @@
     "SECTION_XP": {
         "EXPERIENCES": [
             {
-                "POSITION": "Desarrollador Geoespacial",
-                "COMPANY": "Ordina (ahora Sopra Steria)",
-                "COMPANY_URL": "https://www.ordina.nl",
+                "POSITION": "Desarrollador Frontend & Geoespacial",
+                "COMPANY": "Sopra Steria NL",
+                "COMPANY_URL": "https://www.soprasteria.nl",
                 "DESCRIPTION": "Como desarrollador geoespacial y especialista en SIG, trabajo en diversos proyectos internos relacionados con el ámbito geoespacial y de TI.",
                 "BULLETPOINTS": [
-                    "Trabajo en el front-end de una herramienta interna de IA.",
+                    "Desarrollo (UI/UX) y mantenimiento de una herramienta de IA.",
                     "Colaboro con la Fundación del Paisaje de Utrecht como especialista en SIG para crear dashboards y mapas online, para así aumentar la concienciación y la comprensión de los cambios en el paisaje."
                 ],
                 "TIMEFRAME": "Actualmente",
                 "LOCATION": "Nieuwegein, Países Bajos"
             },
             {
-                "POSITION": "Desarrollador Software SIG",
-                "COMPANY": "The People Group (TPG)",
+                "POSITION": "Jr Software Developer (Web - Geo/GIS)",
+                "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durante este período, junto con otros tres desarrolladores, trabajé en el desarrollo y mantenimiento de una aplicación Web-SIG modular (con React). Además, implementamos una intuitiva interfaz de configuración con Angular, permitiendo a los clientes personalizar fácilmente el visor. Este desafío exigía conocimientos en desarrollo web y sistemas de información geográfica (SIG), así como dominio de metodologías ágiles y tecnologías SIG, incluyendo GeoServer y PostGIS.",
+                "DESCRIPTION": "Trabajé en un equipo de desarrollo para construir y mantener una solución Web-SIG personalizable, entregando un visor cartográfico intuitivo con una interfaz de configuración fácil de usar. Combiné expertiz en desarrollo frontend con tecnologías geoespaciales para crear una experiencia de mapeo sin complicaciones que permite a los clientes adaptar la plataforma a sus necesidades específicas.",
                 "BULLETPOINTS": [
-                    "Utilicé TypeScript, React, Leaflet y Redux para desarrollar una sólida aplicación WebSIG. Desarrollé una página de configuración usando Angular.",
-                    "Apliqué Figma e Inkscape para diseñar interfaces web SIG intuitivas e interactivas, enfatizando la usabilidad y el atractivo estético.",
-                    "Administré PostGIS y GeoServer para gestionar datos espaciales de manera eficaz, asegurando un rendimiento óptimo y la integridad de los datos."
+                    "Desarrollo frontend: Utilicé TypeScript, React, Leaflet y Redux para desarrollar una sólida aplicación WebSIG. Desarrollé una página de configuración usando Angular.",
+                    "Diseño UI/UX: Apliqué Figma e Inkscape para diseñar interfaces web SIG intuitivas e interactivas, enfatizando la usabilidad y el atractivo estético.",
+                    "Backend geoespacial: Administré PostGIS y GeoServer para gestionar datos espaciales de manera eficaz, asegurando un rendimiento óptimo y la integridad de los datos.",
+                    "Metodologías ágiles: Empleé Scrum y Azure DevOps para la gestión de proyectos."
                 ],
                 "TIMEFRAME": "Enero 2023 - Febrero 2024",
                 "LOCATION": "Utrecht, Países Bajos"
             },
             {
-                "POSITION": "Especialista en SIG y Geo-IT",
-                "COMPANY": "GIS Specialisten (ahora TPG)",
+                "POSITION": "Especialista en SIG & Geo-IT",
+                "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
                 "DESCRIPTION": "Participé en una amplia gama de proyectos de geoinformación y geo-TIC. El puesto requería un conjunto versátil de habilidades, incluyendo análisis de datos, cartografía, automatización de procesos, gestión de bases de datos espaciales y apoyo al equipo de desarrollo con diversas tareas de programación.",
                 "BULLETPOINTS": [
@@ -112,10 +113,10 @@
                 "LOCATION": "Utrecht, Países Bajos"
             },
             {
-                "POSITION": "Desarrollador Web-SIG - Prácticas",
-                "COMPANY": "GIS Specialisten (ahora TPG)",
+                "POSITION": "Desarrollador Frontend (Geo/GIS) - Prácticas",
+                "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "Durante mis 6 meses de prácticas, formé parte de un pequeño equipo de desarrollo de 4 personas. Mi proyecto principal se centró en la visualización de datos espacio-temporales en una aplicación Web-SIG. La organización identificó la necesidad de una herramienta para representar la dimensión temporal de los geodatos, dada su relevancia en conjuntos de datos espaciales multitemporales.",
+                "DESCRIPTION": "Desarrollé una funcionalidad para la visualización de datos espacio-temporales en una aplicación Web-GIS, atendiendo la necesidad de la organización de representar dimensiones temporales en conjuntos de datos espaciales. Implementé soluciones integrales combinando tecnologías frontend con herramientas geoespaciales para crear una plataforma interactiva y escalable.",
                 "BULLETPOINTS": [
                     "Revisé literatura científica sobre WebSIG y visualización de datos espacio-temporales y me familiaricé con herramientas esenciales.",
                     "Participé en el desarrollo front-end, utilizando React y Redux para la interfaz de usuario, Leaflet para mapeo y GeoServer para servicios de datos backend.",
@@ -208,9 +209,9 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
-                "TITLE": "Latin Dances - App",
+                "TITLE": "The Latin Dance Map",
                 "DESCRIPTION": "Aplicación Fullstack en desarrollo que permite a los usuarios encontrar y compartir información sobre eventos de baile latino en todo el mundo.",
-                "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
+                "TECHNOLOGIES": ["NextJS", "TypeScript", "MapLibre", "NodeJS", "Express", "PostGIS"],
                 "IMAGE": "./projects/sbk_places.webp",
                 "URL": "https://thelatindancemap.com",
                 "DEVELOPMENT": true
