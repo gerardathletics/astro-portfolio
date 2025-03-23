@@ -1,0 +1,25 @@
+.marker-tooltip {
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    white-space: nowrap;
+    pointer-events: none;
+    transform: scale(0.5);
+}
+
+.marker-tooltip h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #60a5fa;
+}
+
+.marker-tooltip p {
+    font-size: 0.875rem;
+    margin: 0.25rem 0 0;
+    opacity: 0.8;
+}

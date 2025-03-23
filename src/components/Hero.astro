@@ -4,79 +4,230 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandX, IconBrandFlickr, IconFi
 import { getI18N } from '../i18n';
 import { Image } from 'astro:assets';
 import { rootImages } from '../utils/images';
+import Earth3D from './Earth3D';
+import AnimatedHero from './AnimatedHero';
+import Animation from './Animation';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 const email = 'gerardporras@gmail.com';
 const name = 'Gerard';
+
+const title = i18n.PRESENTATION_TITLE_1 + i18n.PRESENTATION_TITLE_2;
+const subtitle = i18n.PRESENTATION_DESCRIPTION;
 ---
 
-<div style="min-height: 100vh" class="flex flex-col items-center sm-justify-stretch md:justify-flex-start lg:justify-stretch 2xl:justify-center">
-    <!-- Profile Picture -->
-    <Image
-        src={rootImages.me}
-        alt="Gerard"
-        class="glow-on-hover object-cover object-top aspect-square rounded-full border-4 border-white shadow-lg w-52 h-52 md:w-52 md:h-52 lg:w-64 lg:h-64 xl:w-70 xl:h-70 mb-4 mt-4 md:mt-8"
-    />
-
-    <!-- Hero Content -->
-    <h1 class="font-black w-full text-center text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl">
-        {i18n.PRESENTATION_TITLE_1}{i18n.PRESENTATION_TITLE_2}
-    </h1>
-    <div class="text-center sm:flex items-center sm:space-x-2 mt-4">
-        <span class="text-lg sm:text-xl md:text-2xl font-semibold">
-            {i18n.PRESENTATION_DESCRIPTION}
-        </span>
-    </div>
-    <span class="text-center text-sm sm:text-xl md:text-base font-normal mb-4">
-        {i18n.PRESENTATION_DESCRIPTION_2}
-    </span>
-    <div class="flex gap-2 mt-4 justify-center">
-        <span class="text-sm flex items-center gap-1 w-max text-center">
-            <IconMapPin width={16} />
-            <span class="hidden sm:block">Utrecht - NL</span><span class="sm:hidden">Utrecht - NL</span> • GMT+2 • @gerardathletics
-        </span>
-    </div>
-    <div class="mt-6 max-w-[700px] text-md sm:text-xl px-4">
-        <p class="text-pretty text-center">
-            {i18n.PARAGRAPH_DESCRIPTION}
-        </p>
-        <div class="mt-4 flex gap-2 flex-wrap justify-center">
-            <!-- Social Links -->
-            <BadgeSocial href={`mailto:${email}`} class="" title={`Send an email to ${name} - ${email}`}>
-                <span class="hidden sm:block"> Email </span>
-                <IconMail width={16} />
-            </BadgeSocial>
-            <BadgeSocial href="https://www.linkedin.com/in/gerardathetics/" class="">
-                <span class="hidden sm:block"> Linkedin </span>
-                <IconBrandLinkedin width={16} />
-            </BadgeSocial>
-            <BadgeSocial href="https://github.com/gerardathletics/" class="">
-                <span class="hidden sm:block"> GitHub </span>
-                <IconBrandGithub width={16} />
-            </BadgeSocial>
-            <BadgeSocial href="https://twitter.com/gerardathletics" class="">
-                <span class="hidden sm:block"></span>
-                <IconBrandX width={16} />
-            </BadgeSocial>
-            <BadgeSocial href="https://www.flickr.com/photos/188226047@N04/albums/72157714104865581/" class="">
-                <span class="hidden sm:block">Maps</span>
-                <IconBrandFlickr width={16} />
-            </BadgeSocial>
-            <BadgeSocial href="https://gerardathletics.github.io/minimalist-cv-gerard/" class="">
-                <span class="hidden sm:block">CV</span>
-                <IconFileCv width={16} />
-            </BadgeSocial>
+<div class="hero-section relative min-h-screen flex flex-col justify-center overflow-hidden">
+    <!-- Earth background with glow -->
+    <div class="absolute inset-0 opacity-90">
+        <div class="earth-glow absolute inset-0 z-0"></div>
+        <div class="earth-container relative z-10">
+            <Earth3D client:only="react" />
         </div>
+    </div>
+
+    <!-- Content overlay -->
+    <div class="relative z-20 w-full">
+        <Animation client:load>
+            <div class="mx-auto px-8 lg:px-16 max-w-[1400px]">
+                <!-- Main Content -->
+                <div class="space-y-16">
+                    <!-- Headline Section -->
+                    <div class="space-y-8 max-w-5xl mx-auto">
+                        <h1 class="headline text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] text-balance text-center">
+                            <span class="block">I Design & Develop</span>
+                            <span class="block">Powerful Web Applications —</span>
+                            <span class="spatial-edge-text relative inline-block font-medium italic">
+                                with a Spatial Edge<span class="spatial-edge-dot">.</span>
+                            </span>
+                        </h1>
+
+                        <p class="subheading text-lg sm:text-xl lg:text-2xl text-white/90 font-light leading-[1.7] max-w-3xl mx-auto text-center">
+                            I'm Gerard, a Software Developer specialized in building modern web interfaces, geospatial tools, and custom data-driven applications — combining strong
+                            frontend skills with a deep foundation in GIS.
+                        </p>
+                    </div>
+
+                    <!-- Profile Section -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 rounded-full"></div>
+                            <Image
+                                src={rootImages.me}
+                                alt="Gerard's profile picture"
+                                class="w-28 h-28 sm:w-32 sm:h-32 rounded-full border-4 border-white/20 shadow-2xl hover:scale-105 transition-transform duration-300 hover:border-white/30"
+                                width={128}
+                                height={128}
+                            />
+                        </div>
+                        <div class="text-center sm:text-left space-y-4 max-w-2xl">
+                            <div class="flex items-center justify-center sm:justify-start gap-2 text-white/80">
+                                <IconMapPin className="w-5 h-5" />
+                                <span class="text-base tracking-wide">Utrecht, Netherlands</span>
+                            </div>
+                            <p class="text-lg text-white/75 leading-relaxed">
+                                Passionate about creating intuitive interfaces that make complex spatial data accessible and meaningful.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links flex flex-wrap justify-center gap-4">
+                        <BadgeSocial href={`mailto:${email}`} class="social-badge" title={`Send an email to ${name} - ${email}`}>
+                            <span class="block">Email</span>
+                            <IconMail width={18} />
+                        </BadgeSocial>
+                        <BadgeSocial href="https://www.linkedin.com/in/gerardathetics/" class="social-badge">
+                            <span class="block">LinkedIn</span>
+                            <IconBrandLinkedin width={18} />
+                        </BadgeSocial>
+                        <BadgeSocial href="https://github.com/gerardathetics/" class="social-badge">
+                            <span class="block">GitHub</span>
+                            <IconBrandGithub width={18} />
+                        </BadgeSocial>
+                        <BadgeSocial href="https://twitter.com/gerardathletics" class="social-badge">
+                            <span class="block">Twitter</span>
+                            <IconBrandX width={18} />
+                        </BadgeSocial>
+                        <BadgeSocial href="https://www.flickr.com/photos/188226047@N04/albums/72157714104865581/" class="social-badge">
+                            <span class="block">Maps</span>
+                            <IconBrandFlickr width={18} />
+                        </BadgeSocial>
+                        <BadgeSocial href="https://gerardathletics.github.io/minimalist-cv-gerard/" class="social-badge">
+                            <span class="block">CV</span>
+                            <IconFileCv width={18} />
+                        </BadgeSocial>
+                    </div>
+                </div>
+            </div>
+        </Animation>
     </div>
 </div>
 
 <style>
-    .glow-on-hover {
-        transition: box-shadow 0.3s ease-in-out;
+    .hero-section {
+        background: none;
     }
 
-    .glow-on-hover:hover {
-        box-shadow: 0 0 20px white;
+    .earth-container {
+        transform: scale(1.1);
+        animation: earthFloat 20s ease-in-out infinite;
+    }
+
+    .earth-glow {
+        background: radial-gradient(circle at center, rgba(96, 165, 250, 0.15) 0%, rgba(96, 165, 250, 0.1) 25%, rgba(96, 165, 250, 0.05) 50%, transparent 70%);
+        filter: blur(40px);
+        transform: scale(1.2);
+        opacity: 0;
+        animation: glowPulse 8s ease-in-out infinite;
+    }
+
+    @keyframes earthFloat {
+        0%,
+        100% {
+            transform: scale(1.1) translateY(0);
+        }
+        50% {
+            transform: scale(1.1) translateY(-20px);
+        }
+    }
+
+    @keyframes glowPulse {
+        0%,
+        100% {
+            opacity: 0.3;
+            transform: scale(1.2);
+        }
+        50% {
+            opacity: 0.6;
+            transform: scale(1.3);
+        }
+    }
+
+    .headline {
+        font-feature-settings:
+            'salt' on,
+            'ss01' on;
+        letter-spacing: -0.03em;
+    }
+
+    .spatial-edge-text {
+        background: linear-gradient(120deg, #fff 0%, rgba(255, 255, 255, 0.85) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        position: relative;
+        display: inline-block;
+        padding: 0.1em 0;
+        letter-spacing: -0.02em;
+    }
+
+    .spatial-edge-text::after {
+        content: '';
+        position: absolute;
+        bottom: -0.1em;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+        transform: scaleX(0);
+        transform-origin: center;
+        animation: slideIn 0.6s ease-out forwards 0.5s;
+    }
+
+    .spatial-edge-dot {
+        display: inline-block;
+        color: #fff;
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out forwards 1s;
+    }
+
+    .subheading {
+        font-feature-settings:
+            'salt' on,
+            'ss01' on;
+        letter-spacing: -0.01em;
+    }
+
+    .social-badge {
+        @apply flex items-center gap-3 px-6 py-3 rounded-full bg-white/5 text-white/90 
+           transition-all duration-300 backdrop-blur-sm hover:scale-105 hover:bg-white/10
+           font-medium tracking-wide text-lg;
+    }
+
+    .social-links {
+        animation: fadeIn 1s ease-out forwards;
+        opacity: 0;
+        animation-delay: 0.5s;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: scaleX(0);
+        }
+        to {
+            transform: scaleX(1);
+        }
+    }
+
+    /* Responsive typography */
+    @media (max-width: 640px) {
+        .headline {
+            font-size: clamp(1.75rem, 6vw, 2.5rem);
+        }
+        .subheading {
+            font-size: clamp(1rem, 3.5vw, 1.25rem);
+        }
     }
 </style>

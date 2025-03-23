@@ -1,5 +1,5 @@
 ---
-import { IconHeart, IconHeartFilled } from '@tabler/icons-react';
+import { IconHeart, IconHeartFilled, IconBrandGithub, IconBrandLinkedin, IconBrandTwitter } from '@tabler/icons-react';
 import { getI18N } from '../i18n/index.ts';
 
 const { currentLocale } = Astro;
@@ -8,30 +8,81 @@ const i18n = getI18N({ currentLocale });
 var year = new Date().getFullYear();
 ---
 
-<footer class="mx-auto mt-auto w-full px-4 text-sm xl:px-0">
-    <div class="mx-auto w-full py-6 xl:w-[1120px]">
-        <p class="my-4 flex items-center justify-center border-b border-gray-100/10 pb-4 text-center sm:pb-6">
-            {i18n.FOOTER.AUTHOR[0]}
-            <span class="group">
-                <IconHeart width={16} className="mx-1 group-hover:hidden" />
-                <IconHeartFilled width={16} className="mx-1 text-red-500  hidden group-hover:block animate-heartbeat animate-iteration-count-infinite animate-duration-800" />
-            </span>
-            &
-            <span>
-                <a class="mx-1 transition-all hover:text-yellow-500 hover:underline" target="_blank" href="https://astro.build/" rel="noreferrer">Astro</a>
-            </span>
-            {i18n.FOOTER.AUTHOR[1]}
-        </p>
-        <div class="text-center sm:flex sm:items-center sm:justify-between">
-            <p>
-                © {year} - {i18n.FOOTER.COPYRIGHT}
+<footer class="mt-20 relative z-10">
+    <div class="mx-auto max-w-7xl px-6 py-12">
+        <div class="footer-gradient absolute inset-0 z-[-1] opacity-30"></div>
+
+        <div class="grid gap-8 lg:grid-cols-3">
+            <!-- Logo and description -->
+            <div>
+                <div class="text-white font-bold text-2xl mb-4">
+                    Georard<span class="text-primary">.Dev</span>
+                </div>
+                <p class="text-gray-400 text-sm max-w-md">
+                    {i18n.FOOTER.COPYRIGHT}
+                </p>
+            </div>
+
+            <!-- Quick links -->
+            <div class="lg:text-center">
+                <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#home" class="text-gray-400 hover:text-primary transition-colors">Home</a></li>
+                    <li><a href="#about" class="text-gray-400 hover:text-primary transition-colors">About</a></li>
+                    <li><a href="#experience" class="text-gray-400 hover:text-primary transition-colors">Experience</a></li>
+                    <li><a href="#projects" class="text-gray-400 hover:text-primary transition-colors">Projects</a></li>
+                    <li><a href="/athletics" class="text-gray-400 hover:text-primary transition-colors">Athletics</a></li>
+                </ul>
+            </div>
+
+            <!-- Social links and language selector -->
+            <div class="lg:text-right">
+                <h3 class="text-lg font-semibold text-white mb-4">Connect</h3>
+                <div class="flex space-x-4 mb-6 lg:justify-end">
+                    <a href="https://github.com/gerardathletics/" class="text-gray-400 hover:text-white transition-colors" aria-label="GitHub">
+                        <IconBrandGithub width={20} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/gerardathetics/" class="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
+                        <IconBrandLinkedin width={20} />
+                    </a>
+                    <a href="https://twitter.com/gerardathletics" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+                        <IconBrandTwitter width={20} />
+                    </a>
+                </div>
+
+                <div class="flex space-x-2 rounded-full bg-white/5 p-1 inline-block lg:justify-end">
+                    <a href="/" class={`px-3 py-1 text-xs rounded-full transition-colors ${currentLocale === 'en' ? 'bg-primary text-white' : 'text-gray-400 hover:bg-white/10'}`}
+                        >EN</a
+                    >
+                    <a href="/es" class={`px-3 py-1 text-xs rounded-full transition-colors ${currentLocale === 'es' ? 'bg-primary text-white' : 'text-gray-400 hover:bg-white/10'}`}
+                        >ES</a
+                    >
+                    <a href="/ca" class={`px-3 py-1 text-xs rounded-full transition-colors ${currentLocale === 'ca' ? 'bg-primary text-white' : 'text-gray-400 hover:bg-white/10'}`}
+                        >CA</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between">
+            <p class="text-gray-500 text-sm">
+                © {year} Gerard. All rights reserved.
             </p>
 
-            <p class="mt-2 divide-x sm:mt-0">
-                <a class="me-1 hover:underline" href="/">en</a>
-                <a class="ps-1.5 hover:underline" href="/es">es</a>
-                <a class="ps-1.5 hover:underline" href="/ca">ca</a>
+            <p class="text-gray-500 text-sm mt-4 md:mt-0 flex items-center">
+                Made with
+                <span class="group mx-1 inline-block">
+                    <IconHeart width={16} className="group-hover:hidden text-gray-500" />
+                    <IconHeartFilled width={16} className="hidden group-hover:block text-red-500 animate-pulse" />
+                </span>
+                using <a href="https://astro.build/" target="_blank" rel="noreferrer" class="text-primary hover:underline mx-1">Astro</a>
             </p>
         </div>
     </div>
 </footer>
+
+<style>
+    .footer-gradient {
+        background: radial-gradient(circle at top center, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+    }
+</style>

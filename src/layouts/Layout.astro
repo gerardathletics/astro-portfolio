@@ -9,6 +9,7 @@ import Header from '../../src/components/Header.astro';
 import Footer from '../../src/components/Footer.astro';
 import ScrollToTopButton from '../../src/components/ScrollTopBtn';
 import { getI18N } from '../i18n/index.ts';
+import '../styles/earth.css';
 
 interface Props {
     title: string;
@@ -47,14 +48,21 @@ const i18n = getI18N({ currentLocale });
 
     <body class="relative bg-neutral-950 text-white selection:bg-purple-200/20 selection:text-gray-400">
         <div class="relative min-h-screen">
-            <Image src={rootImages.background} alt="background" class="fixed h-screen w-screen object-cover opacity-90 blur-md" />
+            <div class="fixed inset-0 w-full h-full z-0">
+                <Image src={rootImages.background} alt="background" class="h-full w-full object-cover opacity-40" />
+                <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-neutral-950/60 to-neutral-950/90 backdrop-blur-[2px]"></div>
+            </div>
             <div class="relative z-10" id=`${i18n.HEADER.NAVBAR.HOME}`>
-                <Header />
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <Header />
+                </div>
 
                 <slot />
 
-                <Footer />
-                <ScrollToTopButton client:load />
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <Footer />
+                    <ScrollToTopButton client:load />
+                </div>
             </div>
         </div>
         <style is:global>
@@ -65,19 +73,48 @@ const i18n = getI18N({ currentLocale });
                     url('/fonts/Mona-Sans.ttf') format('truetype');
             }
 
+            :root {
+                --accent: 136, 58, 234;
+                --accent-light: 224, 204, 250;
+                --accent-dark: 49, 10, 101;
+                --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), rgb(var(--accent-light)) 30%, white 60%);
+                --primary: #3b82f6;
+                --primary-dark: #2563eb;
+            }
+
             html {
                 font-family: mona-sans, system-ui, sans-serif;
                 scroll-behavior: smooth;
+                background: #0a0a0a;
+                color-scheme: dark light;
             }
 
             body {
                 display: flex;
                 flex-direction: column;
                 min-height: 100vh;
+                letter-spacing: -0.01em;
+            }
+
+            .text-primary {
+                color: var(--primary);
             }
 
             ::-webkit-scrollbar {
-                width: 0px;
+                width: 6px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: rgba(0, 0, 0, 0.1);
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 3px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(255, 255, 255, 0.2);
             }
 
             @keyframes swipe-out {
@@ -90,9 +127,6 @@ const i18n = getI18N({ currentLocale });
                     transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%));
                     opacity: 0;
                 }
-            }
-
-            @media (max-width: 600px) {
             }
 
             .loader {
@@ -111,17 +145,6 @@ const i18n = getI18N({ currentLocale });
                 transform: scale(0.8) translate(-50%, -50%);
             }
 
-            :root {
-                --accent: 136, 58, 234;
-                --accent-light: 224, 204, 250;
-                --accent-dark: 49, 10, 101;
-                --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), rgb(var(--accent-light)) 30%, white 60%);
-            }
-            html {
-                background: #13151a;
-                background-size: 224px;
-                color-scheme: dark light;
-            }
             code {
                 font-family:
                     Menlo,

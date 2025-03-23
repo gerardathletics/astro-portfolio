@@ -1,37 +1,48 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IconChevronUp } from '@tabler/icons-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const ScrollToTopButton: React.FC = () => {
+    const [visible, setVisible] = useState(false);
+
     useEffect(() => {
         const scrollFunction = () => {
-            const scrollToTopBtn = document.getElementById('scrollToTopBtn');
             if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-                scrollToTopBtn?.classList.remove('hidden');
+                setVisible(true);
             } else {
-                scrollToTopBtn?.classList.add('hidden');
+                setVisible(false);
             }
         };
 
-        window.onscroll = scrollFunction;
-
-        return () => {
-            window.onscroll = null;
-        };
+        window.addEventListener('scroll', scrollFunction);
+        return () => window.removeEventListener('scroll', scrollFunction);
     }, []);
 
     const scrollToTop = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
     };
 
     return (
-        <button
-            id="scrollToTopBtn"
-            className="fixed bottom-4 right-4 hidden backdrop-blur bg-white/20 text-white px-2.5 py-2.5 rounded-md transition-all ease-in-out hover:opacity-80"
-            onClick={scrollToTop}
-        >
-            <IconChevronUp />
-        </button>
+        <AnimatePresence>
+            {visible && (
+                <motion.button
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.5 }}
+                    transition={{ duration: 0.3 }}
+                    className="fixed bottom-8 right-8 z-50 flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white shadow-lg hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                    onClick={scrollToTop}
+                    aria-label="Scroll to top"
+                    whileHover={{ y: -3 }}
+                    whileTap={{ scale: 0.9 }}
+                >
+                    <IconChevronUp size={24} />
+                </motion.button>
+            )}
+        </AnimatePresence>
     );
 };
 
