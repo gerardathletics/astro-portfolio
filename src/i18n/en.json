@@ -76,35 +76,37 @@
     "SECTION_XP": {
         "EXPERIENCES": [
             {
-                "POSITION": "Geo Developer",
-                "COMPANY": "Ordina (now Sopra Steria)",
-                "COMPANY_URL": "https://www.ordina.nl",
+                "POSITION": "Frontend & Geospatial Developer",
+                "COMPANY": "Sopra Steria NL",
+                "COMPANY_URL": "https://www.soprasteria.nl",
                 "DESCRIPTION": "As a Geospatial Software Developer I work in different internal projects related to the geospatial and IT domain.",
                 "BULLETPOINTS": [
-                    "Front-End Developer of an internal AI tool product.",
+                    "Developing (UI/UX) and maintaining an AI powered search tool.",
                     "GIS Developer & Specialist with Utrecht's Landscape Foundation creating dashboards and online maps, increasing awareness and insights into landscape changes."
                 ],
                 "TIMEFRAME": "Currently",
                 "LOCATION": "Nieuwegein, NL"
             },
             {
-                "POSITION": "GIS Software Developer",
-                "COMPANY": "The People Group (TPG)",
+                "POSITION": "Jr Software Developer (Web - Geo/GIS)",
+                "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "During this time, along with three other developers, I worked in developing and maintaining a modular Web-GIS application (with React). In addition, we implemented an intuitive configuration interface with Angular, allowing clients to easily customize the viewer. This challenge demanded knowledge in web development and geographic information systems (GIS), as well as proficiency in agile methodologies and GIS technologies, including GeoServer and PostGIS.",
+                "DESCRIPTION": "Worked in a development team to build and maintain a customizable Web-GIS solution, delivering an intuitive cartographic viewer with a user-friendly configuration interface. Combined frontend expertise with geospatial technologies to create a seamless mapping experience that empowers clients to tailor the platform to their specific needs.",
                 "BULLETPOINTS": [
-                    "Used TypeScript, React, Leaflet and Redux to develop a robust WebGIS application. Developed a configuration page using Angular",
-                    "Applied Figma and Inkscape to design intuitive and interactive GIS web interfaces, emphasizing usability and aesthetic appeal.",
-                    "Administered PostGIS and GeoServer to manage spatial data efefctively, ensuring optimal performance and data integrity."
+                    "Frontend development: Used TypeScript, React, Leaflet and Redux to develop a robust Web-GIS application. Used Angular for developing a configuration interface.",
+                    "UI & Design: Applied Figma and Inkscape to design intuitive and interactive GIS web interfaces.",
+                    "Geo-Backend: Administered PostGIS and GeoServer to manage spatial data effectively.Administered PostGIS and GeoServer to manage spatial data efefctively, ensuring optimal performance and data integrity.",
+                    "Employed Scrum and Azure DevOps for project management.",
+                    "Developed scripts for process automation and ETL (Python)."
                 ],
                 "TIMEFRAME": "Jan 2023 - Feb 2024",
                 "LOCATION": "Utrecht, NL"
             },
             {
                 "POSITION": "GIS & Geo-IT Specialist",
-                "COMPANY": "GIS Specialisten (now TPG)",
+                "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks.",
+                "DESCRIPTION": "Worked in diverse geo-information and geo-ICT initiatives, focusing on spatial data management, automation, and analysis. Supported development workflows through technical expertise in geospatial technologies, programming, and data processing.",
                 "BULLETPOINTS": [
                     "Created data workflows integrating PostGIS databases with GeoServer for visualization and management.",
                     "Engaged in the development of automated browser-based tests using Selenium and Python.",
@@ -115,10 +117,10 @@
                 "LOCATION": "Utrecht, NL"
             },
             {
-                "POSITION": "Web-GIS Developer Intern",
-                "COMPANY": "GIS Specialisten (now TPG)",
+                "POSITION": "Frontend Developer Intern (Geo/GIS)",
+                "COMPANY": "The People Group",
                 "COMPANY_URL": "https://www.thepeoplegroup.nl/",
-                "DESCRIPTION": "During my 6 months internship, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
+                "DESCRIPTION": "Developed core functionality for a Web-GIS application focused on spatio-temporal data visualization, addressing the organization's need to represent temporal dimensions in multi-temporal spatial datasets.",
                 "BULLETPOINTS": [
                     "Reviewed literature on WebGIS and spatio-temporal data visualization and became acquainted with essential tools",
                     "Engaged in front-end development, utilizing React and Redux for UI and state management, Leaflet for mapping, and GeoServer for backend data services.",
@@ -156,7 +158,7 @@
                 "LOCATION": "Wageningen, NL"
             },
             {
-                "POSITION": "Junior GIS Technician",
+                "POSITION": "Junior GIS Specialist",
                 "COMPANY": "Cartography & GIS Service - UdL",
                 "COMPANY_URL": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
                 "DESCRIPTION": "This role was situated within an academic context, offering support across various geographical and spatial research projects. Our work catered to both internal clients, such as professors from different university departments, and external stakeholders. \n Working part-time at 20 hours per week, I managed to balance this role with my academic studies, bridging the gap between academic research and real-world GIS applications.",
@@ -214,10 +216,10 @@
     "SECTION_PR": {
         "PROJECTS": [
             {
-                "TITLE": "Latin Dances - App",
+                "TITLE": "The Latin Dance Map",
                 "DESCRIPTION": "Fullstack application in development that allows users to find and share information about Latin dance socials around the world. ",
-                "TECHNOLOGIES": ["NextJS", "TypeScript", "MapTiler", "NodeJS", "Express", "PostGIS"],
-                "IMAGE": "/projects/sbk_places.webp",
+                "TECHNOLOGIES": ["NextJS", "TypeScript", "MapLibre", "NodeJS", "Express", "PostGIS"],
+                "IMAGE": "./projects/sbk_places.webp",
                 "URL": "https://thelatindancemap.com",
                 "DEVELOPMENT": true
             },
