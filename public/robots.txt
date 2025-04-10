@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Prevent bots from crawling potentially heavy resources
+Disallow: /fonts/
+Disallow: /maps/
+
+# Recommended crawl rate to avoid server overload
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://georard.dev/sitemap.xml 
