@@ -73,6 +73,20 @@
     "SECTION_XP": {
         "EXPERIENCES": [
             {
+                "COMPANY": "Waterschap Limburg (via Sopra Steria)",
+                "COMPANY_URL": "https://www.waterschap-limburg.nl/",
+                "POSITION": "Full Stack Developer",
+                "TIMEFRAME": "Currently",
+                "LOCATION": "Hibrid - Roermond, NL",
+                "DESCRIPTION": "Desarrollo full-stack de la aplicación 'Informatie Knooppunt' (IKP) de Waterschap Limburg. Creando un centro de control para gestionar sistemas de agua mediante la integración semántica de datos, proporcionando herramientas de mapas y paneles de control, y permitiendo la toma de decisiones informadas.",
+                "BULLETPOINTS": [
+                    "Trabajo en el desarrollo de la aplicación frontend de IKP usando React, TypeScript, Vite, y TailwindCSS, incluyendo Leaflet para visualizaciones de mapas.",
+                    "Implementación de servicios backend y APIs usando Node.js, Express, y MongoDB.",
+                    "Creación de flujos de datos Python para integrar diversas fuentes de datos para uso operativo, táctico y estratégico.",
+                    "Uso de Scrum y Azure DevOps para la gestión de proyectos."
+                ]
+            },
+            {
                 "POSITION": "Desarrollador Frontend & Geoespacial",
                 "COMPANY": "Sopra Steria NL",
                 "COMPANY_URL": "https://www.soprasteria.nl",
@@ -168,6 +182,18 @@
             }
         ],
         "STUDIES": [
+            {
+                "TITLE": "Master Frontend Development",
+                "INSTITUTION": "Lemoncode",
+                "TIMEFRAME": "2025-2026",
+                "LOCATION": "Remoto",
+                "URL": "https://lemoncode.net/master-frontend#master-frontend/inicio",
+                "DESCRIPTION": "Advanced specialization program in frontend development and web applications architecture with modern technologies and professional approach.",
+                "BULLETPOINTS": [
+                    "Stack principal: JavaScript, TypeScript, React, Next.js, Angular, Vue, Svelte.",
+                    "Enfoque en buenas prácticas, arquitectura de componentes, pruebas, integración continua y despliegue en la nube."
+                ]
+            },
             {
                 "TITLE": "Curso de Especialista en Web-GIS",
                 "INSTITUTION": "Academia TYC GIS",

@@ -76,6 +76,20 @@
     "SECTION_XP": {
         "EXPERIENCES": [
             {
+                "COMPANY": "Waterschap Limburg (via Sopra Steria)",
+                "COMPANY_URL": "https://www.waterschap-limburg.nl/",
+                "POSITION": "Full Stack Developer",
+                "TIMEFRAME": "Currently",
+                "LOCATION": "Hibrid - Roermond, NL",
+                "DESCRIPTION": "Full-stack development of the Waterschap Limburg 'Informatie Knooppunt' (IKP). Creating a central hub to manage water systems by semantically integrating data, providing mapping & dashboard tools, and enabling informed decision-making.",
+                "BULLETPOINTS": [
+                    "Working on the developement of the IKP frontend application using React, TypeScript, Vite, and TailwindCSS, including Leaflet for map visualizations.",
+                    "Implementing backend services and APIs using Node.js, Express, and MongoDB.",
+                    "Creating Python data pipelines to integrate various data sources for operational, tactical, and strategic use.",
+                    "Using Scrum and Azure DevOps for project management."
+                ]
+            },
+            {
                 "POSITION": "Frontend & Geospatial Developer",
                 "COMPANY": "Sopra Steria NL",
                 "COMPANY_URL": "https://www.soprasteria.nl",
@@ -172,6 +186,18 @@
             }
         ],
         "STUDIES": [
+            {
+                "TITLE": "Master Frontend Development",
+                "INSTITUTION": "Lemoncode",
+                "TIMEFRAME": "2025-2026",
+                "LOCATION": "Remote",
+                "URL": "https://lemoncode.net/master-frontend#master-frontend/inicio",
+                "DESCRIPTION": "Advanced specialization program in frontend development and web applications architecture with modern technologies and professional approach.",
+                "BULLETPOINTS": [
+                    "Main Stack: JavaScript, TypeScript, React, Next.js, Angular, Vue, Svelte.",
+                    "Focus on best practices, component architecture, testing, continuous integration and deployment in the cloud."
+                ]
+            },
             {
                 "TITLE": "Web GIS Specialization",
                 "INSTITUTION": "TYC GIS Academy",
