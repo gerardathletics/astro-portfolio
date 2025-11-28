@@ -1,9 +1,9 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import FooterBlog from '../components/blog/FooterBlog.astro';
 import ScrollToTopButton from '../components/ScrollTopBtn';
-import { getI18N } from '../i18n/index.ts';
+import { getI18N } from '../i18n/index';
 
 interface Props {
     title: string;
@@ -35,7 +35,7 @@ const i18n = getI18N({ currentLocale });
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="7 days" />
         <meta name="theme-color" content="#21272a" />
-        <ViewTransitions />
+        <ClientRouter />
     </head>
 
     <body class="relative bg-neutral-950 text-white selection:bg-purple-200/20 selection:text-gray-400">

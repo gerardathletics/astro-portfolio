@@ -1,12 +1,12 @@
 ---
 // import { pwaInfo } from 'virtual:pwa-info';
 
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 // import Achievement from "@/components/Achievement.astro"
 import Header from '../../src/components/Header.astro';
 import Footer from '../../src/components/Footer.astro';
 import ScrollToTopButton from '../../src/components/ScrollTopBtn';
-import { getI18N } from '../i18n/index.ts';
+import { getI18N } from '../i18n/index';
 
 interface Props {
     title: string;
@@ -39,7 +39,7 @@ const i18n = getI18N({ currentLocale });
         <meta name="revisit-after" content="7 days" />
         <meta name="theme-color" content="#21272a" />
 
-        <ViewTransitions />
+        <ClientRouter />
         <script defer src="https://umami.georard.dev/script.js" data-website-id="85c71e9f-14d7-450d-aebf-74759f98e93c"></script>
     </head>
 
