@@ -1,5 +1,5 @@
 {
-    "SEO_TITLE": "Gerardathletics - Desarrollador Web SIG",
+    "SEO_TITLE": "Gerardathletics - Desarrollador de Software - Tecnologías Geoespaciales - Cartógrafo Web",
     "SEO_DESCRIPTION": "Portafolio y blog de Gerard 🚀",
 
     "HEADER": {
@@ -14,10 +14,10 @@
     },
     "PRESENTATION_TITLE_1": "Hola! Soy ",
     "PRESENTATION_TITLE_2": "Gerard🌍",
-    "PRESENTATION_DESCRIPTION": "Desarrollador Web SIG y Cartógrafo",
-    "PRESENTATION_DESCRIPTION_2": "Sistemas de información geográfica y Cartografía web",
+    "PRESENTATION_DESCRIPTION": "Desarrollador de Software - Tecnologías Geoespaciales - Cartógrafo Web",
+    "PRESENTATION_DESCRIPTION_2": "Tecnologías Geoespaciales & Cartografía web",
 
-    "PARAGRAPH_DESCRIPTION": "Desarrollador de Software SIG con una base sólida en Geo-TI, experto en darle sentido a los datos espaciales y darles vida a través de aplicaciones web.",
+    "PARAGRAPH_DESCRIPTION": "Desarrollador de Software con una base sólida en Geo-TI, experto en darle sentido a los datos espaciales y darles vida a través de aplicaciones web.",
 
     "SECTION_AB": {
         "ABOUT": {
@@ -25,10 +25,10 @@
             "DESCRIPTION": [
                 [
                     { "type": "normal", "text": "Soy un " },
-                    { "type": "highlight", "text": "desarrollador de software SIG" },
+                    { "type": "highlight", "text": "desarrollador de software" },
                     { "type": "normal", "text": " de 28 años con pasión por los " },
                     { "type": "highlight", "text": "mapas y el atletismo" },
-                    { "type": "normal", "text": ". Originario de Lleida, España, he hecho de los Países Bajos mi hogar durante los últimos cuatro años y medio." }
+                    { "type": "normal", "text": ". Originario de Lleida, España, he hecho de los Países Bajos mi hogar durante los últimos 6 años." }
                 ],
                 [
                     {
@@ -36,7 +36,7 @@
                         "text": "Mi trayectoria ha sido moldeada por una fascinación por los datos geográficos y sus aplicaciones en el mundo digital. Cuando no estoy programando, me encontrarás "
                     },
                     { "type": "highlight", "text": "bailando salsa y bachata" },
-                    { "type": "normal", "text": ", corriendo en la pista de atletismo, capturando momentos con mi cámara de fotos o jugando Geoguessr (no se me da mal 😉)." }
+                    { "type": "normal", "text": ", corriendo en la pista de atletismo, capturando momentos con mi cámara de fotos o jugando Geoguessr." }
                 ],
                 [
                     {
