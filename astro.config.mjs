@@ -1,12 +1,14 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 
 import cloudflare from "@astrojs/cloudflare";
 
+import tailwindcss from '@tailwindcss/vite';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react()],
+  integrations: [react()],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['es', 'en', 'ca', 'nl'],
@@ -14,6 +16,11 @@ export default defineConfig({
       prefixDefaultLocale: false
     }
   },
+
   output: "server",
-  adapter: cloudflare()
+  adapter: cloudflare(),
+
+  vite: {
+    plugins: [tailwindcss()]
+  }
 });
