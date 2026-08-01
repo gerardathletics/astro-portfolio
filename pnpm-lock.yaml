@@ -31,7 +31,7 @@ importers:
         version: 6.0.2(astro@5.18.1(@types/node@25.0.2)(jiti@1.21.7)(rollup@4.60.1)(supports-color@10.2.2)(typescript@5.9.3)(yaml@2.8.3))(tailwindcss@3.4.19(yaml@2.8.3))
       '@tabler/icons-react':
         specifier: ^3.41.1
-        version: 3.41.1(react@18.3.1)
+        version: 3.46.0(react@18.3.1)
       '@types/react':
         specifier: ^18.3.28
         version: 18.3.31
@@ -1124,13 +1124,13 @@ packages:
   '@speed-highlight/core@1.2.15':
     resolution: {integrity: sha512-BMq1K3DsElxDWawkX6eLg9+CKJrTVGCBAWVuHXVUV2u0s2711qiChLSId6ikYPfxhdYocLNt3wWwSvDiTvFabw==}
 
-  '@tabler/icons-react@3.41.1':
-    resolution: {integrity: sha512-kUgweE+DJtAlMZVIns1FTDdcbpRVnkK7ZpUOXmoxy3JAF0rSHj0TcP4VHF14+gMJGnF+psH2Zt26BLT6owetBA==}
+  '@tabler/icons-react@3.46.0':
+    resolution: {integrity: sha512-CCm7xJWhDT2PH4ZIFkP6AgYKtVhq0gpYkjUN+GVh1AzmIQaa77OW0bQPBPQiTE0PsXMR9oSxFqA3qBglzPyrVQ==}
     peerDependencies:
       react: '>= 16'
 
-  '@tabler/icons@3.41.1':
-    resolution: {integrity: sha512-OaRnVbRmH2nHtFeg+RmMJ/7m2oBIF9XCJAUD5gQnMrpK9f05ydj8MZrAf3NZQqOXyxGN1UBL0D5IKLLEUfr74Q==}
+  '@tabler/icons@3.46.0':
+    resolution: {integrity: sha512-f2RYFl3fzPwj5WO82x6en0dmkjefxEfOm16D1ByM6cj/McNiwOkL4VaPUoP9VVIrXAD9WnTSVFr70px703b//A==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -3609,12 +3609,12 @@ snapshots:
 
   '@speed-highlight/core@1.2.15': {}
 
-  '@tabler/icons-react@3.41.1(react@18.3.1)':
+  '@tabler/icons-react@3.46.0(react@18.3.1)':
     dependencies:
-      '@tabler/icons': 3.41.1
+      '@tabler/icons': 3.46.0
       react: 18.3.1
 
-  '@tabler/icons@3.41.1': {}
+  '@tabler/icons@3.46.0': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
